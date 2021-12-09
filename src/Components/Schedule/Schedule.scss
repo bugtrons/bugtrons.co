@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.schedule {
+  padding-top: 0%;
+  background-color: rgba(207, 244, 210, 0.29);
+  padding-left: 8rem;
+  padding-right: 8rem;
+  font-size: 1rem;
+  .schedule-head {
+    display: flex;
+    color: #56c596;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 59px;
+    font-style: normal;
+    justify-content: center;
+    font-family: Montserrat;
+  }
+}
+
+.table tbody th {
+  text-align: center;
+  vertical-align: middle;
+}
+.table tbody tr {
+  text-align: center;
+}
+.table tr,
+th {
+  border: 1px solid black;
+}
