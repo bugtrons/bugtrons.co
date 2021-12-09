@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "./logo.png";
 import "./Navbar.scss";
+
 export default function Navbar() {
   return (
     <header id="header" className="header fixed-top">
