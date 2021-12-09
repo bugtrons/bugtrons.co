@@ -1,23 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .about {
     width :100%;
-    background-color: rgba(207,244,210,0.29);
-    padding-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
     .about-head {
         display: flex;
         color: #56C596;
-        font-size: 3rem;
+        font-size: 2.2rem;
         font-weight: bold;
         line-height: 59px;
         font-style: normal;
         justify-content: center;
-        font-family: Montserrat;
+        font-family: 'Montserrat', sans-serif;
     }
     .about-info {
         color: #205072;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: center;
-   
+        margin-top: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        padding: 0rem 10rem;
+        span{
+            font-family: 'Comfortaa',sans-serif;
+        }
     }
     
 

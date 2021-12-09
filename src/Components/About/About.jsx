@@ -3,7 +3,7 @@ import "./About.scss";
 export const About = () => {
   return (
     <div className="about">
-      <h3 className="about-head">About Bugtrons 2.0 </h3>
+      <div className="about-head">About Bugtrons 2.0 </div>
       <div className="about-info">
         <p>
           The
@@ -13,13 +13,12 @@ export const About = () => {
           with the collaboration of two tremendous tech-lead communities:-
         </p>
         <p>
-          DEVSTRONS': Student-run Open source/ project-based, inclusive &
+          <span>DEVSTRONS'</span>: Student-run Open source/ project-based, inclusive &
           diverse community
-          <br />
           intending to Learn, Code and Tron (grow).
         </p>
         <p>
-          Learn With Community: Let's Learn, grow and give back to this
+         <span>Learn With Community</span>: Let's Learn, grow and give back to this
           Community.
         </p>
       </div>

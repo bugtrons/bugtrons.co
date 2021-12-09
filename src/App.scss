@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&display=swap');
 
 :root {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #444444;
+  background-color: #CFF4D2 ;
 }
 
 a {
@@ -19,8 +21,4 @@ a {
 a:hover {
   color: #717ff5;
   text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
 }
