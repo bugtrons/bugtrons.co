@@ -11,24 +11,22 @@ export default function Footer() {
             <div class="row">
               <div class="col-md-3 col-sm-6">
                 {/* <!--Column1--> */}
-                <img src={logo} height={200} width={200} />
+                <img src={logo} alt="logo" height={200} width={200} />
                 <div class="footer-pad"></div>
               </div>
-              
-              {"  "}
               <div class="col-md-3 col-sm-6">
                 {/* <!--Column1--> */}
                 <div class="footer-pad">
                   <h4>About Us</h4>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="#">Bugstrons</a>
+                      <a href="www.google.com">Bugstrons</a>
                     </li>
                     <li>
-                      <a href="#">Know the team</a>
+                      <a href="www.google.com">Know the team</a>
                     </li>
                     <li>
-                      <a href="#">Code of conduct</a>
+                      <a href="www.google.com">Code of conduct</a>
                     </li>
                   </ul>
                 </div>
@@ -39,13 +37,13 @@ export default function Footer() {
                   <h4>Explore</h4>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="#">Sponsers</a>
+                      <a href="www.google.com">Sponsers</a>
                     </li>
                     <li>
-                      <a href="#">Prizes</a>
+                      <a href="www.google.com">Prizes</a>
                     </li>
                     <li>
-                      <a href="#">Schedule</a>
+                      <a href="www.google.com">Schedule</a>
                     </li>
                   </ul>
                 </div>
@@ -54,22 +52,22 @@ export default function Footer() {
                 <h4>Contact Us</h4>
                 <ul class="social-network social-circle">
                   <li>
-                    <a href="#" class="icoFacebook" title="Facebook">
+                    <a href="www.google.com" class="icoFacebook" title="Facebook">
                       <i class="fab fa-discord"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="icoYoutube" title="Youtube">
+                    <a href="www.google.com" class="icoYoutube" title="Youtube">
                       <i class="fab fa-youtube"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="icoGithub" title="Github">
+                    <a href="www.google.com" class="icoGithub" title="Github">
                       <i class="fab fa-github"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="icoEmail" title="Email">
+                    <a href="www.google.com" class="icoEmail" title="Email">
                       <i class="far fa-envelope"></i>
                     </a>
                   </li>
