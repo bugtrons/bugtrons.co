@@ -1,46 +1,67 @@
-
-
-.home{
-    margin-top: 8rem;
-    margin-bottom: 2rem;
-    padding-top: 10rem;
-   .head{
-        padding:1rem;
-        margin-top:1rem;
-        .title{
-            font-family:'Montserrat', sans-serif ;
-            font-size: 3rem;
-            color: #56C596;
-            font-weight: bold;
+.home {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  padding-top: 10rem;
+  .head {
+    padding: 1rem;
+    margin-top: 1rem;
+    .title {
+      font-family: "Montserrat", sans-serif;
+      font-size: 3rem;
+      color: #56c596;
+      font-weight: bold;
+      @media (max-width: 992px) {
+      }
+    }
+    .subtitle {
+      font-family: "Comfortaa", sans-serif;
+      font-size: 1.5rem;
+      color: #205072;
+      margin-bottom: 0.5rem;
+    }
+    .desc {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    .buttons {
+      margin-top: 3rem;
+      .btn {
+        background: linear-gradient(
+          90deg,
+          rgba(160, 232, 197, 1) 0%,
+          rgba(55, 207, 156, 1) 100%
+        );
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius: 20px;
+      }
+      .btn:hover {
+        transform: scale(1.03);
+      }
+    }
+    @media (max-width: 992px) {
+      text-align: center;
+      .title {
+        font-size: 2rem;
+        text-align: center;
+      }
+      .buttons {
+        .btn {
+          margin: auto;
+          margin-left: 0.5rem;
+          margin-right: 0.5rem;
         }
-        .subtitle{
-            font-family:'Comfortaa', sans-serif;
-            font-size: 1.5rem;
-            color: #205072;
-            margin-bottom: 0.5rem;
-        }
-        .desc{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.2rem;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-        }
-        .buttons{
-            margin-top: 3rem;
-            .btn{
-                background: linear-gradient(90deg, rgba(160,232,197,1) 0%, rgba(55,207,156,1) 100%);
-                font-family: 'Montserrat', sans-serif;
-                font-size: 1.2rem;
-                margin-left: 1rem;
-                margin-right: 1rem;
-                padding-left: 2rem;
-                padding-right: 2rem;
-                border-radius: 20px;             
-            }
-            .btn:hover{
-                transform: scale(1.03);
-              }
-        }
-   }
-   
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    flex-flow: column-reverse;
+    text-align: center;
+  }
 }

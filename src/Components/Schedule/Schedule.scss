@@ -2,9 +2,14 @@
 
 .schedule {
   padding-top: 0%;
-  background-color: rgba(207, 244, 210, 0.29);
-  padding-left: 8rem;
-  padding-right: 8rem;
+  width: 80%;
+  margin: auto;
+  @media (max-width:992px){
+    .first{
+      width: 7rem;
+      font-weight: bold;
+    }
+  }
   font-size: 1rem;
   .schedule-head {
     display: flex;
@@ -14,18 +19,13 @@
     line-height: 59px;
     font-style: normal;
     justify-content: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat',sans-serif;
   }
-}
-
-.table tbody th {
-  text-align: center;
-  vertical-align: middle;
 }
 .table tbody tr {
   text-align: center;
 }
-.table tr,
-th {
+.table
+td {
   border: 1px solid black;
 }
