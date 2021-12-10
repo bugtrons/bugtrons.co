@@ -42,12 +42,14 @@ box-shadow: 0px 8px 19px rgba(0, 0, 0, 0.25);
   }
   .navbar li {
     position: relative;
+    margin: 0.5rem;
   }
+  
   .navbar a, .navbar a:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0 10px 30px;
+    padding: 10px;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -62,10 +64,29 @@ box-shadow: 0px 8px 19px rgba(0, 0, 0, 0.25);
     margin-left: 5px;
   }
   .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-    color: #4154f1;
+    color: #D4FE76;
+  }
+  .navbar > ul > li > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -6px;
+    left: 0;
+    background-color: #D4FE76;
+    visibility: hidden;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+    visibility: visible;
+    width: 100%;
+  }
+  .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+    color: #D4FE76;
   }
   .navbar .getstarted, .navbar .getstarted:focus {
-    background: #4154f1;
+    background: #D4FE76;
     padding: 8px 20px;
     margin-left: 30px;
     border-radius: 4px;
@@ -73,7 +94,7 @@ box-shadow: 0px 8px 19px rgba(0, 0, 0, 0.25);
   }
   .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
     color: #fff;
-    background: #5969f3;
+    background: #D4FE76;
   }
   
   @media (max-width: 1366px) {

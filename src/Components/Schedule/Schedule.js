@@ -6,10 +6,10 @@ export default function Schedule() {
     <>
       <div className="schedule">
         <h3 className="schedule-head">Schedule</h3>
-        <table className="table table-hover ">
+        <table className="table table-hover table-bordered align-middle">
           <tbody>
             <tr>
-              <th rowspan="4">Day 1</th>
+              <td rowspan="4" className="first">Day 1</td>
             </tr>
             <tr>
               <td>Opening Ceremony</td>
@@ -23,7 +23,7 @@ export default function Schedule() {
             </tr>
 
             <tr>
-              <th rowspan="4">Day 2</th>
+              <td rowspan="4" className="first">Day 2</td>
             </tr>
 
             <tr>
@@ -37,7 +37,7 @@ export default function Schedule() {
               <td>XYZ Session</td>
             </tr>
             <tr>
-              <th rowspan="4">Day 3</th>
+              <td rowspan="4" className="first">Day 3</td>
             </tr>
             <tr>
               <td>Final Round - DSA Competition</td>

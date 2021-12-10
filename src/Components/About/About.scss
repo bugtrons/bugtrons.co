@@ -24,6 +24,9 @@
         span{
             font-family: 'Comfortaa',sans-serif;
         }
+        @media(max-width: 992px){
+            padding: 1rem 1rem;
+        }
     }
     
 
