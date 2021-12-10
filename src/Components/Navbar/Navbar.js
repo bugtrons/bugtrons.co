@@ -25,26 +25,26 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#services">
+              <a className="nav-link scrollto" href="/services">
                 Schedule
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#portfolio">
+              <a className="nav-link scrollto" href="/Leaderboard">
                 Leaderboard
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#team">
+              <a className="nav-link scrollto" href="/Swags">
                 Swags
               </a>
             </li>
             <li>
-              <a href="blog.html">Sponsors</a>
+              <a href="Sponsors">Sponsors</a>
             </li>
 
             <li>
-              <Link to="/contact" className="nav-link scrollto">
+              <Link to="/Register" className="nav-link scrollto">
                 Register
               </Link>
             </li>
