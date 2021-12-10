@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Navlinks() {
   return (
-    <ul>
+    <ul id="navlinks">
       <li>
         <a className="nav-link scrollto active" href="#hero">
           Home
