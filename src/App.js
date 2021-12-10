@@ -12,12 +12,8 @@ function App() {
         <Navbar />
         <Home />
         <About />
-<<<<<<< HEAD
         <Schedule/>
         <Footer/>
-=======
-        <Schedule />
->>>>>>> e73aefc49d910f9c58269e5338f0fb169093fdf2
       </div>
     </Router>
   );
