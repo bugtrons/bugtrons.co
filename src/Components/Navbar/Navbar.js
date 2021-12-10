@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "./logo.png";
 import "./Navbar.scss";
+import Navlinks from "./Navlinks";
 
 export default function Navbar() {
   return (
@@ -13,42 +14,7 @@ export default function Navbar() {
         </Link>
 
         <nav id="navbar" className="navbar">
-          <ul>
-            <li>
-              <a className="nav-link scrollto active" href="#hero">
-                Home
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#about">
-                About
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="/services">
-                Schedule
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="/Leaderboard">
-                Leaderboard
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="/Swags">
-                Swags
-              </a>
-            </li>
-            <li>
-              <a href="Sponsors">Sponsors</a>
-            </li>
-
-            <li>
-              <Link to="/Register" className="nav-link scrollto">
-                Register
-              </Link>
-            </li>
-          </ul>
+          <Navlinks />
           <i className="bi bi-list mobile-nav-toggle"></i>
         </nav>
       </div>
