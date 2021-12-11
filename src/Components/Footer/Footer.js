@@ -4,7 +4,14 @@ import logo from "./logov_2.png";
 
 export default function Footer() {
   return (
-    <>
+    <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+    >
       <footer className="mainfooter" role="contentinfo">
         <div class="footer-middle">
           <div>
@@ -81,6 +88,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   );
 }

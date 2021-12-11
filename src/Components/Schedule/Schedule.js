@@ -3,7 +3,14 @@ import "./Schedule.scss";
 
 export default function Schedule() {
   return (
-    <>
+    <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+    >
       <div className="schedule">
         <h3 className="schedule-head">Schedule</h3>
         <table className="table table-hover table-bordered align-middle">
@@ -54,6 +61,6 @@ export default function Schedule() {
           </tbody>
         </table>
       </div>
-    </>
+    </div>
   );
 }

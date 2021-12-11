@@ -2,7 +2,15 @@ import React from "react";
 import "./About.scss";
 export const About = () => {
   return (
-    <div className="about">
+    <div
+      className="about"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+    >
       <div className="about-head">About Bugtrons 2.0 </div>
       <div className="about-info">
         <p>
