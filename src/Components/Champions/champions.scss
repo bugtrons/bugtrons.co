@@ -1,0 +1,50 @@
+.Heading {
+    display: flex;
+    justify-content: center;
+    padding-top:1rem ;
+    h2 {
+        font-weight: bold;
+        color: #56C596;
+        font-size: 40px;
+
+    }
+}
+.bugs {
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    align-items: center;
+    margin-top: 4rem;
+    padding-top: 7rem;
+
+    .bug-first{
+        margin-top: -6rem;
+    }
+    .champ-active {
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+    .bugs {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    
+        .bug-second {
+            display: none;
+        }
+        .champ-active {
+            display: block;
+        }
+        .bug-first, .champ-active , .bug-third {
+            padding: 5rem;
+
+        }
+    }
+
+    p {
+        flex-direction: column;
+        align-items: center;
+    }
+}
