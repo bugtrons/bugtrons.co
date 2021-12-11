@@ -1,24 +1,25 @@
-div{
+.to-be-announced {
+  div {
     align-items: center;
     text-align: center;
 
     justify-content: center;
 
-    h1{
-        color: #56c596;
-        font-size: 2.2rem;
-        font-weight: bold;
-        line-height: 59px;
-        font-style: normal;
-        justify-content: center;
-        font-family: "Montserrat", sans-serif;
-      }
-      p{
-        color: #205072;
-        font-size: 1.2rem;
-        text-align: center;
-        margin-top: 1rem;
-        font-family: "Montserrat", sans-serif;
-      }
-
+    h1 {
+      color: #56c596;
+      font-size: 2.2rem;
+      font-weight: bold;
+      line-height: 59px;
+      font-style: normal;
+      justify-content: center;
+      font-family: "Montserrat", sans-serif;
+    }
+    p {
+      color: #205072;
+      font-size: 1.2rem;
+      text-align: center;
+      margin-top: 1rem;
+      font-family: "Montserrat", sans-serif;
+    }
+  }
 }

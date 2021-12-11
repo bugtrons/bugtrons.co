@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div
       data-aos="fade-up"
-      data-aos-offset="200"
+      data-aos-offset="100"
       data-aos-delay="50"
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
