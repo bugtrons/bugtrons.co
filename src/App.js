@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Schedule from "./Components/Schedule/Schedule";
 import "./App.scss";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <Router>
@@ -11,7 +12,8 @@ function App() {
         <Navbar />
         <Home />
         <About />
-        <Schedule />
+        <Schedule/>
+        <Footer/>
       </div>
     </Router>
   );

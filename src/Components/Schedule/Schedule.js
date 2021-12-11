@@ -17,6 +17,7 @@ export default function Schedule() {
             <tr>
               <td>Round 1 - DSA Competition</td>
             </tr>
+
             <tr>
               <td>Announcement of top 20 winners</td>
             </tr>
@@ -28,17 +29,16 @@ export default function Schedule() {
             <tr>
               <td>Round 2 - Debugging Contest</td>
             </tr>
+            
             <tr>
               <td>Announcement of top 10 winners</td>
             </tr>
             <tr>
               <td>XYZ Session</td>
             </tr>
-
             <tr>
               <td rowspan="4" className="first">Day 3</td>
             </tr>
-
             <tr>
               <td>Final Round - DSA Competition</td>
             </tr>
