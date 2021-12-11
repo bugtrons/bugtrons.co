@@ -7,6 +7,10 @@ const showNavbar = () => {
   const navbar = document.getElementById("navlinks");
   navbar.classList.toggle("showNavbar");
   navbar.classList.toggle("view");
+  const closebtn = document.getElementById("close");
+  const hambtn = document.getElementById("bar");
+  closebtn.classList.toggle("hide");
+  hambtn.classList.toggle("hide");
   console.log("navbar");
 };
 export default function Navbar() {
@@ -20,7 +24,12 @@ export default function Navbar() {
 
         <Navigation />
         <button className="ham" onClick={showNavbar}>
-          <i class="fas fa-bars"></i>
+          <span className="bar" id="bar">
+            <i class="fas fa-bars"></i>
+          </span>
+          <span className="close hide" id="close">
+            <i class="fas fa-times"></i>
+          </span>
         </button>
       </div>
     </header>
