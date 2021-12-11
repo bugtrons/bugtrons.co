@@ -4,8 +4,8 @@
   padding-top: 0%;
   width: 80%;
   margin: auto;
-  @media (max-width:992px){
-    .first{
+  @media (max-width: 992px) {
+    .first {
       width: 7rem;
       font-weight: bold;
     }
@@ -19,13 +19,12 @@
     line-height: 59px;
     font-style: normal;
     justify-content: center;
-    font-family: 'Montserrat',sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
 }
 .table tbody tr {
   text-align: center;
 }
-.table
-td {
+.table td {
   border: 1px solid black;
 }

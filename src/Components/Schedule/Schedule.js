@@ -9,7 +9,9 @@ export default function Schedule() {
         <table className="table table-hover table-bordered align-middle">
           <tbody>
             <tr>
-              <td rowspan="4" className="first">Day 1</td>
+              <td rowspan="4" className="first">
+                Day 1
+              </td>
             </tr>
             <tr>
               <td>Opening Ceremony</td>
@@ -23,13 +25,15 @@ export default function Schedule() {
             </tr>
 
             <tr>
-              <td rowspan="4" className="first">Day 2</td>
+              <td rowspan="4" className="first">
+                Day 2
+              </td>
             </tr>
 
             <tr>
               <td>Round 2 - Debugging Contest</td>
             </tr>
-            
+
             <tr>
               <td>Announcement of top 10 winners</td>
             </tr>
@@ -37,7 +41,9 @@ export default function Schedule() {
               <td>XYZ Session</td>
             </tr>
             <tr>
-              <td rowspan="4" className="first">Day 3</td>
+              <td rowspan="4" className="first">
+                Day 3
+              </td>
             </tr>
             <tr>
               <td>Final Round - DSA Competition</td>

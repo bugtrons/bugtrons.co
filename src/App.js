@@ -12,8 +12,8 @@ function App() {
         <Navbar />
         <Home />
         <About />
-        <Schedule/>
-        <Footer/>
+        <Schedule />
+        <Footer />
       </div>
     </Router>
   );
