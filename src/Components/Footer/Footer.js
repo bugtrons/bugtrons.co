@@ -8,13 +8,13 @@ export default function Footer() {
       <footer className="mainfooter" role="contentinfo">
         <div class="footer-middle">
           <div>
-            <div class="row">
-              <div class="col-md-3 col-sm-6">
+            <div class="row column">
+              <div class="col-md-3 mob-hid">
                 {/* <!--Column1--> */}
-                <img src={logo} alt="logo" height={200} width={200} />
+                <img src={logo} alt="logo" height={200} width={200}  />
                 <div class="footer-pad"></div>
               </div>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-3 col-sm-12">
                 {/* <!--Column1--> */}
                 <div class="footer-pad">
                   <h4>About Us</h4>
@@ -31,7 +31,7 @@ export default function Footer() {
                   </ul>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-3 col-sm-12">
                 {/* <!--Column1--> */}
                 <div class="footer-pad">
                   <h4>Explore</h4>
@@ -48,11 +48,11 @@ export default function Footer() {
                   </ul>
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-sm-12">
                 <h4>Contact Us</h4>
                 <ul class="social-network social-circle">
                   <li>
-                    <a href="www.google.com" class="icoFacebook" title="Facebook">
+                    <a href="www.google.com" class="icoFacebook" title="Discord">
                       <i class="fab fa-discord"></i>
                     </a>
                   </li>
