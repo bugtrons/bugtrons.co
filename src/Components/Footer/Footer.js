@@ -18,7 +18,7 @@ export default function Footer() {
             <div class="row column">
               <div class="col-md-3 mob-hid">
                 {/* <!--Column1--> */}
-                <img src={logo} alt="logo" height={200} width={200} />
+                <img src={logo} alt="Bugtrons" height={200} width={200} />
                 <div class="footer-pad"></div>
               </div>
               <div class="col-md-3 col-sm-12">

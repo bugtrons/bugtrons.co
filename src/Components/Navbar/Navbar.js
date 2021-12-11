@@ -18,7 +18,7 @@ export default function Navbar() {
     <header id="header" className="header fixed-top">
       <div className="container container-fluid container-xl d-flex align-items-center justify-content-between">
         <Link to="/" className="logo d-flex align-items-center">
-          <img src={Logo} alt="Logo" />
+          <img src={Logo} alt="Bugtrons" />
           <span>BUGTRONS</span>
         </Link>
 
