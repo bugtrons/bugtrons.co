@@ -6,6 +6,7 @@ import Navigation from "./Navigation";
 const showNavbar = () => {
   const navbar = document.getElementById("navlinks");
   navbar.classList.toggle("showNavbar");
+  navbar.classList.toggle("view");
   console.log("navbar");
 };
 export default function Navbar() {
