@@ -1,9 +1,11 @@
 .header {
+    backdrop-filter: blur(10px);
     transition: all 0.5s;
     z-index: 997;
     padding: 0.5rem;
     background: linear-gradient(92.26deg, rgba(25, 223, 128, 0.8) 13.03%, rgba(7, 196, 135, 0.8) 82.64%);
 box-shadow: 0px 8px 19px rgba(0, 0, 0, 0.25);
+
   }
   .header.header-scrolled {
     background: #fff;
@@ -97,15 +99,13 @@ box-shadow: 0px 8px 19px rgba(0, 0, 0, 0.25);
     background: #D4FE76;
   }
   
-  @media (max-width: 1366px) {
-    .navbar .dropdown .dropdown ul {
-      left: -90%;
-    }
-    .navbar .dropdown .dropdown:hover > ul {
-      left: -100%;
-    }
+  .ham{
+    display: none;
+    color: #fff;
+    background-color: transparent;
+    border: none;
   }
-  
+ 
   /**
   * Mobile Navigation 
   */
@@ -120,16 +120,29 @@ box-shadow: 0px 8px 19px rgba(0, 0, 0, 0.25);
   .mobile-nav-toggle.bi-x {
     color: #fff;
   }
-  
+  .navbar-mobile{
+    display: none;
+  }
   @media (max-width: 991px) {
     .mobile-nav-toggle {
       display: block;
     }
-  
+    .header{
+      display: flex;
+      flex-direction: column;
+      float: auto;
+    }
+    .ham{
+      display: block;
+      position: fixed;
+      top: 1.5rem;
+      right: 1rem;
+    }
     .navbar ul {
       display: none;
     }
-  }
+    
+ 
   .navbar-mobile {
     position: fixed;
     overflow: hidden;
@@ -158,40 +171,10 @@ box-shadow: 0px 8px 19px rgba(0, 0, 0, 0.25);
     overflow-y: auto;
     transition: 0.3s;
   }
-  .navbar-mobile a, .navbar-mobile a:focus {
-    padding: 10px 20px;
-    font-size: 15px;
-    color: #012970;
+  .container{
+    display: flex;
+    flex-direction: column;
   }
-  .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-    color: #4154f1;
-  }
-  .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
-    margin: 15px;
-  }
-  .navbar-mobile .dropdown ul {
-    position: static;
-    display: none;
-    margin: 10px 20px;
-    padding: 10px 0;
-    z-index: 99;
-    opacity: 1;
-    visibility: visible;
-    background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  }
-  .navbar-mobile .dropdown ul li {
-    min-width: 200px;
-  }
-  .navbar-mobile .dropdown ul a {
-    padding: 10px 20px;
-  }
-  .navbar-mobile .dropdown ul a i {
-    font-size: 12px;
-  }
-  .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-    color: #4154f1;
-  }
-  .navbar-mobile .dropdown > .dropdown-active {
-    display: block;
-  }
+}
+
+ 

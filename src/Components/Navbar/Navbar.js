@@ -2,21 +2,24 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "./logo.png";
 import "./Navbar.scss";
-import Navlinks from "./Navlinks";
-
+import Navigation from "./Navigation";
+const showNavbar = () => {
+  const navbar = document.getElementById("navlinks");
+  navbar.style.display = "block";
+};
 export default function Navbar() {
   return (
     <header id="header" className="header fixed-top">
-      <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <div className="container container-fluid container-xl d-flex align-items-center justify-content-between">
         <Link to="/" className="logo d-flex align-items-center">
           <img src={Logo} alt="Logo" />
           <span>BUGTRONS</span>
         </Link>
 
-        <nav id="navbar" className="navbar">
-          <Navlinks />
-          <i className="bi bi-list mobile-nav-toggle"></i>
-        </nav>
+        <Navigation />
+        <button className="ham" onClick={showNavbar}>
+          <i class="fas fa-bars"></i>
+        </button>
       </div>
     </header>
   );
