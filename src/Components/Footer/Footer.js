@@ -44,7 +44,7 @@ export default function Footer() {
                   <h4>Explore</h4>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="www.google.com">Sponsers</a>
+                      <a href="www.google.com">Sponsors</a>
                     </li>
                     <li>
                       <a href="www.google.com">Prizes</a>
