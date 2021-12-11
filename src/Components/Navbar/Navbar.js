@@ -5,7 +5,8 @@ import "./Navbar.scss";
 import Navigation from "./Navigation";
 const showNavbar = () => {
   const navbar = document.getElementById("navlinks");
-  navbar.style.display = "block";
+  navbar.classList.toggle("showNavbar");
+  console.log("navbar");
 };
 export default function Navbar() {
   return (
