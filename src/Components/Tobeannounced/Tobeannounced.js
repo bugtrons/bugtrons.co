@@ -1,5 +1,5 @@
 import "./Tobeannounced.scss";
-
+import { Sponsors} from '../Sponsors/Sponsors'
 export default function Tobeannounced() {
   return (
     <div
@@ -16,6 +16,9 @@ export default function Tobeannounced() {
         <h1>Leaderboard</h1>
         <p>To be announced!!!!</p>
         <h1>Sponsors</h1>
+        <div className="Sponsor-sections">
+          <Sponsors/>
+        </div>
         <p>To be announced!!!!</p>
       </div>
     </div>

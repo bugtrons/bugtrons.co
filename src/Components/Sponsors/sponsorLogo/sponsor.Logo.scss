@@ -1,0 +1,18 @@
+.SponsorLogo {
+    width:22rem;
+    margin: 1rem;
+    height: 7rem;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    box-shadow: 0 4px 30px rgba(25, 223, 128, 0.27);
+}
+@media (max-width:768px) {
+    .SponsorLogo {
+        width: 21rem;
+        height: 6.5rem;
+    }
+    
+}
