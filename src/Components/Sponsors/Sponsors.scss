@@ -22,7 +22,7 @@
         
     }
     .Sponsors-big::before {
-        top: 4rem;
+        top: 2.5rem;
         content: '';
         height: 0px;
         width: 100%;
@@ -93,7 +93,7 @@
         }
     }
 }
-@media (max-width:768px) {
+@media (max-width:550px) {
     .Sponsors {
         
         .Sponsors-big {
