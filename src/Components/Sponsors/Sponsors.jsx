@@ -24,24 +24,20 @@ export const Sponsors = () => {
           </div>
         </div>
       </div>
-
       <div className="Silver">
         <div className="silver-class">
           <SponsorClass sclass="Silver" />
         </div>
-        <br />
         <div className="silver-sponsors">
           <SponsorLogo image={image} />
           <SponsorLogo image={image} />
           <SponsorLogo image={image} />
         </div>
       </div>
-      <br />
       <div className="Bronze">
         <div className="bronze-class">
           <SponsorClass sclass="Bronze" />
         </div>
-        <br />
         <div className="Bronze-sponsors">
           <SponsorLogo image={image} />
           <SponsorLogo image={image} />

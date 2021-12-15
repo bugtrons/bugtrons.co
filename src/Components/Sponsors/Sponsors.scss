@@ -9,13 +9,15 @@
         .diamond-class {
             display: flex;
             align-items: center;
-            justify-content: center;  
+            justify-content: center; 
+            padding-bottom: 2rem; 
         }
         
         .gold-class {
             display: flex;
             align-items: center;
             justify-content: center;
+            padding-bottom: 2rem;
         }
         
     }
@@ -38,6 +40,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding-bottom: 2rem;
+            padding-top: 4rem;
         }
         .silver-sponsors {
             display: flex;
@@ -64,6 +68,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding-top: 4rem;
+            padding-bottom: 2rem;
         }
         .Bronze-sponsors {
             display: flex;
@@ -75,7 +81,7 @@
         .bronze-class::before {
             content: '';
             height: 0px;
-            width: 100%;
+            width: 80%;
             z-index: -10;
             display: flex;
             position: absolute;
@@ -87,18 +93,21 @@
         }
     }
 }
-@media (max-width:800px) {
+@media (max-width:768px) {
     .Sponsors {
         
         .Sponsors-big {
             .diamond-class {
                 position: relative;
             }
+            .diamond-sponsors {
+                padding-bottom: 4rem;
+            }
             .diamond-class::after {
             content: '';
             height: 0px;
             z-index: -1;
-            width: 450px;
+            width: 30rem;
             display: flex;
             position: absolute;
             align-items: center;
@@ -109,11 +118,12 @@
             }
             .gold-class {
                 position: relative;
+                padding-bottom: 2rem;
             }
             .gold-class::after {
             content: '';
             height: 0px;
-            width: 450px;
+            width: 30rem;
             z-index: -10;
             display: flex;
             position: absolute;
@@ -129,6 +139,16 @@
         }
         .Sponsors-big::before {
             display: none;
+        }
+        .Bronze {
+            .bronze-class::before {
+                width: 30rem;
+            }
+        }
+        .Silver  {
+            .silver-class::before {
+                width: 30rem;
+            }
         }
 
 
