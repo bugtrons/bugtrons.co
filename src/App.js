@@ -6,8 +6,8 @@ import Schedule from "./Components/Schedule/Schedule";
 import "./App.scss";
 import Footer from "./Components/Footer/Footer";
 import React from "react";
-// import Tobeannounced from "./Components/Tobeannounced/Tobeannounced";
-import { Sponsors } from "./Components/Sponsors/Sponsors";
+import Tobeannounced from "./Components/Tobeannounced/Tobeannounced";
+// import { Sponsors } from "./Components/Sponsors/Sponsors";
 function App() {
   // function FadeInSection(props) {
   //   const [isVisible, setVisible] = React.useState(true);
@@ -36,8 +36,8 @@ function App() {
         <Home />
         <About />
         <Schedule />
-        {/* <Tobeannounced /> */}
-        <Sponsors/>
+        <Tobeannounced />
+        {/* <Sponsors/> */}
         <Footer />
       </div>
     </Router>
