@@ -7,28 +7,9 @@ import "./App.scss";
 import Footer from "./Components/Footer/Footer";
 import React from "react";
 import Tobeannounced from "./Components/Tobeannounced/Tobeannounced";
-// import { Sponsors } from "./Components/Sponsors/Sponsors";
+ import { Sponsors } from "./Components/Sponsors/Sponsors";
 function App() {
-  // function FadeInSection(props) {
-  //   const [isVisible, setVisible] = React.useState(true);
-  //   const domRef = React.useRef();
-  //   React.useEffect(() => {
-  //     const observer = new IntersectionObserver(entries => {
-  //       entries.forEach(entry => setVisible(entry.isIntersecting));
-  //     });
-  //     observer.observe(domRef.current);
-  //     return () => observer.unobserve(domRef.current);
-  //   }, []);
-  //   return (
-  //     <div
-  //       className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
-  //       ref={domRef}
-  //     >
-  //       {props.children}
-  //     </div>
-  //   );
-  // }
-
+ 
   return (
     <Router>
       <div className="App">
@@ -37,7 +18,7 @@ function App() {
         <About />
         <Schedule />
         <Tobeannounced />
-        {/* <Sponsors/> */}
+        <Sponsors/>
         <Footer />
       </div>
     </Router>
