@@ -10,13 +10,13 @@ export const Sponsors = () => {
       <div className="Diamond">
         <SponsorClass sclass="Diamond" />
         <div className="Diamond-logo">
-        <SponsorLogo image={prepinsta} height="120px"/>
+          <SponsorLogo image={prepinsta} height="120vw" />
         </div>
       </div>
       <div className="Gold">
-        <SponsorClass sclass="Gold"/>
+        <SponsorClass sclass="Gold" />
         <div className="Gold-logo">
-          <SponsorLogo image={hackclub} height="120px"/>
+          <SponsorLogo image={hackclub} height="120vw" />
         </div>
       </div>
       {/* <div className="Sliver">

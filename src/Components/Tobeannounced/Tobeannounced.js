@@ -9,7 +9,8 @@ export default function Tobeannounced() {
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
-     class="to-be-announced">
+      class="to-be-announced"
+    >
       <div>
         <h1>Swags</h1>
         <p>To be announced!!!!</p>

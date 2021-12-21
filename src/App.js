@@ -7,9 +7,8 @@ import "./App.scss";
 import Footer from "./Components/Footer/Footer";
 import React from "react";
 import Tobeannounced from "./Components/Tobeannounced/Tobeannounced";
- import { Sponsors } from "./Components/Sponsors/Sponsors";
+import { Sponsors } from "./Components/Sponsors/Sponsors";
 function App() {
- 
   return (
     <Router>
       <div className="App">
@@ -18,7 +17,7 @@ function App() {
         <About />
         <Schedule />
         <Tobeannounced />
-        <Sponsors/>
+        <Sponsors />
         <Footer />
       </div>
     </Router>

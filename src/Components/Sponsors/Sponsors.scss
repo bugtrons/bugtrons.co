@@ -1,58 +1,54 @@
 .Sponsors {
+  .Diamond {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0rem;
+    .Diamond-logo {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+  .Gold {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    .Gold-logo {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+  // .Silver {
+  //     display: flex;
+  //     justify-content: center;
+  //     flex-direction: column;
+  //     align-items: center;
+  //     .Silver-logo {
+  //         display: flex;
+  //         justify-content: space-evenly;
+  //         align-items: center;
+  //         flex-wrap: wrap;
 
-    .Diamond {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem;
-        .Diamond-logo {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            flex-wrap: wrap;
-            
-        }
+  //     }
+  // }
+  .Bronze {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    .Bronze-logo {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
     }
-    .Gold {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem;
-        .Gold-logo {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            flex-wrap: wrap;
-            
-        }
-    }
-    // .Silver {
-    //     display: flex;
-    //     justify-content: center;
-    //     flex-direction: column;
-    //     align-items: center;
-    //     .Silver-logo {
-    //         display: flex;
-    //         justify-content: space-evenly;
-    //         align-items: center;
-    //         flex-wrap: wrap;
-            
-    //     }
-    // }
-    .Bronze {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem;
-        .Bronze-logo {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            flex-wrap: wrap;
-            
-        }
-    }
+  }
 }
