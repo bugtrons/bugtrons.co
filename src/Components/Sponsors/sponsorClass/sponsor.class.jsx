@@ -4,7 +4,7 @@ export const SponsorClass = ({ sclass }) => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-offset="100"
+      data-aos-offset="10"
       data-aos-delay="0"
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"

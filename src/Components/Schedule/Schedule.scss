@@ -1,30 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .schedule {
-  padding-top: 0%;
   width: 80%;
   margin: auto;
-  @media (max-width: 992px) {
-    .first {
-      width: 7rem;
-      font-weight: bold;
+
+  .schedule-head {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #419873;
+    font-weight: bold;
+    text-align: center;
+  }
+  .tabs {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0rem;
+    list-style: none;
+
+    .tab-box {
+      background: linear-gradient(
+        90deg,
+        rgba(160, 232, 197, 1) 0%,
+        rgba(55, 207, 156, 1) 100%
+      );
+      padding: 5px 5px;
+      border-radius: 10px;
+      .active {
+        background: linear-gradient(
+          90deg,
+          rgba(160, 232, 197, 1) 0%,
+          rgba(55, 207, 156, 1) 100%
+        ) !important;
+        color: white !important;
+      }
+      .box {
+        background-color: #e7fae9;
+        padding: 5px 2vw;
+        border-radius: 10px;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #3ed19f;
+      }
+      .box:hover {
+        background: linear-gradient(
+          90deg,
+          rgba(160, 232, 197, 1) 0%,
+          rgba(55, 207, 156, 1) 100%
+        );
+        color: white;
+      }
     }
   }
-  font-size: 1rem;
-  .schedule-head {
-    display: flex;
-    color: #419873;
-    font-size: 2.5rem;
-    font-weight: bold;
-    line-height: 59px;
-    font-style: normal;
-    justify-content: center;
-    font-family: "Montserrat", sans-serif;
+  @media (max-width: 992px) {
+    width: 90%;
   }
-}
-.table tbody tr {
-  text-align: center;
-}
-.table td {
-  border: 1px solid black;
 }

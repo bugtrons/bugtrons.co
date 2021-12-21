@@ -16,7 +16,6 @@ export default function Tobeannounced() {
         <p>To be announced!!!!</p>
         <h1>Leaderboard</h1>
         <p>To be announced!!!!</p>
-        <h1>Sponsors</h1>
       </div>
     </div>
   );
