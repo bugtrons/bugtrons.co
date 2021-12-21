@@ -2,47 +2,34 @@ import React from "react";
 import "./Sponsors.scss";
 import { SponsorClass } from "./sponsorClass/sponsor.class";
 import { SponsorLogo } from "./sponsorLogo/sponsor.logo";
-import image from "./sponsorLogo/1.png";
+import prepinsta from "./sponsorLogo/prepinsta.png";
 export const Sponsors = () => {
   return (
     <div className="Sponsors">
-      <div className="Sponsors-big">
-        <div className="diamond">
-          <div className="diamond-class">
-            <SponsorClass sclass="Diamond" />
-          </div>
-          <div className="diamond-sponsors">
-            <SponsorLogo image={image} />
-          </div>
-        </div>
-        <div className="gold">
-          <div className="gold-class">
-            <SponsorClass sclass="Gold" />
-          </div>
-          <div className="Gold-sponsor">
-            <SponsorLogo image={image} />
-          </div>
+      <div className="Diamond">
+        <SponsorClass sclass="Diamond" />
+        <div className="Diamond-logo">
+        <SponsorLogo image={prepinsta} />
         </div>
       </div>
-      <div className="Silver">
-        <div className="silver-class">
-          <SponsorClass sclass="Silver" />
-        </div>
-        <div className="silver-sponsors">
-          <SponsorLogo image={image} />
-          <SponsorLogo image={image} />
-          <SponsorLogo image={image} />
+      <div className="Gold">
+        <SponsorClass sclass="Gold"/>
+        <div className="Gold-logo">
+          <SponsorLogo />
         </div>
       </div>
+      {/* <div className="Sliver">
+        <SponsorClass sclass="Sliver"/>
+        <div className="Silver-logo">
+          <SponsorLogo />
+        </div>
+      </div> */}
       <div className="Bronze">
-        <div className="bronze-class">
-          <SponsorClass sclass="Bronze" />
+        <SponsorClass sclass="Bronze" />
+        <div className="Bronze-logo">
+          <SponsorLogo />
         </div>
-        <div className="Bronze-sponsors">
-          <SponsorLogo image={image} />
-          <SponsorLogo image={image} />
-          <SponsorLogo image={image} />
-        </div>
+
       </div>
     </div>
   );
