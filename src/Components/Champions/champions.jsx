@@ -1,6 +1,6 @@
 import React from "react";
 import "./champions.scss";
-import { Bug } from "./bugs/bug";
+import  Bug  from "./bugs/bug";
 import image from "./bugs/1.png";
 export const Champions = () => {
   return (

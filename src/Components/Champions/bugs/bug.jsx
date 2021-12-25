@@ -1,9 +1,9 @@
 import React from "react";
 import "./bug.scss";
 
-export const Bug = ({ Image, name }) => {
+const Bug = ({ Image, name }) => {
   return (
-    <div>
+    <div className="bug-container">
       <div className="bug1">
         <img src={Image} alt="" />
       </div>
@@ -11,3 +11,4 @@ export const Bug = ({ Image, name }) => {
     </div>
   );
 };
+export default Bug;
