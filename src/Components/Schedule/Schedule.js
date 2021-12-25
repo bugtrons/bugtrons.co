@@ -1,35 +1,8 @@
 import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Tabs, Tab } from "react-bootstrap";
 import "./Schedule.scss";
 
 export default function Schedule() {
-  // var act=1;
-  // var tab1= document.getElementById("1");
-  // var tab2= document.getElementById("2");
-  // var tab3= document.getElementById("3");
-  function Active(props) {
-    // console.log(props);
-    //   // tab1.classList.remove("active");
-    //   // tab2.classList.remove("active");
-    //   // tab3.classList.remove("active");
-    //   if(act===1){
-    //     tab1.classList.remove("active");
-    //   }else if(act===2){
-    //     tab2.classList.remove("active");
-    //   }else{
-    //     tab3.classList.remove("active");
-    //   }
-    //   if(props===1){
-    //     tab1.classList.add("active");
-    //     act=1;
-    //   }else if(props===2){
-    //     tab2.classList.add("active");
-    //     act=2;
-    //   }else{
-    //     tab3.classList.add("active");
-    //     act=3;
-    //   }
-  }
 
   return (
     <div
@@ -42,32 +15,13 @@ export default function Schedule() {
     >
       <div className="schedule">
         <div className="schedule-head">Schedule</div>
-        <Tabs>
-          <TabList className="tabs">
-            <Tab>
-              <div className="tab-box">
-                <div id="1" className="box" onClick={() => Active(1)}>
-                  Day 1
-                </div>
-              </div>
-            </Tab>
-            <Tab>
-              <div className="tab-box">
-                <div id="2" className="box" onClick={() => Active(2)}>
-                  Day 2
-                </div>
-              </div>
-            </Tab>
-            <Tab>
-              <div className="tab-box">
-                <div id="3" className="box" onClick={() => Active(3)}>
-                  Day 3
-                </div>
-              </div>
-            </Tab>
-          </TabList>
-          <TabPanel>
-            <table class="table table-striped table-bordered text-center">
+        <Tabs
+          defaultActiveKey="Day1"
+          id="uncontrolled-tab-example"
+          className="mb-3 tabs"
+        >
+          <Tab eventKey="Day1" title="Day 1" classname="mb-3 tab">
+            <table class="table table-hover table-bordered text-center">
               <thead>
                 <tr>
                   <th scope="col" width="70%">
@@ -93,9 +47,9 @@ export default function Schedule() {
                 </tr>
               </tbody>
             </table>
-          </TabPanel>
-          <TabPanel>
-            <table class="table table-striped table-bordered text-center">
+          </Tab>
+          <Tab eventKey="Day2" title="Day2">
+            <table class="table table-hover table-bordered text-center">
               <thead>
                 <tr>
                   <th scope="col" width="70%">
@@ -121,9 +75,9 @@ export default function Schedule() {
                 </tr>
               </tbody>
             </table>
-          </TabPanel>
-          <TabPanel>
-            <table class="table table-striped table-bordered text-center">
+          </Tab>
+          <Tab eventKey="Day3" title="Day3">
+            <table class="table table-hover table-bordered text-center">
               <thead>
                 <tr>
                   <th scope="col" width="70%">
@@ -145,7 +99,7 @@ export default function Schedule() {
                 </tr>
               </tbody>
             </table>
-          </TabPanel>
+          </Tab>
         </Tabs>
       </div>
     </div>

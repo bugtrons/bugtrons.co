@@ -11,49 +11,42 @@
     font-weight: bold;
     text-align: center;
   }
-  .tabs {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 0rem;
-    list-style: none;
-
-    .tab-box {
-      background: linear-gradient(
-        90deg,
-        rgba(160, 232, 197, 1) 0%,
-        rgba(55, 207, 156, 1) 100%
-      );
-      padding: 5px 5px;
-      border-radius: 10px;
-      .active {
-        background: linear-gradient(
-          90deg,
-          rgba(160, 232, 197, 1) 0%,
-          rgba(55, 207, 156, 1) 100%
-        ) !important;
-        color: white !important;
-      }
-      .box {
-        background-color: #e7fae9;
-        padding: 5px 2vw;
-        border-radius: 10px;
-        font-size: 1.2em;
-        font-weight: bold;
-        color: #3ed19f;
-      }
-      .box:hover {
-        background: linear-gradient(
-          90deg,
-          rgba(160, 232, 197, 1) 0%,
-          rgba(55, 207, 156, 1) 100%
-        );
-        color: white;
-      }
+  .tabs{
+    //  border-bottom: 1px solid #3ED19F;
+    button{
+      color: #3ED19F;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-color: #E7FAE9;
+      // border: 3px solid #3ED19F;
+      border-radius: 5px 5px 0px 0px;
+      padding: 0.3rem 1.3rem;
+      // margin-left: 5px;
+      // margin-right: 5px;
+      margin-bottom: 0px;
+    }
+    .nav-link.active, .nav-link:hover{
+      background-color:#3ED19F;
+      // border: 3px solid #3ED19F;
+      color: white; 
     }
   }
-  @media (max-width: 992px) {
-    width: 90%;
-  }
+
+    table{
+      border:2px solid #419873;
+      thead{
+        color:#3cc99a;
+        border:2px solid #419873;
+      }
+      tbody{
+        color:#1d4a6b !important;
+        font-weight: 500;
+        tr:hover{
+          background-color: #d4ffd9;
+          color:#1d4a6b !important;
+        }
+      }
+     
+    }
+    
 }
