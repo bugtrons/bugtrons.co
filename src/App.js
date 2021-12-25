@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import "./App.scss";
 import Homepage from "./pages/Homepage";
 import Teams from "./pages/Teams";
-import Leaderboard from "./pages/Leaderboard";
+// import Leaderboard from "./pages/Leaderboard";
 
 function App() {
   return (
