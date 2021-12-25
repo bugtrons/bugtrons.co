@@ -1,26 +1,19 @@
-import { About } from "./Components/About/About";
-import Navbar from "./Components/Navbar/Navbar";
-import { BrowserRouter as Router } from "react-router-dom";
-import Home from "./Components/Home/Home";
-import Schedule from "./Components/Schedule/Schedule";
-import "./App.scss";
-import Footer from "./Components/Footer/Footer";
 import React from "react";
-import Tobeannounced from "./Components/Tobeannounced/Tobeannounced";
-import { Sponsors } from "./Components/Sponsors/Sponsors";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
+import "./App.scss";
+import Homepage from "./pages/Homepage";
+
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <Home />
-        <About />
-        <Schedule />
-        <Tobeannounced />
-        <Sponsors />
-        <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        {/* <Route path="/teams" element={<Teams />} /> */}
+        {/* <Route path="/swags" element={<Swags />} /> */}
+        {/* <Route path="/leaderboard" element={<Leaderboard />} /> */}
+      </Routes>
+    </div>
   );
 }
 

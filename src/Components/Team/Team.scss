@@ -1,37 +1,36 @@
-.janta{
+.janta {
   padding-top: 10rem;
-  .alig{
+  .alig {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
   }
 }
-.member{
-  display:flex;
-  flex-direction:column;
+.member {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   align-content: center;
   background-color: white;
   padding: 3rem 0rem 3rem 0;
-  width:17rem;
+  width: 17rem;
   position: relative;
   overflow: hidden;
   box-shadow: 0px 8px 19px rgba(0, 0, 0, 0.25);
-  border-radius:5px;
+  border-radius: 5px;
   margin: 2rem;
-  img{
-    width:10rem;
+  img {
+    width: 10rem;
     border-radius: 50%;
   }
-  p{
-    font-size:1.3rem;
-    font-weight:bold;
+  p {
+    font-size: 1.3rem;
+    font-weight: bold;
     padding-top: 0.9rem;
   }
-  .bug-bord{
+  .bug-bord {
     background-image: url(../Champions/bugs/bugpng.png);
     z-index: 12;
     width: 13rem;
@@ -39,29 +38,29 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    position:absolute;
+    position: absolute;
     margin-top: -7.3rem;
     display: hidden;
   }
-  .social{
+  .social {
     width: 100%;
-  padding: 0;
-  margin: 0;
-  background-color: rgba(7, 196, 135, 0.8);
-  position: absolute;
-  bottom: -100px;
-  left: 0;
-  transition: all 0.5s ease 0s;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(7, 196, 135, 0.8);
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
   }
-  ul{
+  ul {
     align-items: center;
     text-align: center;
   }
-  
+
   .social li {
     display: inline-block;
   }
-  
+
   .social li a {
     display: block;
     padding: 10px;
@@ -70,12 +69,11 @@
     transition: all 0.3s ease 0s;
     text-decoration: none;
   }
-  
+
   .social li a:hover {
     color: rgba(7, 196, 135, 0.8);
     background-color: #f7f5ec;
   }
-  
 }
 .member:hover .social {
   bottom: 0;

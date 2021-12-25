@@ -3,7 +3,6 @@ import { Tabs, Tab } from "react-bootstrap";
 import "./Schedule.scss";
 
 export default function Schedule() {
-
   return (
     <div
       data-aos="fade-up"

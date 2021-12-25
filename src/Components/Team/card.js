@@ -10,7 +10,7 @@ const card = ({ img, name, position }) => {
         <li>
           <a
             href="http://bugtrons.co/"
-            class="fa fa-facebook"
+            className="fa fa-facebook"
             aria-hidden="true"
           ></a>
         </li>
