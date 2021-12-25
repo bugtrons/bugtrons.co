@@ -8,32 +8,24 @@ const card = ({ img, name, position }) => {
       <div className="bug-bord"></div>
       <ul class="social">
         <li>
-          <a
-            href="http://bugtrons.co/"
-            className="fa fa-facebook"
-            aria-hidden="true"
-          ></a>
+          <a href="http://bugtrons.co/" aria-hidden="true">
+            <i className="fa fa-facebook"></i>
+          </a>
         </li>
         <li>
-          <a
-            href="http://bugtrons.co/"
-            class="fa fa-twitter"
-            aria-hidden="true"
-          ></a>
+          <a href="http://bugtrons.co/" aria-hidden="true">
+            <i className="fa fa-twitter"></i>
+          </a>
         </li>
         <li>
-          <a
-            href="http://bugtrons.co/"
-            class="fa fa-google-plus"
-            aria-hidden="true"
-          ></a>
+          <a href="http://bugtrons.co/" aria-hidden="true">
+            <i className="fa fa-google-plus"></i>
+          </a>
         </li>
         <li>
-          <a
-            href="http://bugtrons.co/"
-            class="fa fa-linkedin"
-            aria-hidden="true"
-          ></a>
+          <a href="http://bugtrons.co/" aria-hidden="true">
+            <i className="fa fa-linkedin"></i>
+          </a>
         </li>
       </ul>
     </div>
