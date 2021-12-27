@@ -10,21 +10,30 @@ function Team() {
         <Card
           name="Ghulam Yazdani"
           img="https://avatars.githubusercontent.com/u/55938346?v=4"
-          position="Web Developer"
+          position="Organizer"
         />
         <Card
           name="Anshuman Kr Prasad"
           img="https://amino19.github.io/online-resume/assets/img/mlhlhd.png"
-          position="Guddu bhaiyya"
+          position="Organizer"
           github="https://github.com/amino19"
           linkedin="https://www.linkedin.com/in/amino19"
           mail="anshumaankrprasad76@gmail.com"
           twitter="https://twitter.com/aminostwt"
         />
         <Card
+          name="Aditya Sahu"
+          img=" https://github.com/adityasahu252.png"
+          position="Organizer"
+          twitter=" https://twitter.com/AdityaSahuDev"
+          github="https://github.com/adityasahu252"
+          linkedin="https://www.linkedin.com/in/aditya-sahu-477a69175/"
+          gmail="mailto:adityasahu252@gmail.com"
+        />
+        <Card
           name="Akshat Nema"
           img="https://github.com/akshatnema.png"
-          position="jeetu bhaiyya"
+          position="Organizer"
           twitter="https://twitter.com/AksNema"
           github="https://github.com/akshatnema"
           linkedin="https://www.linkedin.com/in/akshat-nema-2002/"
@@ -33,7 +42,7 @@ function Team() {
         <Card
           name="Priyanka Prasad"
           img="https://avatars.githubusercontent.com/u/59612128?v=4"
-          position="Co-Organizer"
+          position="Organizer"
           twitter="https://twitter.com/prykdev"
           github="https://github.com/prykdev"
           linkedin="https://www.linkedin.com/in/prykdev/"

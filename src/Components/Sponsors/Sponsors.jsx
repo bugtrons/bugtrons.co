@@ -14,7 +14,7 @@ export const Sponsors = () => {
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
     >
-      <div className="Sponsors">
+      <div className="Sponsors" id="Sponsors">
         <div className="sponsor-head">Sponsors</div>
         <div className="Diamond">
           <SponsorClass sclass="Diamond" />

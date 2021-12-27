@@ -10,6 +10,7 @@ export default function Tobeannounced() {
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
       class="to-be-announced"
+      id="to-be-announced"
     >
       <div>
         <h1>Swags</h1>

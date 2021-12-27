@@ -10,8 +10,9 @@ export const About = () => {
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
+      id="about"
     >
-      <div className="about-head">About Bugtrons 2.0 </div>
+      <div className="about-head" >About Bugtrons 2.0 </div>
       <div className="about-info">
         <p>
           The

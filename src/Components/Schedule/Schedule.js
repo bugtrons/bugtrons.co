@@ -12,7 +12,7 @@ export default function Schedule() {
       data-aos-easing="ease-in-out"
       data-aos-mirror="false"
     >
-      <div className="schedule">
+      <div className="schedule" id="schedule">
         <div className="schedule-head">Schedule</div>
         <Tabs
           defaultActiveKey="Day1"
