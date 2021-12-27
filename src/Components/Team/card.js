@@ -1,5 +1,5 @@
 import React from "react";
-const card = ({ img, name, position }) => {
+const card = ({ img, name, position, github, twitter, gmail, linkedin }) => {
   return (
     <div className="member">
       <img src={img} alt="" />
@@ -8,22 +8,22 @@ const card = ({ img, name, position }) => {
       <div className="bug-bord"></div>
       <ul class="social">
         <li>
-          <a href="http://bugtrons.co/" aria-hidden="true">
-            <i className="fa fa-facebook"></i>
+          <a href={github} aria-hidden="true">
+            <i className="fa fa-github"></i>
           </a>
         </li>
         <li>
-          <a href="http://bugtrons.co/" aria-hidden="true">
+          <a href={twitter} aria-hidden="true">
             <i className="fa fa-twitter"></i>
           </a>
         </li>
         <li>
-          <a href="http://bugtrons.co/" aria-hidden="true">
+          <a href={gmail} aria-hidden="true">
             <i className="fa fa-google-plus"></i>
           </a>
         </li>
         <li>
-          <a href="http://bugtrons.co/" aria-hidden="true">
+          <a href={linkedin} aria-hidden="true">
             <i className="fa fa-linkedin"></i>
           </a>
         </li>
