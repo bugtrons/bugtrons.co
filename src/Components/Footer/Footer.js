@@ -27,13 +27,15 @@ export default function Footer() {
                   <h4>About Us</h4>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="www.google.com">Bugstrons</a>
+                      <a href="/">Bugstrons</a>
                     </li>
                     <li>
-                      <a href="www.google.com">Know the team</a>
+                      <a href="/team">Know the team</a>
                     </li>
                     <li>
-                      <a href="www.google.com">Code of conduct</a>
+                      <a href="https://github.com/devstrons/bugtrons-2/blob/main/CODE_OF_CONDUCT.md">
+                        Code of conduct
+                      </a>
                     </li>
                   </ul>
                 </div>

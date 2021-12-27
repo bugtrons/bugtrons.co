@@ -9,8 +9,12 @@ function Team() {
       <div class="alig">
         <Card
           name="Ghulam Yazdani"
-          img="https://avatars.githubusercontent.com/u/55938346?v=4"
+          img="https://pbs.twimg.com/profile_images/1460342339310788614/96gkpqcQ_400x400.jpg"
           position="Organizer"
+          github="https://github.com/ghulamyazdani"
+          linkedin="https://www.linkedin.com/in/ghulamyazdani"
+          mail="mailto:ghulamyazdani12@gmail.com"
+          twitter="https://twitter.com/iamyazreza"
         />
         <Card
           name="Anshuman Kr Prasad"
@@ -18,7 +22,7 @@ function Team() {
           position="Organizer"
           github="https://github.com/amino19"
           linkedin="https://www.linkedin.com/in/amino19"
-          mail="anshumaankrprasad76@gmail.com"
+          mail="mailto:anshumaankrprasad76@gmail.com"
           twitter="https://twitter.com/aminostwt"
         />
         <Card
