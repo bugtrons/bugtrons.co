@@ -20,8 +20,12 @@ export default function Home() {
             Student-run DSA competition organized by DEVSTRONS’
           </div>
           <div className="d-flex buttons">
-            <a href="https://forms.gle/BW9w4BjwsrcmQrjj7"><div className="btn">Register</div></a>
-            <a href="https://discord.gg/HR48UpZgP3"><div className="btn">Join Discord</div></a>
+            <a href="https://forms.gle/BW9w4BjwsrcmQrjj7">
+              <div className="btn">Register</div>
+            </a>
+            <a href="https://discord.gg/HR48UpZgP3">
+              <div className="btn">Join Discord</div>
+            </a>
           </div>
         </div>
         <div className="image">

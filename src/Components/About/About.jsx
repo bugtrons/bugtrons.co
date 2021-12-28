@@ -12,7 +12,7 @@ export const About = () => {
       data-aos-mirror="true"
       id="about"
     >
-      <div className="about-head" >About Bugtrons 2.0 </div>
+      <div className="about-head">About Bugtrons 2.0 </div>
       <div className="about-info">
         <p>
           The
