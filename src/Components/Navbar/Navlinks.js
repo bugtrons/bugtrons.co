@@ -10,33 +10,30 @@ export default function Navlinks() {
         </Link>
       </li>
       <li>
-        <a className="nav-link scrollto" href="#about">
+        <a className="nav-link scrollto" href="/#about">
           About
         </a>
       </li>
       <li>
-        <a className="nav-link" href="#schedule">
+        <a className="nav-link" href="/#schedule">
           Schedule
         </a>
       </li>
       <li>
-        <a
-          className="nav-link scrollto"
-          href="#leaderboard"
-        >
+        <a className="nav-link scrollto" href="/#leaderboard">
           Leaderboard
         </a>
       </li>
       <li>
-        <a className="nav-link scrollto" href="#swags">
+        <a className="nav-link scrollto" href="/#swags">
           Swag
         </a>
       </li>
       <li>
-        <a href="#sponsor">Sponsors</a>
+        <a href="/#sponsor">Sponsors</a>
       </li>
       <li>
-        <Link to="/Team" className="nav-link scrollto">
+        <Link to="/team" className="nav-link scrollto">
           Team
         </Link>
       </li>
