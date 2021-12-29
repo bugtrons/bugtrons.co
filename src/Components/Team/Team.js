@@ -13,7 +13,7 @@ function Team() {
           position="Organizer"
           github="https://github.com/ghulamyazdani"
           linkedin="https://www.linkedin.com/in/ghulamyazdani"
-          mail="mailto:ghulamyazdani12@gmail.com"
+          gmail="mailto:ghulamyazdani12@gmail.com"
           twitter="https://twitter.com/iamyazreza"
         />
         <Card
@@ -22,7 +22,7 @@ function Team() {
           position="Organizer"
           github="https://github.com/amino19"
           linkedin="https://www.linkedin.com/in/amino19"
-          mail="mailto:anshumaankrprasad76@gmail.com"
+          gmail="mailto:anshumaankrprasad76@gmail.com"
           twitter="https://twitter.com/aminostwt"
         />
         <Card
@@ -44,12 +44,22 @@ function Team() {
           gmail="mailto:akshatnema.school@gmail.com"
         />
         <Card
+          name="Josith Reddy Gopidi"
+          img="https://pbs.twimg.com/profile_images/1470063414189776900/dA9kKfVD_400x400.jpg"
+          position="Organizer"
+          twitter="https://twitter.com/JoshithReddy_g"
+          github="https://github.com/JOS-RE"
+          linkedin="https://www.linkedin.com/in/joshith-reddy-gopidi/"
+          gmail="mailto:joshith.gopidi@gmail.com"
+        />
+        <Card
           name="Priyanka Prasad"
           img="https://avatars.githubusercontent.com/u/59612128?v=4"
           position="Organizer"
           twitter="https://twitter.com/prykdev"
           github="https://github.com/prykdev"
           linkedin="https://www.linkedin.com/in/prykdev/"
+          gmail="mailto:akshatnema.school@gmail.com"
         />
         <Card
           name="Harsha Sumanchandra"
