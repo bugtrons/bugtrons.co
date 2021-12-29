@@ -65,4 +65,9 @@ function Team() {
   );
 }
 
+// ! 1st - Joshith, Ghulam bhaiya, Aminos, Akshat
+// * 2nd - Harsha, Priyanka, Payal
+// ? 3rd - Ashish bhaiya, Abir bhaiya
+// & 4th - Aditya bhaiya
+
 export default Team;

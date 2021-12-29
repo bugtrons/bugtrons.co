@@ -7,12 +7,13 @@ import hackclub from "./sponsorLogo/hackclub.png";
 export const Sponsors = () => {
   return (
     <div
-      data-aos="fade-up"
+      data-aos="fade-in"
       data-aos-offset="10"
       data-aos-delay="0"
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
+      id="sponsor"
     >
       <div className="Sponsors" id="Sponsors">
         <div className="sponsor-head">Sponsors</div>

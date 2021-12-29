@@ -5,14 +5,15 @@ import "./Schedule.scss";
 export default function Schedule() {
   return (
     <div
-      data-aos="fade-up"
+      data-aos="fade-in"
       data-aos-offset="10"
       data-aos-delay="0"
       data-aos-duration="1000"
+      data-aos-mirror="true"
       data-aos-easing="ease-in-out"
-      data-aos-mirror="false"
+      id="schedule"
     >
-      <div className="schedule" id="schedule">
+      <div className="schedule">
         <div className="schedule-head">Schedule</div>
         <Tabs
           defaultActiveKey="Day1"
