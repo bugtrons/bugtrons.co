@@ -45,6 +45,14 @@ export default function Schedule() {
                   <td>Announcement of top 20 winners</td>
                   <td> -- </td>
                 </tr>
+                <tr>
+                  <td>Session with Guest Speaker</td>
+                  <td> -- </td>
+                </tr>
+                <tr>
+                  <td>Fun event - (online browser game) on discord</td>
+                  <td> -- </td>
+                </tr>
               </tbody>
             </table>
           </Tab>
@@ -70,7 +78,13 @@ export default function Schedule() {
                   <td> -- </td>
                 </tr>
                 <tr>
-                  <td>XYZ Session</td>
+                  <td>Session with Guest Speaker</td>
+                  <td> -- </td>
+                </tr>
+                <tr>
+                  <td>
+                    Interaction Session with Participants on discord (@bugtrons)
+                  </td>
                   <td> -- </td>
                 </tr>
               </tbody>
@@ -90,11 +104,24 @@ export default function Schedule() {
               </thead>
               <tbody>
                 <tr>
+                  <td>Session with Guest Speaker</td>
+                  <td> -- </td>
+                </tr>
+                <tr>
                   <td>Final Round - DSA Competition</td>
                   <td> -- </td>
                 </tr>
                 <tr>
-                  <td>Announcement of top 3 winners and Closing Ceremony</td>
+                  <td>
+                    Winners announcement and Closing ceremony, Closing notes by
+                    Prepinsta.
+                  </td>
+                  <td> -- </td>
+                </tr>
+                <tr>
+                  <td>
+                    Hangout Session with Participants on discord (@bugtrons)
+                  </td>
                   <td> -- </td>
                 </tr>
               </tbody>
