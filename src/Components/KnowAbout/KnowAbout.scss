@@ -1,4 +1,5 @@
 .KnowAbout {
+    box-sizing: border-box;
     .KnowAboutUsHeading {
         padding-bottom: 2rem;
     }
@@ -15,12 +16,11 @@
       }
     }
     .LWC {
-        padding:4rem 2rem;
+        // padding:4rem 2rem;
         display: flex;
         justify-content: center;  
         
-        img {
-           
+        img { 
             height: 10rem;
         }
     }
@@ -42,11 +42,25 @@
         
     }
 }
+@media(max-width:1024px){
+    .KnowAbout {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .Testimonials {
+            .TestimonialsCard {
+                flex-direction: column;
+            }
+        }
+    }
+}
 @media(max-width:768px){
     .KnowAbout {
         display: flex;
         justify-content: center;
         text-align: center;
+        align-items: center;
         flex-direction: column;
         .logo-devstrons{
             flex-direction: column;
@@ -75,4 +89,9 @@
         }
         
     }   
+}
+@media(max-width:450px){
+    .KnowAbout {
+        align-items: center;
+    }
 }

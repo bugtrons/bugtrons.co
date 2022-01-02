@@ -5,10 +5,13 @@ export const Recap = () => {
   return (
     <div className="Recap">
       <div className="Heading">
-        <span>Reacp of BUGTRONS</span>
+        <span>Recap of BUGTRONS</span>
       </div>
       <div className="RecapData">
+        <div className="Reacp-heading">
         <img src={Recapbug} alt="Bugtrons" />
+        <a href="">Know more</a>
+        </div>
         <div className="data">
           <div className="data-heading">
             <h1>BUGTRONS'</h1>
