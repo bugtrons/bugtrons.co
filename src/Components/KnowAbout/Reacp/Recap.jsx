@@ -10,7 +10,7 @@ export const Recap = () => {
       <div className="RecapData">
         <div className="Reacp-heading">
         <img src={Recapbug} alt="Bugtrons" />
-        <a href="">Know more</a>
+        <a href="/helo">Know more</a>
         </div>
         <div className="data">
           <div className="data-heading">
