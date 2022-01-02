@@ -1,5 +1,5 @@
 import React from "react";
-import { About } from "../Components/About/About";
+// import { About } from "../Components/About/About";
 import Navbar from "../Components/Navbar/Navbar";
 import Home from "../Components/Home/Home";
 import Schedule from "../Components/Schedule/Schedule";
@@ -12,7 +12,7 @@ function Homepage() {
     <div>
       <Navbar />
       <Home />
-      <About />
+      {/* <About /> */}
       <Schedule />
       {/* <Tobeannounced /> */}
       <Sponsors />

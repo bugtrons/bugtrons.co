@@ -9,6 +9,7 @@
     padding: 1rem;
     margin-top: auto;
     margin-bottom: auto;
+    width: 50%;
     .title {
       font-family: "Montserrat", sans-serif;
       font-size: 8vh;
@@ -57,6 +58,7 @@
     @media (max-width: 992px) {
       text-align: center;
       padding: 0rem;
+      width:100%;
       .title {
         margin-top: 1rem;
         font-size: 5.7vh;
