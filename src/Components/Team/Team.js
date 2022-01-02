@@ -44,7 +44,7 @@ function Team() {
           gmail="mailto:akshatnema.school@gmail.com"
         />
         <Card
-          name="Josith Reddy Gopidi"
+          name="Joshith Reddy Gopidi"
           img="https://pbs.twimg.com/profile_images/1470063414189776900/dA9kKfVD_400x400.jpg"
           position="Organizer"
           twitter="https://twitter.com/JoshithReddy_g"
