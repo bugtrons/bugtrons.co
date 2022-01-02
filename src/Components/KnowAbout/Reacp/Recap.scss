@@ -1,0 +1,127 @@
+.Recap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .Heading {
+        margin-bottom: 2rem;
+        span {
+            color: #56C596;
+            font-weight: bold;
+            font-size: 1.5rem;
+            
+        }
+    }
+    .RecapData {
+        height: 30rem;
+        width: 80%;
+        background: rgba(255, 255, 255, 0.81);
+        box-shadow: 0 4px 36px rgba(0, 0, 0, 0.1);
+        margin-bottom: 2rem;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 15rem;
+        }
+        .data {
+            .data-heading {
+                // position: relative;
+                h1 {
+                    font-weight: bold;
+                    font-size: 3.5rem;
+                    background-image: linear-gradient(270.11deg, #E7110D -1.45%, #F3573E 99.9%);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+                .data-line {
+                    border-radius: 0.625rem;
+                    width: 16rem;
+                    height: 0.3rem;
+                    margin-top: -1rem;
+                    border-radius: 0.625rem;
+                    background-image: linear-gradient(270.11deg, #E7110D -1.45%, #F3573E 99.9%);
+                }
+                // &:after {
+                //     content: "";
+                //     position: absolute;
+                //     height: 0.3rem;
+                //     border-radius: 0.625rem;
+                //     left: 0.28rem;
+                //     width: 16rem;
+                //     bottom: 0.38rem;
+                //     background-image: linear-gradient(270.11deg, #E7110D -1.45%, #F3573E 99.9%);
+                    
+
+                // }
+
+            }
+            .content {
+                padding: 0 0.8rem;
+                p {
+                    font-size: 0.9rem;
+                    color: #205072;
+                    font-weight: 500;
+                }
+                h1 {
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                    color: #205072;
+                }
+            }
+        }
+    }
+}
+@media(max-width:768px) {
+
+    .Recap {
+        .RecapData {
+            flex-direction: column;
+            height: 55rem;
+            .data {
+    
+                .data-heading {
+                    .data-line {
+                        margin-left: 8rem;
+                        
+                        
+                    }
+                
+                }
+            }
+        }
+    }
+}
+@media(max-width:650px) {
+
+    .Recap {
+        .RecapData {
+            
+            .data {
+    
+                .data-heading {
+                    .data-line {
+                        margin-left: 4.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:550px) {
+
+    .Recap {
+        .RecapData {
+            .data {
+    
+                .data-heading {
+                    .data-line {
+                        margin-left: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
