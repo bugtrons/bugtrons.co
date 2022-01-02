@@ -1,10 +1,10 @@
 import React from 'react'
 import './Testimonials.scss'
-export const Testimonials = ({image, name, position,description}) => {
+export const Testimonials = ({profile, name, position,description}) => {
     return (
         <div className='testimonials'>
             <div className='image'>
-                <img src={image} alt="photo" />
+                <img src={profile} alt="previous winner" />
             </div>
             <div className='testimonialscard'>
                 <h1>{name}</h1>

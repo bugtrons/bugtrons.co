@@ -39,21 +39,21 @@ export const KnowAbout = () => {
         </div>
         <div className="TestimonialsCard">
           <Testimonials
-            image={devs}
+            profile={devs}
             name="abca"
             position="temp 1"
             description="“ Lorem ipsum dolor sit amet Lorem ipsum dolor sit   amet Lorem ipsum dolor sit amet ”"
           />
           <br />
           <Testimonials
-            image={devs}
+            profile={devs}
             name="abc"
             position="temp 2"
             description="“ Lorem ipsum dolor sit amet Lorem ipsum dolor sit   amet Lorem ipsum dolor sit amet ”"
           />
           <br />
           <Testimonials
-            image={devs}
+            profile={devs}
             name="aba"
             position="temp 3"
             description="“ Lorem ipsum dolor sit amet Lorem ipsum dolor sit   amet Lorem ipsum dolor sit amet ”"
