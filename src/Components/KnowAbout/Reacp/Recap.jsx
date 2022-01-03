@@ -9,16 +9,15 @@ export const Recap = () => {
       </div>
       <div className="RecapData">
         <div className="Reacp-heading">
-        <img src={Recapbug} alt="Bugtrons" />
-        <a href="/helo">Know more</a>
+          <img src={Recapbug} alt="Bugtrons" />
+          <a href="/helo">Know more</a>
         </div>
         <div className="data">
           <div className="data-heading">
             <h1>BUGTRONS'</h1>
-            <div className="data-line">
-            </div>
+            {/* <div className="data-line"></div> */}
           </div>
-          <br />
+    
           <div className="content">
             <p>
               The BUGTRONS was a student-run contest, also organized with the

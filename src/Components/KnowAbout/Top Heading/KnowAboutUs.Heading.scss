@@ -1,33 +1,31 @@
 .KnowAboutUsHeading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    .Heading {
-        color: #56C596;
-        font-size: 2rem;
-        font-weight: bold;
-        padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .Heading {
+    color: #56c596;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+  }
+  .des {
+    color: #205072;
+    text-align: center;
+    padding: 2rem;
+  }
+  .Logo {
+    img {
+      height: 6rem;
     }
-    .des {
-        color: #205072;
-        text-align: center;
-        padding: 2rem;
-    }
-    .Logo {
-        img {
-            height: 6rem;
-        }
-    }
+  }
 }
-@media(max-width:768px) {
-
-    .KnowAboutUsHeading {
-        .Logo {
-            img {
-                height: 4.5rem;
-            }
-        }
-
+@media (max-width: 768px) {
+  .KnowAboutUsHeading {
+    .Logo {
+      img {
+        height: 4.5rem;
+      }
     }
+  }
 }
