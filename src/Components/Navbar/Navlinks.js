@@ -10,7 +10,7 @@ export default function Navlinks() {
         </Link>
       </li>
       <li>
-        <a className="nav-link scrollto" href="/#about">
+        <a className="nav-link scrollto" href="/about">
           About
         </a>
       </li>
