@@ -30,7 +30,7 @@ export const KnowAbout = () => {
         />
         <img src={lwc} alt="Learn With community" />
       </div>
-      <div className="Reacp-Bug">
+      <div className="Recap-Bug">
         <Recap />
       </div>
       <div className="Testimonials">

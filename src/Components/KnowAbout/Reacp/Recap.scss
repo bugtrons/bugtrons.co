@@ -24,9 +24,9 @@
         justify-content: center;
         align-items: center;
         .Reacp-heading {
-
+            padding-left: 5rem;
             img {
-                // padding-left: 2rem;
+                // padding-left: 1rem;
                 height: 15rem;
             }
             a {
@@ -47,6 +47,7 @@
         }
         .data {
             padding: 4rem;
+            
             .data-heading {
 
                 h1 {
@@ -89,28 +90,40 @@
 
         .RecapData {
             flex-direction: column;
-            height: 70rem;
+            height: 60rem;
             .Reacp-heading {
                 display: flex;
                 align-items: center;
                 flex-direction: column;
+                padding-bottom: 2rem;
+                padding-left: 0rem;
                 img {
                     padding-left: 0;
+                    margin-top:-2rem;
+                    margin-bottom: 1rem;
+                    
                 }
                 a {
                     width: 7rem;
                     margin-left: 0;
                     margin-top: 0;
                 }
-                .data {
-                    padding: 0;
-                    .data-heading {
-                        
-                        .data-line {
-                            margin-left: 8rem;
+            }
+            .data {
+                padding: 0 0.5rem;
+                .data-heading {
+                    
+                    .data-line {
+                        margin-left: 0.5rem;
 
 
-                        }
+                    }
+
+                }
+                .content {
+                    padding: 0  1.2rem;
+                    p {
+                        font-size: 0.8rem;
 
                     }
                 }
@@ -120,29 +133,36 @@
 
     }
 }
-@media (max-width:450px){
-    .Reacp {
-        .RecapData {
-            height: 70rem;
-            // width: 90%;
-        }
-        .content {
-            p {
-                font-size: 0.7rem;
-            }
-            h1 {
-                font-size:1rem ;
-            }
-        }
-        .data {
-            .data-heading {
-                h1 {
-                    font-size: 2rem;
-                }
-            }
-        }
-    }
-}
+// @media (max-width:450px){
+//     .Reacp {
+//         .RecapData {
+//             height: 60rem;
+         
+//             // width: 90%;
+//             .data {
+//                 padding: 0;
+//                 .data-heading {
+//                     h1 {
+//                         font-size: 2rem;
+//                     }
+//                     .data-line {
+//                         margin-left: 2rem;
+//                     }
+//                 }
+//             }
+//         }
+//         .content {
+        
+//             p {
+//                 font-size: 0.7rem;
+//             }
+//             h1 {
+//                 font-size:1rem ;
+//             }
+//         }
+        
+//     }
+// }
 @media (max-width:1024px){
     .Reacp {
         .RecapData {
@@ -150,35 +170,3 @@
         }
     }
 }
-
-    // @media(max-width:650px) {
-
-    //     .Recap {
-    //         .RecapData {
-
-    //             .data {
-
-    //                 .data-heading {
-    //                     .data-line {
-    //                         margin-left: 4.5rem;
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
-    // @media(max-width:550px) {
-
-    //     .Recap {
-    //         .RecapData {
-    //             .data {
-
-    //                 .data-heading {
-    //                     .data-line {
-    //                         margin-left: 2rem;
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
