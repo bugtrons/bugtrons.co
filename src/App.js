@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.scss";
 import Homepage from "./pages/Homepage";
+import { KnowAboutUs } from "./pages/KnowAboutUs";
 import Team from "./pages/Team";
 // import Leaderboard from "./pages/Leaderboard";
 
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="team" element={<Team />} />
         {/* <Route path="/swags" element={<Swags />} /> */}
+       <Route path='/KnowAboutUs' element={<KnowAboutUs/>}/>
         {/* <Route path="/leaderboard" element={<Leaderboard />} /> */}
       </Routes>
     </div>
