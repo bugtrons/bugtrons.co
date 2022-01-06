@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div className="d-flex buttons">
             <a
-              href="https://forms.gle/BW9w4BjwsrcmQrjj7"
+              href="/"
               rel="noopener noreferrer"
               target="_blank"
             >
