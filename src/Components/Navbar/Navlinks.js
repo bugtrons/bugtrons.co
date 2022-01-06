@@ -39,7 +39,7 @@ export default function Navlinks() {
       </li>
       <li>
         <a
-          href="https://forms.gle/BW9w4BjwsrcmQrjj7"
+          href="#"
           rel="noreferrer"
           target="_blank"
           className="nav-link scrollto"
