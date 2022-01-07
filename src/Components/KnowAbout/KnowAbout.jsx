@@ -3,6 +3,9 @@ import "./KnowAbout.scss";
 import { LogoDescription } from "./Logo descriptions/Logo.description";
 import { KnowAboutUsHeading } from "./Top Heading/KnowAboutUs.Heading";
 import devs from "./Logo descriptions/devs.png";
+import akshat from "./img/akshat.png"
+import divya from "./img/divya.png"
+import tushar from "./img/tushar.png"
 import lwc from "./Logo descriptions/Lwc.png";
 import { Recap } from "./Reacp/Recap";
 import { Testimonials } from "./Testimonials/Testimonials";
@@ -38,25 +41,25 @@ export const KnowAbout = () => {
           <span>Testimonials</span>
         </div>
         <div className="TestimonialsCard">
-          <Testimonials
-            profile={devs}
-            name="abca"
-            position="temp 1"
-            description="“ Lorem ipsum dolor sit amet Lorem ipsum dolor sit   amet Lorem ipsum dolor sit amet ”"
+        <Testimonials
+            profile={akshat}
+            name="Akshat Nema"
+            position="Winner"
+            description="“ It was really amazing to participate in Bugtrons. I learned a lot from this event, about Data Structures & Algorithms part as well as Dubugging. ”"
           />
           <br />
           <Testimonials
-            profile={devs}
-            name="abc"
-            position="temp 2"
-            description="“ Lorem ipsum dolor sit amet Lorem ipsum dolor sit   amet Lorem ipsum dolor sit amet ”"
+            profile={divya}
+            name="Divya Sri Darimisetti"
+            position="Runner Up"
+            description="“ It helped me recollecting my dsa skills and improved a bit of problem solving as well as debugging ”"
           />
           <br />
           <Testimonials
-            profile={devs}
-            name="aba"
-            position="temp 3"
-            description="“ Lorem ipsum dolor sit amet Lorem ipsum dolor sit   amet Lorem ipsum dolor sit amet ”"
+            profile={tushar}
+            name="Tushar Kuntawar"
+            position="Second Runner Up"
+            description="“ Very, very fun and reminded me I have to work on DSA ”"
           />
         </div>
       </div>
