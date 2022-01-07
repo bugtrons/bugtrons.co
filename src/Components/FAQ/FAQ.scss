@@ -15,7 +15,7 @@
   padding-right: 10%;
 }
 .faq-header {
-  button {
+  button:focus {
     box-shadow: none;
   }
 }
@@ -28,9 +28,13 @@
 }
 
 .accordion-button {
+  color: white;
   background: linear-gradient(
     92.26deg,
     rgba(25, 223, 128, 0.8) 13.03%,
     rgba(7, 196, 135, 0.8) 82.64%
   );
+}
+.accordion-body{
+  background-color: #E6FBE9;
 }
