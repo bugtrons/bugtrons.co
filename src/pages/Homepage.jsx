@@ -6,6 +6,7 @@ import Schedule from "../Components/Schedule/Schedule";
 // import Tobeannounced from "../Components/Tobeannounced/Tobeannounced";
 import { Sponsors } from "../Components/Sponsors/Sponsors";
 import Footer from "../Components/Footer/Footer";
+import Organizers from "../Components/Organizers/Organizers";
 
 function Homepage() {
   return (
@@ -16,6 +17,7 @@ function Homepage() {
       <Schedule />
       {/* <Tobeannounced /> */}
       <Sponsors />
+      <Organizers />
       <Footer />
     </div>
   );

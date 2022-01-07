@@ -10,20 +10,20 @@ export default function Navlinks() {
         </Link>
       </li>
       <li>
-        <a className="nav-link scrollto" href="/about">
+        <Link className="nav-link scrollto" to="/about">
           About
-        </a>
+        </Link>
       </li>
       <li>
         <a className="nav-link" href="/#schedule">
           Schedule
         </a>
       </li>
-      <li>
+      {/* <li>
         <a className="nav-link scrollto" href="/#leaderboard">
           Leaderboard
         </a>
-      </li>
+      </li> */}
       <li>
         <a className="nav-link scrollto" href="/#swags">
           Swag
