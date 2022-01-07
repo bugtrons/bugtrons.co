@@ -4,7 +4,15 @@ import Card from "./card";
 
 function Team() {
   return (
-    <div class="janta">
+    <div
+      class="janta"
+      data-aos="fade-in"
+      data-aos-offset="10"
+      data-aos-delay="0"
+      data-aos-duration="500"
+      data-aos-mirror="true"
+      data-aos-easing="ease-in-out"
+    >
       <h1>Team</h1>
       <div class="alig">
         <Card

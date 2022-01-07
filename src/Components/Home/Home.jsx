@@ -8,7 +8,7 @@ export default function Home() {
       data-aos="fade-in"
       data-aos-offset="10"
       data-aos-delay="0"
-      data-aos-duration="1000"
+      data-aos-duration="500"
       data-aos-mirror="true"
     >
       <div className="d-flex justify-content-evenly home">
@@ -25,11 +25,7 @@ export default function Home() {
             </p>
           </div>
           <div className="d-flex buttons">
-            <a
-              href="/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
+            <a href="/" rel="noopener noreferrer" target="_blank">
               <div className="btn">Register</div>
             </a>
             <a

@@ -20,7 +20,7 @@ function Homepage() {
       <Sponsors />
       <FAQ />
       <Organizers />
-      
+
       <Footer />
     </div>
   );

@@ -1,42 +1,40 @@
 .Organizer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    margin-top: 6rem;
-    h4{
-        font-style: normal;
-font-weight: bold;
-font-size:1.4rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .alignOrgs {
+    text-align: center;
+    img {
+      width: 23rem;
     }
-    p{
-        margin-top: 0;
-        margin-bottom: 1rem;
-        text-align: center;
-        
-    }
-    .alignOrgs{
-        text-align: center;
-        img{
-            width:23rem;
-        }
-    } 
+  }
 
-    .org{
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-    }
+  .org {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
 }
 
 @media (max-width: 991px) {
-.Organizer {
-    .alignOrgs{
-        img{
-            width:80%;
-        }
-    } 
-}
-
+  .Organizer {
+    .alignOrgs {
+      img {
+        width: 80%;
+      }
+    }
+  }
 }

@@ -4,7 +4,17 @@ import "./FAQ.scss";
 export default function FAQ() {
   return (
     <>
-      <div className="faq-head">FAQ</div>
+      <div
+        className="faq-head"
+        data-aos="fade-in"
+        data-aos-offset="10"
+        data-aos-delay="0"
+        data-aos-duration="500"
+        data-aos-mirror="true"
+        data-aos-easing="ease-in-out"
+      >
+        FAQ
+      </div>
       <Accordion className="faq-section" defaultActiveKey="0">
         <Accordion.Item className="faq-individual" eventKey="0">
           <Accordion.Header className="faq-header">

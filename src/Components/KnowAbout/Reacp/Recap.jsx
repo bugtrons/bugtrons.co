@@ -17,7 +17,7 @@ export const Recap = () => {
             <h1>BUGTRONS'</h1>
             {/* <div className="data-line"></div> */}
           </div>
-    
+
           <div className="content">
             <p>
               The BUGTRONS was a student-run contest, also organized with the

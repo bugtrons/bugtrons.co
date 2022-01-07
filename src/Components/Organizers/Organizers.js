@@ -6,7 +6,15 @@ import "./Organizers.scss";
 
 export default function Organizers() {
   return (
-    <div className="Organizer">
+    <div
+      className="Organizer"
+      data-aos="fade-in"
+      data-aos-offset="10"
+      data-aos-delay="0"
+      data-aos-duration="500"
+      data-aos-mirror="true"
+      data-aos-easing="ease-in-out"
+    >
       <h4>Organizers</h4>
       <p>BUGTRONS 2.0 is brought to you with the collaboration of</p>
       {/* <img src={Collaboration} alt="" /> */}

@@ -3,9 +3,9 @@ import "./KnowAbout.scss";
 import { LogoDescription } from "./Logo descriptions/Logo.description";
 import { KnowAboutUsHeading } from "./Top Heading/KnowAboutUs.Heading";
 import devs from "./Logo descriptions/devs.png";
-import akshat from "./img/akshat.png"
-import divya from "./img/divya.png"
-import tushar from "./img/tushar.png"
+import akshat from "./img/akshat.png";
+import divya from "./img/divya.png";
+import tushar from "./img/tushar.png";
 import lwc from "./Logo descriptions/Lwc.png";
 import { Recap } from "./Reacp/Recap";
 import { Testimonials } from "./Testimonials/Testimonials";
@@ -41,7 +41,7 @@ export const KnowAbout = () => {
           <span>Testimonials</span>
         </div>
         <div className="TestimonialsCard">
-        <Testimonials
+          <Testimonials
             profile={akshat}
             name="Akshat Nema"
             position="Winner"
