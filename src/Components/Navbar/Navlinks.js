@@ -39,7 +39,7 @@ export default function Navlinks() {
       </li>
       <li>
         <a
-          href="#"
+          href="/"
           rel="noreferrer"
           target="_blank"
           className="nav-link scrollto"
