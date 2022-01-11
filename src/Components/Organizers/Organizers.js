@@ -1,5 +1,6 @@
 import React from "react";
 // import Collaboration from "./Collaboration.png";
+// import Link from "react-router-dom";
 import Devstrons from "./images/devstrons2.png";
 import Lwc from "./images/Lwc.png";
 import "./Organizers.scss";
@@ -20,8 +21,12 @@ export default function Organizers() {
       {/* <img src={Collaboration} alt="" /> */}
       <div className="org">
         <div className="alignOrgs">
-          <img src={Devstrons} alt="" />
-          <img src={Lwc} alt="" />
+          <a href="https://discord.gg/DjfvKDswUz">
+            <img src={Devstrons} alt="" />
+          </a>
+          <a href="https://discord.gg/YDHFUGj2Xp">
+            <img src={Lwc} alt="" />
+          </a>
         </div>
       </div>
     </div>

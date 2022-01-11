@@ -19,7 +19,7 @@ const card = ({ img, name, position, github, twitter, gmail, linkedin }) => {
         </li>
         <li>
           <a href={gmail} aria-hidden="true">
-            <i className="fa fa-google-plus"></i>
+            <i class="fas fa-envelope"></i>
           </a>
         </li>
         <li>
