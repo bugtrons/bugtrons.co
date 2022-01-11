@@ -1,0 +1,24 @@
+import React from "react";
+import TechPhantoms from "./communityIco/TechPhantoms.png";
+import "./Communitypartners.scss";
+export default function Communitypartners() {
+  return (
+    <div className="communitypartners">
+      <h1>Community Partners</h1>
+      <div className="comp">
+        <div className="cont">
+          <img src={TechPhantoms} alt="" />
+        </div>
+        <div className="cont">
+          <img src={TechPhantoms} alt="" />
+        </div>
+        <div className="cont">
+          <img src={TechPhantoms} alt="" />
+        </div>
+        <div className="cont">
+          <img src={TechPhantoms} alt="" />
+        </div>
+      </div>
+    </div>
+  );
+}

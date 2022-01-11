@@ -2,15 +2,34 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Navlinks() {
+  const toggleClass = (id) => {
+    console.log(id);
+    const change = document.getElementById(id);
+    change.classList.toggle("active");
+  };
   return (
     <ul id="navlinks" className="navsh view">
       <li>
-        <Link className="nav-link scrollto active" to="/">
+        <Link
+          id="home"
+          className="nav-link scrollto"
+          to="/"
+          onClick={(e) => {
+            toggleClass("home");
+          }}
+        >
           Home
         </Link>
       </li>
       <li>
-        <Link className="nav-link scrollto" to="/about">
+        <Link
+          id="about"
+          className="nav-link scrollto"
+          to="/about"
+          onClick={(e) => {
+            toggleClass("about");
+          }}
+        >
           About
         </Link>
       </li>

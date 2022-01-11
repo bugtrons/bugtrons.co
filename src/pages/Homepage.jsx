@@ -8,6 +8,7 @@ import { Sponsors } from "../Components/Sponsors/Sponsors";
 import Footer from "../Components/Footer/Footer";
 import Organizers from "../Components/Organizers/Organizers";
 import FAQ from "../Components/FAQ/FAQ";
+import Communitypartners from "../Components/Communitypartners/Communitypartners";
 
 function Homepage() {
   return (
@@ -19,6 +20,7 @@ function Homepage() {
       {/* <Tobeannounced /> */}
       <Sponsors />
       <FAQ />
+      <Communitypartners></Communitypartners>
       <Organizers />
 
       <Footer />
