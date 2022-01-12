@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="center"><a href="https://www.bugtrons.co"> BUGTRONS </a></h1>
+  <h1 align="center">"<a href="https://www.bugtrons.co"> BUGTRONS </a>"</h1>
 </div>
 <div align="center">
   <h3 align="center"> Student-run collaboration contest ✨ </h3>
