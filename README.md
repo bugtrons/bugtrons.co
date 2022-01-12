@@ -17,7 +17,7 @@ Head over to <a href="https://dsc.gg/bugtrons" >discord</a>.
 
 <h2 align="center" style="font-weight:bold">🌈 Contributors</h2>
 <p align="center">
-We're thanking all the amazing cotributors for their time & efforts.
+"Alone we can do so little; together we can do so much."
 </p>
 <p align="center">
 <a href="https://github.com/devstrons/bugtrons.co/graphs/contributors">
