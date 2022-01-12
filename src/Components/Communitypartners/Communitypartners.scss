@@ -26,9 +26,14 @@
       overflow: hidden; 
       background: white;
       transition: all .5s ease;
+      width: 17.5rem;
      
       img {
-        width: 15rem;
+        height: 5rem;
+        .algo {
+          width: 8rem;
+          height: 5rem;
+        }
       }
     }
     .cont:hover {

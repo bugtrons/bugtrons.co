@@ -1,6 +1,7 @@
 import React from "react";
 import "./Team.scss";
 import Card from "./card";
+import Ashish from "./image/Ashish_Chawda.jpeg";
 
 function Team() {
   return (
@@ -77,6 +78,15 @@ function Team() {
           twitter="https://twitter.com/Harsha052001"
           linkedin="https://www.linkedin.com/in/harsha-sumanchandra/"
           gmail="mailto:harshamishra05@gmail.com"
+        />
+        <Card
+          name="Ashish Chawda"
+          img={Ashish}
+          position="Organizer"
+          github="https://github.com/pixan198/"
+          twitter="https://twitter.com/ashish11chawda/"
+          linkedin="https://www.linkedin.com/in/ashishchawda/"
+          gmail="mailto:ashish11chawda@gmail.com"
         />
       </div>
     </div>

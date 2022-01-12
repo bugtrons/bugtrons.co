@@ -1,5 +1,7 @@
 import React from "react";
 import TechPhantoms from "./communityIco/TechPhantoms.png";
+import Algorithms from "./communityIco/Algorithm.png";
+
 import "./Communitypartners.scss";
 export default function Communitypartners() {
   return (
@@ -10,7 +12,7 @@ export default function Communitypartners() {
           <img src={TechPhantoms} alt="" />
         </div>
         <div className="cont">
-          <img src={TechPhantoms} alt="" />
+          <img className="algo" src={Algorithms} alt="" />
         </div>
         <div className="cont">
           <img src={TechPhantoms} alt="" />
