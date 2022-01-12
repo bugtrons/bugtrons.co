@@ -1,6 +1,6 @@
 import React from "react";
 import TechPhantoms from "./communityIco/TechPhantoms.png";
-import Algorithms from "./communityIco/Algorithm.png";
+import Algorithms from "./communityIco/Algorithms.png";
 
 import "./Communitypartners.scss";
 export default function Communitypartners() {
