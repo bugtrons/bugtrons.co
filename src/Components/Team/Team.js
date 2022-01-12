@@ -1,7 +1,6 @@
 import React from "react";
 import "./Team.scss";
 import Card from "./card";
-import Ashish from "./image/Ashish_Chawda.jpeg";
 
 function Team() {
   return (
@@ -26,8 +25,8 @@ function Team() {
           twitter="https://twitter.com/iamyazreza"
         />
         <Card
-          name="Anshuman Kr Prasad"
-          img="https://amino19.github.io/online-resume/assets/img/mlhlhd.png"
+          name="Anshumaan Kr. Prasad"
+          img="https://avatars.githubusercontent.com/amino19"
           position="Organizer"
           github="https://github.com/amino19"
           linkedin="https://www.linkedin.com/in/amino19"
@@ -36,7 +35,7 @@ function Team() {
         />
         <Card
           name="Aditya Sahu"
-          img=" https://github.com/adityasahu252.png"
+          img="https://avatars.githubusercontent.com/adityasahu252"
           position="Organizer"
           twitter=" https://twitter.com/AdityaSahuDev"
           github="https://github.com/adityasahu252"
@@ -45,7 +44,7 @@ function Team() {
         />
         <Card
           name="Akshat Nema"
-          img="https://github.com/akshatnema.png"
+          img="https://avatars.githubusercontent.com/akshatnema"
           position="Organizer"
           twitter="https://twitter.com/AksNema"
           github="https://github.com/akshatnema"
@@ -63,16 +62,16 @@ function Team() {
         />
         <Card
           name="Priyanka Prasad"
-          img="https://avatars.githubusercontent.com/u/59612128?v=4"
+          img="https://avatars.githubusercontent.com/prykdev"
           position="Organizer"
           twitter="https://twitter.com/prykdev"
           github="https://github.com/prykdev"
           linkedin="https://www.linkedin.com/in/prykdev/"
-          gmail="mailto:akshatnema.school@gmail.com"
+          gmail="mailto:developer@priyankaprasad.co"
         />
         <Card
           name="Harsha Sumanchandra"
-          img="https://avatars.githubusercontent.com/u/72148261?v=4"
+          img="https://avatars.githubusercontent.com/Harsha200105"
           position="Organizer"
           github="https://github.com/Harsha200105"
           twitter="https://twitter.com/Harsha052001"
@@ -81,7 +80,7 @@ function Team() {
         />
         <Card
           name="Ashish Chawda"
-          img={Ashish}
+          img="https://avatars.githubusercontent.com/pixan198"
           position="Organizer"
           github="https://github.com/pixan198/"
           twitter="https://twitter.com/ashish11chawda/"
