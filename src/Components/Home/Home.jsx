@@ -29,7 +29,7 @@ export default function Home() {
               <div className="btn">Register</div>
             </a>
             <a
-              href="https://discord.gg/HR48UpZgP3"
+              href="https://dsc.gg/bugtrons"
               rel="noopener noreferrer"
               target="_blank"
             >
