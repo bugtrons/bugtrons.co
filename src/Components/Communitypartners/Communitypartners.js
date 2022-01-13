@@ -1,6 +1,7 @@
 import React from "react";
 import TechPhantoms from "./communityIco/TechPhantoms.png";
 import Algorithms from "./communityIco/Algorithms.png";
+import KubeDaily from "./communityIco/KubeDaily.png";
 
 import "./Communitypartners.scss";
 export default function Communitypartners() {
@@ -12,10 +13,10 @@ export default function Communitypartners() {
           <img src={TechPhantoms} alt="" />
         </div>
         <div className="cont">
-          <img className="algo" src={Algorithms} alt="" />
+          <img src={KubeDaily} alt="" />
         </div>
         <div className="cont">
-          <img src={TechPhantoms} alt="" />
+          <img className="algo" src={Algorithms} alt="" />
         </div>
         <div className="cont">
           <img src={TechPhantoms} alt="" />
