@@ -19,10 +19,8 @@
     .camp {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      width: fit-content;
       .camptext {
-        max-width: 20rem;
         text-align: center;
         a {
           text-decoration: none;
