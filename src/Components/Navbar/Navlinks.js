@@ -44,9 +44,9 @@ export default function Navlinks() {
         </a>
       </li> */}
       <li>
-        <a className="nav-link scrollto" href="/#swags">
+        <Link className="nav-link scrollto" to="/swags">
           Swag
-        </a>
+        </Link>
       </li>
       <li>
         <a href="/#sponsor">Sponsors</a>
