@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.aboutus{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.aboutus-head{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #419873;
+    font-weight: bold;
+    text-align: center;
+}
+
+.aboutus-text{
+    padding-top: 4rem;    
+}
