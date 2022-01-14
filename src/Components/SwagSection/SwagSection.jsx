@@ -5,6 +5,8 @@ import SwagCard from '../SwagCard/SwagCard'
 function SwagSection({title,data}) {
     return (
         <div className="swag-section">
+            <div className="line"> 
+            </div>
             <div className="title">
                  {title}
             </div>

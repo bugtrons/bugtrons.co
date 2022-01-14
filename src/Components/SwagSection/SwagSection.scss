@@ -38,8 +38,15 @@
     width: 80%;
     margin: auto;
     margin-top: 3rem;
+    .line{
+        position: relative;
+        border-bottom: 2px solid rgba(55,207,156,1);
+        z-index: -1;
+        top: 3vh;
+        width: 100%;
+    }
     .title{
-      width: 30%;
+      width: 40%;
       text-align: center;
       background:linear-gradient(90deg, rgba(55,207,156,1) 0%, rgba(160,232,197,1) 100%);
       color: white;
@@ -47,12 +54,17 @@
       margin: auto;
       border-radius: 10px;
       font-weight: bold;
-      min-width: 40vh;
+      z-index: 100;
     }
     .cards{
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+    @media (max-width:992px){
+        .title{
+            width: 80%;
+        }
     }
 }

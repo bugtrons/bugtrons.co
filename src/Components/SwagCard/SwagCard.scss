@@ -2,7 +2,7 @@
     background-color: white;
     width: 30%;
     border-radius:20px;
-    margin:0rem 1rem;
+    margin:0rem 1vh;
     margin-top: 2rem;
     border-bottom: 4px solid #19DF78;
     padding: 0.5rem;
@@ -29,9 +29,8 @@
 }
 
 
-@media (max-width: 992px){
+@media (max-width: 500px){
     .swagCard{
         width: 100%;
     }    
-    
 }
