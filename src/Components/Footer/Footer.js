@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.scss";
 import logo from "./logov_2.png";
+import {Link} from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -27,15 +28,17 @@ export default function Footer() {
                   <h4>About Us</h4>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="/">Bugstrons</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <a href="/team">Know the team</a>
+                      <Link to="/team">Meet the team</Link>
                     </li>
                     <li>
-                      <a href="https://github.com/devstrons/bugtrons-2/blob/main/CODE_OF_CONDUCT.md">
-                        Code of conduct
-                      </a>
+                      <Link to="https://github.com/devstrons/bugtrons-2/blob/main/CODE_OF_CONDUCT.md"
+                                      target="_blank"
+                                      rel="noreferrer">
+                        Code of Conduct
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -46,13 +49,13 @@ export default function Footer() {
                   <h4>Explore</h4>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="www.google.com">Sponsors</a>
+                      <Link to="#sponsor">Sponsors</Link>
                     </li>
                     <li>
-                      <a href="www.google.com">Prizes</a>
+                      <a href="https://bugtrons.co/swags">Prizes</a>
                     </li>
                     <li>
-                      <a href="www.google.com">Schedule</a>
+                      <Link to="#schedule">Schedule</Link>
                     </li>
                   </ul>
                 </div>
@@ -62,7 +65,7 @@ export default function Footer() {
                 <ul class="social-network social-circle">
                   <li>
                     <a
-                      href="www.google.com"
+                      href="https://dsc.gg/bugtrons"
                       class="icoFacebook"
                       title="Discord"
                     >
@@ -70,17 +73,17 @@ export default function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a href="www.google.com" class="icoYoutube" title="Youtube">
+                    <a href="https://www.youtube.com/channel/UCG7JT7yqut81fqFsVBX6oMg" class="icoYoutube" title="YouTube">
                       <i class="fab fa-youtube"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="www.google.com" class="icoGithub" title="Github">
+                    <a href="https://github.com/bugtrons" class="icoGithub" title="GitHub">
                       <i class="fab fa-github"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="www.google.com" class="icoEmail" title="Email">
+                    <a href="mailto:the-devstrons@outlook.com" class="icoEmail" title="Email">
                       <i class="far fa-envelope"></i>
                     </a>
                   </li>
