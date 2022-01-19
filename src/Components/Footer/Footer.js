@@ -6,11 +6,11 @@ export default function Footer() {
   return (
     <div
       data-aos="fade-in"
-      data-aos-offset="10"
+      data-aos-offset="100"
       data-aos-delay="0"
       data-aos-duration="500"
       data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
+      data-aos-mirror="false"
     >
       <footer className="mainfooter" role="contentinfo">
         <div class="footer-middle">
