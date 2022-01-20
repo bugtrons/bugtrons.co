@@ -1,12 +1,13 @@
 import React from 'react'
 import "./AboutUs.scss";
+import logo from "./logo.png"
 
 export default function AboutUs() {
     return (
-        <>
+        <div className="aminos">
             <div className="aboutus-head">About Us</div>
             <div className="aboutus">
-            <img src="https://raw.githubusercontent.com/devstrons/artwork/master/Stock%20assets/GIF/Waving-Devstrons-GIF.gif" width="480" height="360" alt="Devstrons GIF" />
+            <img src={logo} alt="Bugtrons" />
                 <div className="aboutus-text">
                     <p>
                         BUGTRONS began with a mindset of encouraging community folks and make them aware of the Ed-tech industry by putting emphasis on problem-solving, code efficiency, code optimization, and logic-based programming. We empower hackers to get influenced by developing software, enhancing skills, solving bugs & producing opportunities.
@@ -17,6 +18,6 @@ export default function AboutUs() {
                     </p>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
