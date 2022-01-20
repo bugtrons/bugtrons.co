@@ -34,11 +34,11 @@ export default function Footer() {
                       <Link to="/team">Meet the team</Link>
                     </li>
                     <li>
-                      <Link to="https://github.com/devstrons/bugtrons-2/blob/main/CODE_OF_CONDUCT.md"
+                      <a href="https://github.com/devstrons/bugtrons-2/blob/main/CODE_OF_CONDUCT.md"
                                       target="_blank"
-                                      rel="noreferrer">
+                                      rel="noreferrer noopener">
                         Code of Conduct
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -49,13 +49,13 @@ export default function Footer() {
                   <h4>Explore</h4>
                   <ul class="list-unstyled">
                     <li>
-                      <Link to="#sponsor">Sponsors</Link>
+                      <a href="/#sponsor">Sponsors</a>
                     </li>
                     <li>
-                      <a href="https://bugtrons.co/swags">Prizes</a>
+                      <Link to="/swags">Prizes</Link>
                     </li>
                     <li>
-                      <Link to="#schedule">Schedule</Link>
+                      <a href="/#schedule">Schedule</a>
                     </li>
                   </ul>
                 </div>
@@ -68,17 +68,19 @@ export default function Footer() {
                       href="https://dsc.gg/bugtrons"
                       class="icoFacebook"
                       title="Discord"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i class="fab fa-discord"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/channel/UCG7JT7yqut81fqFsVBX6oMg" class="icoYoutube" title="YouTube">
+                    <a href="https://www.youtube.com/channel/UCG7JT7yqut81fqFsVBX6oMg" target="_blank" rel="noreferrer noopener" class="icoYoutube" title="YouTube">
                       <i class="fab fa-youtube"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/bugtrons" class="icoGithub" title="GitHub">
+                    <a href="https://github.com/bugtrons" target="_blank" rel="noreferrer noopener" class="icoGithub" title="GitHub">
                       <i class="fab fa-github"></i>
                     </a>
                   </li>

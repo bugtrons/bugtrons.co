@@ -9,7 +9,8 @@ export default function Home() {
       data-aos-offset="10"
       data-aos-delay="0"
       data-aos-duration="500"
-      data-aos-mirror="true"
+      data-aos-mirror="false"
+      id="home"
     >
       <div className="d-flex justify-content-evenly home">
         <div className="head">
