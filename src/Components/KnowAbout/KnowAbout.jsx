@@ -7,7 +7,7 @@ import akshat from "./img/akshat.png";
 import divya from "./img/divya.png";
 import tushar from "./img/tushar.png";
 import lwc from "./Logo descriptions/Lwc.png";
-import { Recap } from "./Reacp/Recap";
+import { Recap } from "./Recap/Recap";
 import { Testimonials } from "./Testimonials/Testimonials";
 export const KnowAbout = () => {
   return (

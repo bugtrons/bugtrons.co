@@ -5,7 +5,7 @@ export const Recap = () => {
   return (
     <div className="Recap">
       <div className="Heading">
-        <span>Recap of BUGTRONS</span>
+        <span>Glimpse of Past Season</span>
       </div>
       <div className="RecapData">
         <div className="Reacp-heading">
