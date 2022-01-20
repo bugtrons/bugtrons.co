@@ -9,7 +9,8 @@ export default function Home() {
       data-aos-offset="10"
       data-aos-delay="0"
       data-aos-duration="500"
-      data-aos-mirror="true"
+      data-aos-mirror="false"
+      id="home"
     >
       <div className="d-flex justify-content-evenly home">
         <div className="head">
@@ -24,17 +25,24 @@ export default function Home() {
               <strong>Learn With Community</strong>
             </p>
           </div>
-          <div className="d-flex buttons">
-            <a href="/" rel="noopener noreferrer" target="_blank">
-              <div className="btn">Register</div>
-            </a>
-            <a
-              href="https://dsc.gg/bugtrons"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <div className="btn">Join Discord</div>
-            </a>
+          <div className="camp">
+            <div className="d-flex buttons">
+              <a href="https://prepinstaprime.typeform.com/bugtrons2022" rel="noopener noreferrer" target="_blank">
+                <div className="btn">Register here</div>
+              </a>
+              <a
+                href="https://dsc.gg/bugtrons"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div className="btn">Join Discord</div>
+              </a>
+            </div>
+            <div className="camptext">
+              <a href="https://prepinstaprime.typeform.com/BugtronsCAP">
+                <p>Become a volunteer for our event</p>
+              </a>
+            </div>
           </div>
         </div>
         <div className="image">

@@ -44,9 +44,9 @@ export default function Navlinks() {
         </a>
       </li> */}
       <li>
-        <a className="nav-link scrollto" href="/#swags">
+        <Link className="nav-link scrollto" to="/swags">
           Swag
-        </a>
+        </Link>
       </li>
       <li>
         <a href="/#sponsor">Sponsors</a>
@@ -58,7 +58,7 @@ export default function Navlinks() {
       </li>
       <li>
         <a
-          href="/"
+          href="https://prepinstaprime.typeform.com/bugtrons2022"
           rel="noreferrer"
           target="_blank"
           className="nav-link scrollto"

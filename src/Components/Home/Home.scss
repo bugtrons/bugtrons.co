@@ -16,6 +16,21 @@
       color: #419873;
       font-weight: bold;
     }
+    .camp {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      .camptext {
+        text-align: center;
+        a {
+          text-decoration: none;
+          color: inherit;
+          p:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
     .subtitle {
       font-family: "Comfortaa", sans-serif;
       font-size: 4.5vh;
@@ -79,5 +94,14 @@
   @media (max-width: 992px) {
     flex-flow: column-reverse;
     text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .home {
+    .head {
+      .camp {
+        margin: auto;
+      }
+    }
   }
 }

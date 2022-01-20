@@ -1,0 +1,36 @@
+.swagCard{
+    background-color: white;
+    width: 30%;
+    border-radius:20px;
+    margin:0rem 1vh;
+    margin-top: 2rem;
+    border-bottom: 4px solid #19DF78;
+    padding: 0.5rem;
+    .swag-img{
+        background-color: rgb(194, 192, 192);
+        object-fit: cover;
+        border-radius: 20px;
+        img{
+            max-height: 25vh;
+        }
+    }
+    .swag-description{
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        color: #205072;
+    }
+
+}
+.swagCard:hover{
+    margin-top: 1.8rem;
+    margin-bottom: 0.2rem;
+    transform: scale(1.01);
+}
+
+
+@media (max-width: 500px){
+    .swagCard{
+        width: 100%;
+    }    
+}
