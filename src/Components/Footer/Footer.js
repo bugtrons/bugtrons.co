@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.scss";
 import logo from "./logov_2.png";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -34,9 +34,11 @@ export default function Footer() {
                       <Link to="/team">Meet the team</Link>
                     </li>
                     <li>
-                      <a href="https://github.com/devstrons/bugtrons-2/blob/main/CODE_OF_CONDUCT.md"
-                                      target="_blank"
-                                      rel="noreferrer noopener">
+                      <a
+                        href="https://github.com/devstrons/bugtrons-2/blob/main/CODE_OF_CONDUCT.md"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
                         Code of Conduct
                       </a>
                     </li>
@@ -75,17 +77,33 @@ export default function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/channel/UCG7JT7yqut81fqFsVBX6oMg" target="_blank" rel="noreferrer noopener" class="icoYoutube" title="YouTube">
+                    <a
+                      href="https://www.youtube.com/channel/UCG7JT7yqut81fqFsVBX6oMg"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="icoYoutube"
+                      title="YouTube"
+                    >
                       <i class="fab fa-youtube"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/bugtrons" target="_blank" rel="noreferrer noopener" class="icoGithub" title="GitHub">
+                    <a
+                      href="https://github.com/bugtrons"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="icoGithub"
+                      title="GitHub"
+                    >
                       <i class="fab fa-github"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="mailto:the-devstrons@outlook.com" class="icoEmail" title="Email">
+                    <a
+                      href="mailto:the-devstrons@outlook.com"
+                      class="icoEmail"
+                      title="Email"
+                    >
                       <i class="far fa-envelope"></i>
                     </a>
                   </li>

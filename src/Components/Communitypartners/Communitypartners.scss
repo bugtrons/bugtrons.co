@@ -15,7 +15,7 @@
   .comp {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 2rem;
     .cont {
       background-color: white;

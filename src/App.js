@@ -4,7 +4,7 @@ import "./App.scss";
 import Homepage from "./pages/Homepage";
 import { KnowAboutUs } from "./pages/KnowAboutUs";
 import Team from "./pages/Team";
-import Swags from "./pages/Swags"
+import Swags from "./pages/Swags";
 // import Leaderboard from "./pages/Leaderboard";
 
 function App() {

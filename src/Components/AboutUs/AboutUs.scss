@@ -1,34 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-.aminos{
-    .aboutus{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 3vh 5vh;
+.aminos {
+  .aboutus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3vh 5vh;
+  }
+
+  .aboutus-head {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #419873;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .aboutus-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2vh;
+    width: 70%;
+    margin: auto 0;
+  }
+  @media (max-width: 992px) {
+    .aboutus {
+      display: block;
+      text-align: center;
     }
-    
-    .aboutus-head{
-        font-family: "Montserrat", sans-serif;
-        font-size: 2.5rem;
-        color: #419873;
-        font-weight: bold;
-        text-align: center;
+    .aboutus-text {
+      width: 100%;
+      margin: 4vh auto;
     }
-    
-    .aboutus-text{
-        font-family: "Montserrat", sans-serif;
-        font-size: 2.2vh;  
-        width: 70%;
-        margin: auto 0;
-    } 
-    @media (max-width: 992px){
-      .aboutus{
-        display:block;
-        text-align: center;
-      }
-      .aboutus-text{
-          width:100%;
-          margin: 4vh auto;
-      }
-    }   
+  }
 }
