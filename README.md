@@ -8,11 +8,10 @@
     <img width="20%" src="/public/logo192.png">
 </p>
 
-
 <h2 align="center" style="font-weight:bold">🤝 Community</h2>
 <p align="center">
-Willing to connect with us? 
-Head over to <a href="https://dsc.gg/bugtrons" >discord</a>.
+Willing to connect with us?
+Head over to our <a href="https://dsc.gg/bugtrons">Discord</a>.
 </p>
 
 <h2 align="center" style="font-weight:bold">🌈 Contributors</h2>
