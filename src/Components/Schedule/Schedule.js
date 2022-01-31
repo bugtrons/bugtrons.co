@@ -16,11 +16,11 @@ export default function Schedule() {
       <div className="schedule">
         <div className="schedule-head">Schedule</div>
         <Tabs
-          defaultActiveKey="Day1"
+          defaultActiveKey="Mar3"
           id="uncontrolled-tab-example"
           className="mb-3 tabs"
         >
-          <Tab eventKey="Day1" title="Day 1" classname="mb-3 tab">
+          <Tab eventKey="Mar3" title="Mar 3" classname="mb-3 tab">
             <table class="table table-hover table-bordered text-center">
               <thead>
                 <tr>
@@ -56,7 +56,7 @@ export default function Schedule() {
               </tbody>
             </table>
           </Tab>
-          <Tab eventKey="Day2" title="Day2">
+          <Tab eventKey="Mar4" title="Mar 4">
             <table class="table table-hover table-bordered text-center">
               <thead>
                 <tr>
@@ -90,7 +90,7 @@ export default function Schedule() {
               </tbody>
             </table>
           </Tab>
-          <Tab eventKey="Day3" title="Day3">
+          <Tab eventKey="Mar5" title="Mar 5">
             <table class="table table-hover table-bordered text-center">
               <thead>
                 <tr>
