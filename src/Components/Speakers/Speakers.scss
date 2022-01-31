@@ -1,0 +1,17 @@
+.speakers {
+  .alig {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .speakers-head {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #419873;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
