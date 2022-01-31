@@ -2,6 +2,8 @@ import React from "react";
 import TechPhantoms from "./communityIco/TechPhantoms.png";
 import Algorithms from "./communityIco/Algorithms.png";
 import KubeDaily from "./communityIco/KubeDaily.png";
+import Ymoi from "./communityIco/YMOI.png";
+import Htl from "./communityIco/HTL.png";
 
 import "./Communitypartners.scss";
 export default function Communitypartners() {
@@ -27,7 +29,10 @@ export default function Communitypartners() {
             <img className="algo" src={Algorithms} alt="" />
           </div>
           <div className="cont">
-            <img src={TechPhantoms} alt="" />
+            <img className="ymoi" src={Ymoi} alt="" />
+          </div>
+          <div className="cont">
+            <img className="htl" src={Htl} alt="" />
           </div>
         </div>
       </div>

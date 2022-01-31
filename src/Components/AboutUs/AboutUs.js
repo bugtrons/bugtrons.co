@@ -26,7 +26,7 @@ export default function AboutUs() {
         </div>
       </div>
       <Link to="/about">
-        <div className="btn">Knowmore</div>
+        <div className="btn">Know More ➤</div>
       </Link>
     </div>
   );

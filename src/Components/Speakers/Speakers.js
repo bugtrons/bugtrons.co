@@ -3,6 +3,7 @@ import Card from "../Team/card";
 import anisha from "./pic/anisha.jpg";
 import rishika from "./pic/rishika.jpg";
 import smile from "./pic/smile.jpg";
+import { Link } from "react-router-dom";
 
 import "./Speakers.scss";
 export default function Speakers() {
@@ -38,6 +39,9 @@ export default function Speakers() {
           twitter="https://twitter.com/smileguptaaa"
         />
       </div>
+      <Link to="/connect">
+        <div className="btn">Know More ➤</div>
+      </Link>
     </div>
   );
 }
