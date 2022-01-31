@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutUs.scss";
 import logo from "./logo.png";
-
+import { Link } from "react-router-dom";
 export default function AboutUs() {
   return (
     <div className="aminos">
@@ -25,6 +25,9 @@ export default function AboutUs() {
           </p>
         </div>
       </div>
+      <Link to="/about">
+        <div className="btn">Knowmore</div>
+      </Link>
     </div>
   );
 }
