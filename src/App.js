@@ -6,6 +6,7 @@ import { KnowAboutUs } from "./pages/KnowAboutUs";
 import Team from "./pages/Team";
 import Swags from "./pages/Swags";
 // import Leaderboard from "./pages/Leaderboard";
+import Bugtronscon from "./pages/Bugtronscon";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="team" element={<Team />} />
         <Route path="swags" element={<Swags />} />
         <Route path="about" element={<KnowAboutUs />} />
+        <Route path="bugtrons" element={<Bugtronscon />} />
         {/* <Route path="/leaderboard" element={<Leaderboard />} /> */}
       </Routes>
     </div>
