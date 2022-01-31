@@ -16,7 +16,7 @@ function App() {
         <Route path="team" element={<Team />} />
         <Route path="swags" element={<Swags />} />
         <Route path="about" element={<KnowAboutUs />} />
-        <Route path="bugtrons" element={<Bugtronscon />} />
+        <Route path="connect" element={<Bugtronscon />} />
         {/* <Route path="/leaderboard" element={<Leaderboard />} /> */}
       </Routes>
     </div>
