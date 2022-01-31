@@ -10,6 +10,7 @@ import Organizers from "../Components/Organizers/Organizers";
 import FAQ from "../Components/FAQ/FAQ";
 import AboutUs from "../Components/AboutUs/AboutUs";
 import Communitypartners from "../Components/Communitypartners/Communitypartners";
+// import Speakers from "../Components/Speakers/Speakers";
 
 function Homepage() {
   return (
@@ -21,10 +22,10 @@ function Homepage() {
       <Schedule />
       {/* <Tobeannounced /> */}
       <Sponsors />
-      <FAQ />
+      {/* <Speakers /> */}
       <Communitypartners></Communitypartners>
+      <FAQ />
       <Organizers />
-
       <Footer />
     </div>
   );
