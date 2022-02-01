@@ -20,7 +20,7 @@ export default function Conference() {
           <tr>
               <td>Google Summer of Code with TensorFlow </td>
               <td>Shivay Lamba</td> 
-              <td>1 Feburary, 7:30 PM</td>
+              <td>2 Feburary, 4 PM</td>
           </tr>
           <tr>
               <td>Let's flutter with Himanshu</td>

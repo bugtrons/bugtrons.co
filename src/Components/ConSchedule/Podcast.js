@@ -44,7 +44,7 @@ export default function Podcast() {
         </tr>
         <tr>
           <td>Explore the Cyber World</td>
-          <td>Rahul Gulia</td>
+          <td>Saksham Choudhary</td>
           <td>25 Feburary, 7 PM</td>
         </tr>
       </tbody>
