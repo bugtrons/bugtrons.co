@@ -23,14 +23,14 @@ export default function Conference() {
               <td>1 Feburary, 7:30 PM</td>
           </tr>
           <tr>
-              <td>Let’s flutter with Himanshu</td>
+              <td>Let's flutter with Himanshu</td>
               <td>Himanshu Sharma</td> 
               <td>3 Feburary, 6 PM</td>
           </tr>
           <tr>
               <td>The Surprising Power of Remote Work</td>
               <td>Santosh Yadav</td> 
-              <td>2 Feburary, 8:30 PM</td>
+              <td>5 Feburary, 8:30 PM</td>
           </tr>
           <tr>
               <td>Developer Portfolio - NextJS, Storyblok and Postman</td>
