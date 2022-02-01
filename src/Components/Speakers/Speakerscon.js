@@ -14,11 +14,10 @@ import "./Speakers.scss";
 export default function Speakers() {
   return (
     <div className="speakers">
-      <h1 className="speakers-head">Speakers</h1>
       <h1 className="speakers-head">Speakers for Conference</h1>
       <div class="alig">
         <Card
-          name="Shiv Soham"
+          name="Siv Souvam"
           img={shiv}
           position="DevRel @ Microsoft Edge"
           github="https://github.com/sivsouvam/"

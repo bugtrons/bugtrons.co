@@ -5,6 +5,7 @@
         justify-content: center;
       .bugtrons{
         width: 40%;
+        min-width: 40vh;
       }  
       
     }
@@ -14,10 +15,9 @@
     width: 80%;
     margin: auto;
     padding-top: 5rem;
-
     .head{
         color: #419873;
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: bold;
         font-style: normal;
         text-align: center;
@@ -46,7 +46,6 @@
         }
       }
     table {
-        width: fit-content;
         border: 2px solid #419873;
         thead {
           color: #3cc99a;
@@ -61,4 +60,9 @@
           }
         }
       }
+    @media(max-width: 900px){
+      table{
+        font-size: 1.5vh;
+      }
+    }  
 }
