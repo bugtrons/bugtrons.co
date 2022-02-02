@@ -1,0 +1,68 @@
+.bugtronscon{
+    .head1{
+        padding-top: 7rem;
+        display:flex;
+        justify-content: center;
+      .bugtrons{
+        width: 40%;
+        min-width: 40vh;
+      }  
+      
+    }
+}
+
+.conschedule{
+    width: 80%;
+    margin: auto;
+    padding-top: 5rem;
+    .head{
+        color: #419873;
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-style: normal;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 1rem;
+    }
+    .tabs {
+        //  border-bottom: 1px solid #3ED19F;
+        button {
+          color: #3ed19f;
+          font-size: 1.2rem;
+          font-weight: bold;
+          background-color: #e7fae9;
+          // border: 3px solid #3ED19F;
+          border-radius: 5px 5px 0px 0px;
+          padding: 0.3rem 1.3rem;
+          // margin-left: 5px;
+          // margin-right: 5px;
+          margin-bottom: 0px;
+        }
+        .nav-link.active,
+        .nav-link:hover {
+          background-color: #3ed19f;
+          // border: 3px solid #3ED19F;
+          color: white;
+        }
+      }
+    table {
+        border: 2px solid #419873;
+        thead {
+          color: #3cc99a;
+          border: 2px solid #419873;
+        }
+        tbody {
+          color: #1d4a6b !important;
+          font-weight: 500;
+          tr:hover {
+            background-color: #d4ffd9;
+            color: #1d4a6b !important;
+          }
+        }
+      }
+    @media(max-width: 900px){
+      table{
+        font-size: 1.5vh;
+      }
+    }  
+}
