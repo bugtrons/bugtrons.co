@@ -4,6 +4,7 @@ import Algorithms from "./communityIco/Algorithms.png";
 import KubeDaily from "./communityIco/KubeDaily.png";
 import Ymoi from "./communityIco/YMOI.png";
 import Htl from "./communityIco/HTL.png";
+import hack from "./communityIco/hackclub.png";
 
 import "./Communitypartners.scss";
 export default function Communitypartners() {
@@ -29,10 +30,13 @@ export default function Communitypartners() {
             <img className="algo" src={Algorithms} alt="" />
           </div>
           <div className="cont">
-            <img className="ymoi" src={Ymoi} alt="" />
+            <img className="ymoi" src={Ymoi} alt="" style={{height:'5rem', width:'5rem'}} />
           </div>
           <div className="cont">
             <img className="htl" src={Htl} alt="" />
+          </div>
+          <div className="cont">
+            <img className="htl" src={hack} alt="" />
           </div>
         </div>
       </div>

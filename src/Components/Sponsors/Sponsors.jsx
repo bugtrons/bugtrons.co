@@ -3,7 +3,7 @@ import "./Sponsors.scss";
 import { SponsorClass } from "./sponsorClass/sponsor.class";
 import { SponsorLogo } from "./sponsorLogo/sponsor.logo";
 import prepinsta from "./sponsorLogo/prepinsta.png";
-import hackclub from "./sponsorLogo/hackclub.png";
+
 export const Sponsors = () => {
   return (
     <div
@@ -23,12 +23,12 @@ export const Sponsors = () => {
             <SponsorLogo image={prepinsta} height="100vw" />
           </div>
         </div>
-        <div className="Gold">
+        {/* <div className="Gold">
           <SponsorClass sclass="Gold" />
           <div className="Gold-logo">
-            <SponsorLogo image={hackclub} height="100vw" />
+            
           </div>
-        </div>
+        </div> */}
         {/* <div className="Sliver">
         <SponsorClass sclass="Sliver"/>
         <div className="Silver-logo">

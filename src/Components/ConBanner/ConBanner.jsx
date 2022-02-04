@@ -1,5 +1,7 @@
 import React from "react";
 import opensource from "./banner/open_source.png";
+import flutter from "./banner/flutter.png"
+import remote from "./banner/remote.png"
 import "./conbanner.scss"
 
 export default function ConBanner() {
@@ -40,10 +42,10 @@ export default function ConBanner() {
             <img src={opensource} class="d-block banner" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src={opensource} class="d-block banner" alt="..." />
+            <img src={flutter} class="d-block banner" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src={opensource} class="d-block banner" alt="..." />
+            <img src={remote} class="d-block banner" alt="..." />
           </div>
         </div>
         <button
