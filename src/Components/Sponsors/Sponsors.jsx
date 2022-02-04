@@ -20,7 +20,10 @@ export const Sponsors = () => {
         <div className="Diamond">
           <SponsorClass sclass="Diamond" />
           <div className="Diamond-logo">
-            <SponsorLogo image={prepinsta} height="100vw" />
+            <a href= "https://prepinsta.com">
+              <SponsorLogo image={prepinsta} height="100vw" />
+            </a>
+            
           </div>
         </div>
         {/* <div className="Gold">

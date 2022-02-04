@@ -21,10 +21,10 @@ export default function Organizers() {
       {/* <img src={Collaboration} alt="" /> */}
       <div className="org">
         <div className="alignOrgs">
-          <a href="https://discord.gg/DjfvKDswUz">
+          <a href="https://dsc.gg/devstrons">
             <img src={Devstrons} alt="" />
           </a>
-          <a href="https://discord.gg/YDHFUGj2Xp">
+          <a href="https://dsc.gg/learnwithcommunity">
             <img src={Lwc} alt="" />
           </a>
         </div>
