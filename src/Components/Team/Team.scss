@@ -27,6 +27,8 @@
   img {
     width: 10rem;
     border-radius: 50%;
+    object-fit: contain;
+    height: 10rem;
   }
   p {
     font-size: 1.3rem;
