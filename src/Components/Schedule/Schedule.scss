@@ -4,6 +4,19 @@
   width: 80%;
   margin: auto;
   padding-top: 5rem;
+  .context {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    p {
+      color: black;
+      &:hover {
+        text-decoration: underline;
+        color: black;
+      }
+    }
+  }
+
   .schedule-head {
     font-family: "Montserrat", sans-serif;
     font-size: 2.5rem;

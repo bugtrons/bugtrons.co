@@ -5,9 +5,6 @@ import rahul from "./pic/rahul.jpg";
 import aditya from "./pic/aditya.jpg";
 import Lakshit from "./pic/Lakshit.jpg";
 import surabh from "./pic/surabh.jpg";
-import praveen from "./pic/praveen.jpg";
-import sangam from "./pic/Sangam.jpg";
-import santosh from "./pic/santosh.jpg";
 
 import "./Speakers.scss";
 export default function Speakers() {
@@ -18,7 +15,7 @@ export default function Speakers() {
         <Card
           name="saksham"
           img={saksham}
-          position="DevRel @ Microsoft Edge"
+          position="Founder @ The Cyber Council"
           github="https://github.com/sivsouvam/"
           linkedin="https://www.linkedin.com/in/sivsouvam/"
           gmail="mailto:v-sbachu@microsoft.com"

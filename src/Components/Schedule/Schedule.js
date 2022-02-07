@@ -1,6 +1,7 @@
 import React from "react";
 import { Tabs, Tab } from "react-bootstrap";
 import "./Schedule.scss";
+import { Link } from "react-router-dom";
 
 export default function Schedule() {
   return (
@@ -15,6 +16,11 @@ export default function Schedule() {
     >
       <div className="schedule">
         <div className="schedule-head">Schedule</div>
+        <div className="context">
+          <Link to="/connect">
+            <p>Click to see our pre event page</p>
+          </Link>
+        </div>
         <Tabs
           defaultActiveKey="Mar3"
           id="uncontrolled-tab-example"
