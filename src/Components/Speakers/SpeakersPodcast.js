@@ -27,11 +27,11 @@ export default function Speakers() {
         <Card
           name="Rahul Gulia"
           img={rahul}
-          position="Podcast Speaker"
-          github="https://github.com/shivaylamba"
-          linkedin="https://www.linkedin.com/in/shivaylamba/"
-          gmail="mailto:shivaylamba@gmail.com"
-          twitter="https://twitter.com/howdevelop"
+          position="CV Intern @Wobot.ai"
+          github="https://github.com/RsTaK"
+          linkedin="https://www.linkedin.com/in/rahulgulia/"
+          gmail="mailto:rahulgg619@gmail.com"
+          twitter="https://twitter.com/rstak619"
         />
         <Card
           name="Aditya Agarwal"
@@ -59,6 +59,15 @@ export default function Speakers() {
           linkedin="https://www.linkedin.com/in/100rabhnigam"
           gmail="mailto:Snigam8@gmail.com"
           twitter="https://twitter.com/SaurabhNigam"
+        />
+        <Card
+          name="Akashjyoti Dutta"
+          img="https://media-exp1.licdn.com/dms/image/C4D03AQHRSQeWVPwTuw/profile-displayphoto-shrink_800_800/0/1628829081209?e=1649894400&v=beta&t=WeNb-zsQOTpMgHyyda285kAjojb0J3jMjSW5v69A0kM"
+          position="WazirX NFT creator"
+          github="https://github.com/"
+          linkedin="https://www.linkedin.com/in/akashjyoti-dutta/"
+          gmail="mailto:nomail@gmail.com"
+          twitter="https://twitter.com/"
         />
       </div>
     </div>
