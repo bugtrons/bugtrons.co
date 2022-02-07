@@ -19,22 +19,22 @@ export const Sponsors = () => {
       <div className="Sponsors" id="Sponsors">
         <div className="sponsor-head">Sponsors</div>
         <div className="d-flex flex-row justify-content-evenly sponsor-flex">
-        <div className="Diamond">
-          <SponsorClass sclass="Diamond" />
-          <div className="Diamond-logo">
-            <a href= "https://prepinsta.com">
-              <SponsorLogo image={prepinsta} height="100vw" />
-            </a>
+          <div className="Diamond">
+            <SponsorClass sclass="Diamond" />
+            <div className="Diamond-logo">
+              <a href="https://prepinsta.com">
+                <SponsorLogo image={prepinsta} height="100vw" />
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="Gold">
-          <SponsorClass sclass="Gold" />
-          <div className="Gold-logo">
-          <a href= "https://github.com">
-              <SponsorLogo image={github} height="100vw" />
-            </a>
+          <div className="Gold">
+            <SponsorClass sclass="Gold" />
+            <div className="Gold-logo">
+              <a href="https://github.com">
+                <SponsorLogo image={github} height="100vw" />
+              </a>
+            </div>
           </div>
-        </div>
         </div>
         {/* <div className="Sliver">
         <SponsorClass sclass="Sliver"/>

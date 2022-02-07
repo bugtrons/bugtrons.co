@@ -25,10 +25,10 @@
     }
     .Diamond-logo:hover {
       transform: translate3D(0, -1px, 0) scale(1.1);
-  
+
       transition: all 0.4s ease;
       cursor: pointer;
-    }  
+    }
   }
   .Gold {
     display: flex;
@@ -46,7 +46,7 @@
       transform: translate3D(0, -1px, 0) scale(1.1);
       transition: all 0.4s ease;
       cursor: pointer;
-    } 
+    }
   }
   // .Silver {
   //     display: flex;
@@ -74,9 +74,9 @@
       flex-wrap: wrap;
     }
   }
-  @media (max-width:992px){
-    .sponsor-flex{
+  @media (max-width: 992px) {
+    .sponsor-flex {
       display: block !important;
     }
   }
-} 
+}

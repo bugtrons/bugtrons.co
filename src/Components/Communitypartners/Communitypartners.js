@@ -30,7 +30,12 @@ export default function Communitypartners() {
             <img className="algo" src={Algorithms} alt="" />
           </div>
           <div className="cont">
-            <img className="ymoi" src={Ymoi} alt="" style={{height:'5rem', width:'5rem'}} />
+            <img
+              className="ymoi"
+              src={Ymoi}
+              alt=""
+              style={{ height: "5rem", width: "5rem" }}
+            />
           </div>
           <div className="cont">
             <img className="htl" src={Htl} alt="" />

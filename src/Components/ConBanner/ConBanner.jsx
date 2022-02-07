@@ -1,15 +1,14 @@
 import React from "react";
-import opensource from "./banner/open_source.png";
-import flutter from "./banner/flutter.png"
-import remote from "./banner/remote.png"
-import "./conbanner.scss"
+import nextjs from "./banner/nextjs.png";
+import rust from "./banner/rust.png";
+import web3 from "./banner/web3.png";
+import work_uk from "./banner/work_uk.png";
+import "./conbanner.scss";
 
 export default function ConBanner() {
   return (
     <div className="conbanner">
-       <div className="ban-head">
-         Upcoming Events   
-        </div> 
+      <div className="ban-head">Upcoming Events</div>
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -36,16 +35,25 @@ export default function ConBanner() {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src={opensource} class="d-block banner" alt="..." />
+            <img src={nextjs} class="d-block banner" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src={flutter} class="d-block banner" alt="..." />
+            <img src={rust} class="d-block banner" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src={remote} class="d-block banner" alt="..." />
+            <img src={web3} class="d-block banner" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src={work_uk} class="d-block banner" alt="..." />
           </div>
         </div>
         <button
@@ -54,7 +62,10 @@ export default function ConBanner() {
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon text-black" aria-hidden="true"></span>
+          <span
+            class="carousel-control-prev-icon text-black"
+            aria-hidden="true"
+          ></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
@@ -63,7 +74,10 @@ export default function ConBanner() {
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon text-black" aria-hidden="true"></span>
+          <span
+            class="carousel-control-next-icon text-black"
+            aria-hidden="true"
+          ></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
