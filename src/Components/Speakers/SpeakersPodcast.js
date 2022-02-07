@@ -5,6 +5,7 @@ import rahul from "./pic/rahul.jpg";
 import aditya from "./pic/aditya.jpg";
 import Lakshit from "./pic/Lakshit.jpg";
 import surabh from "./pic/surabh.jpg";
+import akash from "./pic/akash.jpg";
 
 import "./Speakers.scss";
 export default function Speakers() {
@@ -59,7 +60,7 @@ export default function Speakers() {
         />
         <Card
           name="Akashjyoti Dutta"
-          img="https://media-exp1.licdn.com/dms/image/C4D03AQHRSQeWVPwTuw/profile-displayphoto-shrink_800_800/0/1628829081209?e=1649894400&v=beta&t=WeNb-zsQOTpMgHyyda285kAjojb0J3jMjSW5v69A0kM"
+          img={akash}
           position="WazirX NFT creator"
           github="https://github.com/"
           linkedin="https://www.linkedin.com/in/akashjyoti-dutta/"
