@@ -5,7 +5,6 @@ import abir from "./pic/abir.jpg";
 import faisal from "./pic/faisal.jpg";
 import harsh from "./pic/harsh.jpg";
 import himanshu from "./pic/himanshu.jpg";
-import praveen from "./pic/praveen.jpg";
 import sangam from "./pic/Sangam.jpg";
 import santosh from "./pic/santosh.jpg";
 import shivay from "./pic/shivay.jpg";
@@ -89,9 +88,9 @@ export default function Speakers() {
           twitter="https://twitter.com/Felixfaisal46"
         />
         <Card
-          name="Praveen Kr. P."
-          img={praveen}
-          position="Full Stack @Thinkful-Ed."
+          name="Praveen Kumar P"
+          img="https://i.imgur.com/wbUfjzdl.png"
+          position="Full Stack JavaScript Specialist"
           github="https://github.com/praveenscience"
           linkedin="https://www.linkedin.com/in/praveentech/"
           gmail="mailto:praveenscience@gmail.com"
