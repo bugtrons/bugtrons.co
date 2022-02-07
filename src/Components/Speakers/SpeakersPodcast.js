@@ -16,7 +16,7 @@ export default function Speakers() {
         <Card
           name="saksham"
           img={saksham}
-          position="Founder @ The Cyber Council"
+          position="Founder @The Cyber Council"
           github="https://github.com/sivsouvam/"
           linkedin="https://www.linkedin.com/in/sivsouvam/"
           gmail="mailto:v-sbachu@microsoft.com"
@@ -34,7 +34,7 @@ export default function Speakers() {
         <Card
           name="Aditya Agarwal"
           img={aditya}
-          position="Founder Joint NFT"
+          position="Founder @Joint NFT"
           github="[https://github.com/vintageplayer"
           linkedin="https://www.linkedin.com/in/adityag2511/"
           gmail="mailto:aditya@thejointnft.com"
@@ -43,7 +43,7 @@ export default function Speakers() {
         <Card
           name="Lakshit Madaan"
           img={Lakshit}
-          position="Founder Encrypt Labs"
+          position="Founder @Encrypt Labs"
           github="https://github.com/lakshitmadaan20"
           linkedin="https://www.linkedin.com/in/lakshit-madaan-589b3316b/"
           gmail="mailto:lakshit@encryptlabs.co"
@@ -61,7 +61,7 @@ export default function Speakers() {
         <Card
           name="Akashjyoti Dutta"
           img={akash}
-          position="WazirX NFT creator"
+          position="NFT creator @WazirX"
           github="https://github.com/"
           linkedin="https://www.linkedin.com/in/akashjyoti-dutta/"
           gmail="mailto:nomail@gmail.com"

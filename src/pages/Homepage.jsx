@@ -11,6 +11,7 @@ import FAQ from "../Components/FAQ/FAQ";
 import AboutUs from "../Components/AboutUs/AboutUs";
 import Communitypartners from "../Components/Communitypartners/Communitypartners";
 import Speakers from "../Components/Speakers/Speakers";
+import Streamingpartner from "../Components/StreamingPartners/Streaming"
 
 function Homepage() {
   return (
@@ -23,6 +24,7 @@ function Homepage() {
       {/* <Tobeannounced /> */}
       <Speakers />
       <Sponsors />
+      <Streamingpartner />
       <Communitypartners></Communitypartners>
       <Organizers />
       <FAQ />

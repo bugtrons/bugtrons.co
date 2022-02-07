@@ -40,12 +40,12 @@ export default function Conference() {
           <tr>
               <td>Rust, WASM and Blockchain</td>
               <td>Faisal Ahmed</td> 
-              <td>10 Feburary, 8 PM</td>
+              <td>10 Feburary, 7 PM</td>
           </tr>
           <tr>
               <td>Web3.0 with HackClub</td>
               <td>Harsh Bajpai</td> 
-              <td>12 Feburary, 8 PM</td>
+              <td>12 Feburary, 7 PM</td>
           </tr>
           <tr>
               <td>Hackathon cultures among communities</td>
@@ -60,7 +60,7 @@ export default function Conference() {
           <tr>
               <td>Working in the UK</td>
               <td>Praveen Kumar Purushothaman</td> 
-              <td>19 Feburary, 8 PM</td>
+              <td>19 Feburary, 7 PM</td>
           </tr> 
           <tr>
               <td>MS Edge Extensions</td>
