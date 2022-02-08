@@ -10,17 +10,17 @@ import akash from "./pic/akash.jpg";
 import "./Speakers.scss";
 export default function Speakers() {
   return (
-    <div className="speakers">
+    <div className="speakers" id="speakerspodcast">
       <h1 className="speakers-head">Speakers for Podcast</h1>
       <div class="alig">
         <Card
           name="saksham"
           img={saksham}
-          position="Founder @The Cyber Council"
-          github="https://github.com/sivsouvam/"
-          linkedin="https://www.linkedin.com/in/sivsouvam/"
-          gmail="mailto:v-sbachu@microsoft.com"
-          twitter="https://twitter.com/sivsouvam"
+          position="Founder @ The Cyber Council"
+          github="/connect#speakerspodcast"
+          linkedin="https://www.linkedin.com/in/saksham-choudhary-6920651a2/"
+          gmail="/connect#speakerspodcast"
+          twitter="/connect#speakerspodcast"
         />
         <Card
           name="Rahul Gulia"
@@ -53,7 +53,7 @@ export default function Speakers() {
           name="Saurabh Nigam"
           img={surabh}
           position="Lead Software Engineer"
-          github="https://github.com/"
+          github="/connect#speakerspodcast"
           linkedin="https://www.linkedin.com/in/100rabhnigam"
           gmail="mailto:Snigam8@gmail.com"
           twitter="https://twitter.com/SaurabhNigam"
@@ -62,10 +62,10 @@ export default function Speakers() {
           name="Akashjyoti Dutta"
           img={akash}
           position="NFT creator @WazirX"
-          github="https://github.com/"
+          github="/connect#speakerspodcast"
           linkedin="https://www.linkedin.com/in/akashjyoti-dutta/"
           gmail="mailto:nomail@gmail.com"
-          twitter="https://twitter.com/"
+          twitter="/connect#speakerspodcast"
         />
       </div>
     </div>
