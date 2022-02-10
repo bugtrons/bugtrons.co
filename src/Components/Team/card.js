@@ -2,10 +2,11 @@ import React from "react";
 const card = ({ img, name, position, github, twitter, gmail, linkedin }) => {
   return (
     <div className="member">
-      <img src={img} alt="" />
+      <div className="bug-bord">
+        <img src={img} alt="" />
+      </div>
       <p className="name">{name}</p>
       <span className="title">{position}</span>
-      <div className="bug-bord"></div>
       <ul class="social">
         <li>
           <a href={github} aria-hidden="true">
