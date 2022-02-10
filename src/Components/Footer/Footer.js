@@ -5,14 +5,6 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div
-      data-aos="fade-in"
-      data-aos-offset="100"
-      data-aos-delay="0"
-      data-aos-duration="500"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="false"
-    >
       <footer className="mainfooter" role="contentinfo">
         <div class="footer-middle">
           <div>
@@ -113,6 +105,5 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </div>
   );
 }

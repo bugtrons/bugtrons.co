@@ -25,23 +25,24 @@ function Team() {
           twitter="https://twitter.com/iamyazreza"
         />
         <Card
-          name="Anshumaan Kr. Prasad"
-          img="https://avatars.githubusercontent.com/amino19"
-          position="Organizer & Outreach"
-          github="https://github.com/amino19"
-          linkedin="https://www.linkedin.com/in/amino19"
-          gmail="mailto:anshumaankrprasad76@gmail.com"
-          twitter="https://twitter.com/aminostwt"
+          name="Ashish Chawda"
+          img="https://avatars.githubusercontent.com/pixan198"
+          position="Outreach & GitHub Support"
+          github="https://github.com/pixan198/"
+          twitter="https://twitter.com/ashish11chawda/"
+          linkedin="https://www.linkedin.com/in/ashishchawda/"
+          gmail="mailto:ashish11chawda@gmail.com"
         />
         <Card
-          name="Payal Samal"
-          img="https://cdn.discordapp.com/attachments/922140511328927834/941255473519276032/IMG_20220210_142301.jpg"
-          position="Operations - Tester"
-          github="https://github.com/Payal39"
-          linkedin="https://www.linkedin.com/in/payal-samal-a08971227/"
-          gmail="mailto:samalpayal03@gmail.com"
-          twitter="https://twitter.com/payal_samal"
+          name="Priyanka Prasad"
+          img="https://avatars.githubusercontent.com/prykdev"
+          position="Outreach & Community Manager"
+          twitter="https://twitter.com/prykdev"
+          github="https://github.com/prykdev"
+          linkedin="https://www.linkedin.com/in/prykdev/"
+          gmail="mailto:developer@priyankaprasad.co"
         />
+        
         <Card
           name="Aditya Sahu"
           img="https://avatars.githubusercontent.com/adityasahu252"
@@ -70,13 +71,13 @@ function Team() {
           gmail="mailto:abir.pal899@gmail.com"
         />
         <Card
-          name="Priyanka Prasad"
-          img="https://avatars.githubusercontent.com/prykdev"
-          position="Outreach & Community Manager"
-          twitter="https://twitter.com/prykdev"
-          github="https://github.com/prykdev"
-          linkedin="https://www.linkedin.com/in/prykdev/"
-          gmail="mailto:developer@priyankaprasad.co"
+          name="Harsha Sumanchandra"
+          img="https://avatars.githubusercontent.com/Harsha200105"
+          position="Content Creator"
+          github="https://github.com/Harsha200105"
+          twitter="https://twitter.com/Harsha052001"
+          linkedin="https://www.linkedin.com/in/harsha-sumanchandra/"
+          gmail="mailto:harshamishra05@gmail.com"
         />
         <Card
           name="Joshith Reddy Gopidi"
@@ -88,22 +89,22 @@ function Team() {
           gmail="mailto:joshith.gopidi@gmail.com"
         />
         <Card
-          name="Harsha Sumanchandra"
-          img="https://avatars.githubusercontent.com/Harsha200105"
-          position="Content Creator"
-          github="https://github.com/Harsha200105"
-          twitter="https://twitter.com/Harsha052001"
-          linkedin="https://www.linkedin.com/in/harsha-sumanchandra/"
-          gmail="mailto:harshamishra05@gmail.com"
+          name="Payal Samal"
+          img="https://cdn.discordapp.com/attachments/922140511328927834/941255473519276032/IMG_20220210_142301.jpg"
+          position="Operations - Tester"
+          github="https://github.com/Payal39"
+          linkedin="https://www.linkedin.com/in/payal-samal-a08971227/"
+          gmail="mailto:samalpayal03@gmail.com"
+          twitter="https://twitter.com/payal_samal"
         />
         <Card
-          name="Ashish Chawda"
-          img="https://avatars.githubusercontent.com/pixan198"
-          position="Outreach & GitHub Support"
-          github="https://github.com/pixan198/"
-          twitter="https://twitter.com/ashish11chawda/"
-          linkedin="https://www.linkedin.com/in/ashishchawda/"
-          gmail="mailto:ashish11chawda@gmail.com"
+          name="Anshumaan Kr. Prasad"
+          img="https://avatars.githubusercontent.com/amino19"
+          position="Organizer & Outreach"
+          github="https://github.com/amino19"
+          linkedin="https://www.linkedin.com/in/amino19"
+          gmail="mailto:anshumaankrprasad76@gmail.com"
+          twitter="https://twitter.com/aminostwt"
         />
       </div>
     </div>

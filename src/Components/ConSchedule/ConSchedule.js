@@ -6,15 +6,7 @@ import "./ConSchedule.scss";
 
 export default function ConSchedule() {
   return (
-    <div
-      data-aos="fade-in"
-      data-aos-offset="10"
-      data-aos-delay="0"
-      data-aos-duration="500"
-      data-aos-mirror="true"
-      data-aos-easing="ease-in-out"
-      id="schedule"
-    >
+    <div id="schedule">
       <div className="conschedule">
         <div className="head">SCHEDULE</div>
         <Tabs
