@@ -16,6 +16,14 @@ export default function Speakers() {
       <h1 className="speakers-head">Speakers for Conference</h1>
       <div class="alig">
         <Card
+          name="Anuj Sharma"
+          img="https://media.discordapp.net/attachments/859146416537731112/941424749697966111/1592508942786.png"
+          position="Lead Community Team  @Hack2Skill"
+          linkedin="https://www.linkedin.com/in/anujsharma378/"
+          gmail="mailto:anuj@hack2skill.com"
+          twitter="https://twitter.com/anuj_sharma378"
+        />
+        <Card
           name="Siv Souvam"
           img={shiv}
           position="DevRel @ Microsoft Edge"
@@ -54,7 +62,7 @@ export default function Speakers() {
         <Card
           name="Santosh Yadav"
           img={santosh}
-          position="@GoogleDevExpert,@github star"
+          position="@GoogleDevExpert, @ GitHub star"
           github="https://github.com/santoshyadavdev"
           linkedin="https://www.linkedin.com/in/santoshyadavdev/"
           gmail="mailto:Santosh.yadav198613@gmail.com"
@@ -95,6 +103,24 @@ export default function Speakers() {
           linkedin="https://www.linkedin.com/in/praveentech/"
           gmail="mailto:praveenscience@gmail.com"
           twitter="https://twitter.com/praveenscience"
+        />
+        <Card
+          name="Kartikey Rawat"
+          img="https://github.com/carrycooldude.png"
+          position="GCE, Founder @ OpInCo Community"
+          github="https://github.com/carrycooldude"
+          linkedin="https://www.linkedin.com/in/kartikey-rawat-02822916a/"
+          gmail="mailto:rawatkari554@gmail.com"
+          twitter="https://twitter.com/carrycooldude"
+        />
+        <Card
+          name="Rishit Dagli"
+          img="https://github.com/rishit-dagli.png"
+          position="TEDx, 2xTED-Ed speaker, TensorFlow Mumbai"
+          github="https://github.com/rishit-dagli"
+          linkedin="https://www.linkedin.com/in/rishit-dagli-440113165/"
+          gmail="mailto:rishit.dagli@gmail.com"
+          twitter="https://twitter.com/rishit_dagli"
         />
       </div>
     </div>
