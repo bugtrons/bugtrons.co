@@ -26,7 +26,7 @@ function Homepage() {
       <Speakers />
       <Sponsors />
       {/* <Streamingpartner /> */}
-      <Partners />  
+      <Partners />
       <Communitypartners></Communitypartners>
       <Organizers />
       <FAQ />

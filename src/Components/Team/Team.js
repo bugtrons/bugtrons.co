@@ -42,7 +42,7 @@ function Team() {
           linkedin="https://www.linkedin.com/in/prykdev/"
           gmail="mailto:developer@priyankaprasad.co"
         />
-        
+
         <Card
           name="Aditya Sahu"
           img="https://avatars.githubusercontent.com/adityasahu252"
