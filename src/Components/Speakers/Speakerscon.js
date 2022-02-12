@@ -33,13 +33,13 @@ export default function Speakers() {
           twitter="https://twitter.com/sivsouvam"
         />
         <Card
-          name="Shivay Lamba"
-          img={shivay}
-          position="CTO @ DarkHorse"
-          github="https://github.com/shivaylamba"
-          linkedin="https://www.linkedin.com/in/shivaylamba/"
-          gmail="mailto:shivaylamba@gmail.com"
-          twitter="https://twitter.com/howdevelop"
+          name="Santosh Yadav"
+          img={santosh}
+          position="@GoogleDevExpert, @ GitHub star"
+          github="https://github.com/santoshyadavdev"
+          linkedin="https://www.linkedin.com/in/santoshyadavdev/"
+          gmail="mailto:Santosh.yadav198613@gmail.com"
+          twitter="https://twitter.com/santoshyadavdev"
         />
         <Card
           name="Sangam Biradar"
@@ -51,22 +51,22 @@ export default function Speakers() {
           twitter="https://twitter.com/BiradarSangam"
         />
         <Card
-          name="Harsh Bajpai"
-          img={harsh}
-          position="Clubs Lead (HackClub)"
-          github="https://github.com/bajpai244"
-          linkedin="https://www.linkedin.com/in/bajpaiharsh"
-          gmail="mailto:harsh@hackclub.com"
-          twitter="https://twitter.com/bajpaiharsh244"
+          name="Kaushik Roy"
+          img="https://github.com/kroy96.png"
+          position="TEDx, 2xTED-Ed speaker, TensorFlow Mumbai"
+          github="https://github.com/kroy96/"
+          linkedin="https://www.linkedin.com/in/kroy96/"
+          gmail="mailto:mail@kroy96.com"
+          twitter="https://www.linkedin.com/in/kroy96/"
         />
         <Card
-          name="Santosh Yadav"
-          img={santosh}
-          position="@GoogleDevExpert, @ GitHub star"
-          github="https://github.com/santoshyadavdev"
-          linkedin="https://www.linkedin.com/in/santoshyadavdev/"
-          gmail="mailto:Santosh.yadav198613@gmail.com"
-          twitter="https://twitter.com/santoshyadavdev"
+          name="Shivay Lamba"
+          img={shivay}
+          position="CTO @ DarkHorse"
+          github="https://github.com/shivaylamba"
+          linkedin="https://www.linkedin.com/in/shivaylamba/"
+          gmail="mailto:shivaylamba@gmail.com"
+          twitter="https://twitter.com/howdevelop"
         />
         <Card
           name="Himanshu Sharma"
@@ -87,13 +87,13 @@ export default function Speakers() {
           twitter="https://twitter.com/imabptweets"
         />
         <Card
-          name="Faisal"
-          img={faisal}
-          position="Author @EducativeInc"
-          github="https://twitter.com/Felixfaisal46"
-          linkedin="https://www.linkedin.com/in/faisal-ahmed-farooq-6395a0174/"
-          gmail="mailto:faisalahmedfarooq46@gmail.com"
-          twitter="https://twitter.com/Felixfaisal46"
+          name="Harsh Bajpai"
+          img={harsh}
+          position="Clubs Lead (HackClub)"
+          github="https://github.com/bajpai244"
+          linkedin="https://www.linkedin.com/in/bajpaiharsh"
+          gmail="mailto:harsh@hackclub.com"
+          twitter="https://twitter.com/bajpaiharsh244"
         />
         <Card
           name="Praveen Kumar P"
@@ -121,6 +121,15 @@ export default function Speakers() {
           linkedin="https://www.linkedin.com/in/rishit-dagli-440113165/"
           gmail="mailto:rishit.dagli@gmail.com"
           twitter="https://twitter.com/rishit_dagli"
+        />
+        <Card
+          name="Faisal"
+          img={faisal}
+          position="Author @EducativeInc"
+          github="https://twitter.com/Felixfaisal46"
+          linkedin="https://www.linkedin.com/in/faisal-ahmed-farooq-6395a0174/"
+          gmail="mailto:faisalahmedfarooq46@gmail.com"
+          twitter="https://twitter.com/Felixfaisal46"
         />
       </div>
     </div>
