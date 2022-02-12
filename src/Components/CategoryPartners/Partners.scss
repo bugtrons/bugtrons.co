@@ -1,55 +1,36 @@
 .Partners {
   padding-top: 3rem;
-  .partner-head {
-    font-family: "Montserrat", sans-serif;
-    font-size: 2.5rem;
-    color: #419873;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 2rem;
-  }
-  .Streaming {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 0rem;
-    .Streaming-logo {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-wrap: wrap;
-      width: 23rem;
-      overflow: hidden;
-      transition: all 0.5s ease;
-    }
-    .Streaming-logo:hover {
-      transform: translate3D(0, -1px, 0) scale(1.1);
-
-      transition: all 0.4s ease;
-      cursor: pointer;
-    }
-  }
   .Upskill {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    .Upskill-logo {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-wrap: wrap;
+    h1 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 2.1rem;
+      color: #00aa6a;
+      font-weight: bold;
+      text-align: center;
     }
-    .Upskill-logo:hover {
-      transform: translate3D(0, -1px, 0) scale(1.1);
-      transition: all 0.4s ease;
-      cursor: pointer;
+    .comp {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      margin-top: 2rem;
+        img {
+          height: 4rem;
+          width: 12rem;
+          border-radius: 5px;
+        }
+      
+      img:hover {
+        transform: translate3D(0, -1px, 0) scale(1.1);
+        transition: all 0.4s ease;
+        cursor: pointer;
+      }
     }
   }
 
   @media (max-width: 992px) {
+    .Upskill{
+      margin-top: 3rem;
+    }
     .partner-flex {
       display: block !important;
     }

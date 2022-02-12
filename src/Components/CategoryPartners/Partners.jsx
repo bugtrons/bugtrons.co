@@ -1,9 +1,6 @@
 import React from "react";
 import "./Partners.scss";
-import { PartnerClass } from "./partnerClass/partner.class";
-import { PartnerLogo } from "./partnerLogo/partner.logo";
 import  Streaming from "../StreamingPartners/Streaming";
-import StreamYard from "./partnerLogo/StreamYard.png";
 import H2S from "./partnerLogo/H2S-logo.png";
 
 export const Partners = () => {
@@ -30,12 +27,10 @@ export const Partners = () => {
           </div> */}
           <Streaming />
           <div className="Upskill">
-            <PartnerClass sclass="Upskill Partner" />
-            <div className="Upskill-logo">
-              <a href="https://hack2skill.com/">
-                <PartnerLogo image={H2S} height="100vw" />
-              </a>
-            </div>
+          <h1>UpSkill Partner</h1>
+          <div className="comp">
+            <img src={H2S} alt="" />
+          </div>
           </div>
         </div>
       </div>
