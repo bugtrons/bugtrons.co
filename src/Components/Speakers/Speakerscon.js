@@ -53,7 +53,7 @@ export default function Speakers() {
         <Card
           name="Kaushik Roy"
           img="https://github.com/kroy96.png"
-          position="TEDx, 2xTED-Ed speaker, TensorFlow Mumbai"
+          position=" Lead Engineering & Product Team @Hack2skill"
           github="https://github.com/kroy96/"
           linkedin="https://www.linkedin.com/in/kroy96/"
           gmail="mailto:mail@kroy96.com"
