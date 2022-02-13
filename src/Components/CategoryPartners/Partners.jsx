@@ -18,10 +18,12 @@ export const Partners = () => {
         <div className="d-flex flex-row justify-content-evenly partner-flex">
           <Streaming />
           <div className="Upskill">
+            <a href="https://hack2skill.com" target="_blank" rel="noopener noreferrer">
             <h1>UpSkill Partner</h1>
             <div className="comp">
               <img src={H2S} alt="" />
             </div>
+            </a>
           </div>
         </div>
       </div>
