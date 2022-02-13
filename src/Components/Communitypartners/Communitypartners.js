@@ -5,6 +5,7 @@ import KubeDaily from "./communityIco/KubeDaily.png";
 import Ymoi from "./communityIco/YMOI.png";
 import Htl from "./communityIco/HTL.png";
 import hack from "./communityIco/hackclub.png";
+import Opinco from "./communityIco/Opinco.png";
 
 import "./Communitypartners.scss";
 export default function Communitypartners() {
@@ -42,6 +43,9 @@ export default function Communitypartners() {
           </div>
           <div className="cont">
             <img className="htl" src={hack} alt="" />
+          </div>
+          <div className="cont">
+            <img className="htl" src={Opinco} alt="" />
           </div>
         </div>
       </div>
