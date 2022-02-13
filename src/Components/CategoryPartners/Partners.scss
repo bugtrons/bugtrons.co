@@ -1,0 +1,38 @@
+.Partners {
+  padding-top: 3rem;
+  .Upskill {
+    h1 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 2.1rem;
+      color: #00aa6a;
+      font-weight: bold;
+      text-align: center;
+    }
+    .comp {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      margin-top: 2rem;
+      img {
+        height: 4rem;
+        width: 12rem;
+        border-radius: 5px;
+      }
+
+      img:hover {
+        transform: translate3D(0, -1px, 0) scale(1.1);
+        transition: all 0.4s ease;
+        cursor: pointer;
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .Upskill {
+      margin-top: 3rem;
+    }
+    .partner-flex {
+      display: block !important;
+    }
+  }
+}

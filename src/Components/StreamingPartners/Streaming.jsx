@@ -7,9 +7,7 @@ export default function Streaming() {
     <div className="stream">
       <h1>Streaming Partner</h1>
       <div className="comp">
-        <div className="cont">
-          <img src={stream} alt="" />
-        </div>
+        <img src={stream} alt="" />
       </div>
     </div>
   );

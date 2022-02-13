@@ -32,6 +32,15 @@ export default function Speakers() {
           twitter="https://twitter.com/rstak619"
         />
         <Card
+          name="Aanchal Mishra"
+          img="https://cdn.discordapp.com/attachments/859501554838536232/942027905683292200/Aanchal_Mishra.png"
+          position="Student Community Intern @getpostman"
+          github="https://github.com/mishra-aanchal"
+          linkedin="https://www.linkedin.com/in/mishra-aanchal/"
+          gmail="mailto:aanchalkviit@gmail.com"
+          twitter="https://twitter.com/Aanchalmishra__"
+        />
+        <Card
           name="Aditya Agarwal"
           img={aditya}
           position="Founder @Joint NFT"
