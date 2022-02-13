@@ -8,6 +8,7 @@ import hack from "./communityIco/hackclub.png";
 import Opinco from "./communityIco/Opinco.png";
 import Inaxia from "./communityIco/Inaxia.png";
 import DC from "./communityIco/DC.png";
+import Cevoke from "./communityIco/Cevoke.png";
 
 import "./Communitypartners.scss";
 export default function Communitypartners() {
@@ -23,13 +24,12 @@ export default function Communitypartners() {
       <div className="communitypartners">
         <h1>Community Partners</h1>
         <div className="comp">
+        <div className="cont">
+            <img src={hack} alt="" />
+          </div>
           <div className="cont">
             <img src={TechPhantoms} alt="" />
           </div>
-          <div className="cont">
-            <img src={KubeDaily} alt="" />
-          </div>
-         
           <div className="cont">
             <img className="ymoi" src={Ymoi} alt="" style={{ height: "5rem", width: "5rem" }}
             />   
@@ -38,19 +38,24 @@ export default function Communitypartners() {
             <img className="algo" src={Algorithms} alt="" />
           </div>
           <div className="cont">
+            <img src={KubeDaily} alt="" />
+          </div>
+         
+       
+          <div className="cont">
             <img className="htl" src={Htl} alt="" />
           </div>
           <div className="cont">
-            <img className="htl" src={hack} alt="" />
+            <img className="Opinco" src={Opinco} alt="" />
           </div>
           <div className="cont">
-            <img className="htl" src={Opinco} alt="" />
+            <img className="Inaxia" src={Inaxia} alt="" />
           </div>
           <div className="cont">
-            <img className="htl" src={Inaxia} alt="" />
+            <img className="DC" src={DC} alt="" />
           </div>
           <div className="cont">
-            <img className="htl" src={DC} alt="" />
+            <img className="Cevoke" src={Cevoke} alt="" />
           </div>
         </div>
       </div>
