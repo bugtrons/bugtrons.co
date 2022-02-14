@@ -14,7 +14,7 @@ export default function Speakers() {
         <Card
           name="Anisha Swain"
           img={anisha}
-          position="MTS   @Salesforce"
+          position="MTS @ Salesforce"
           github="https://github.com/anishaswain"
           linkedin="https://linkedin.com/in/anishaswain"
           gmail="mailto:anishaswain2@gmail.com"
@@ -23,7 +23,7 @@ export default function Speakers() {
         <Card
           name="Rishika Gupta"
           img={rishika}
-          position="SDE-1 @linkedin"
+          position="SDE-1 @ LinkedIn"
           github="https://github.com/rishikagupta2468"
           linkedin="https://www.linkedin.com/in/rishikagupta-rg/"
           gmail="mailto:rishika246813579@gmail.com"
@@ -32,7 +32,7 @@ export default function Speakers() {
         <Card
           name="Smile Gupta"
           img={smile}
-          position="Engineer @Razorpay"
+          position="Engineer @ Razorpay"
           github="https://github.com/smilegupta"
           linkedin="https://www.linkedin.com/in/smilegupta/"
           gmail="mailto:guptamiley3012@gmail.com"
