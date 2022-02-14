@@ -24,11 +24,14 @@ export default function Communitypartners() {
       <div className="communitypartners">
         <h1>Community Partners</h1>
         <div className="comp">
-        <div className="cont">
-            <img src={hack} alt="" />
+          <div className="cont">
+            <img src="https://raw.githubusercontent.com/hack-this-fall/Media-Kit/main/Logo/HTF-White.png" alt="" />
           </div>
           <div className="cont">
             <img src={TechPhantoms} alt="" />
+          </div>
+          <div className="cont">
+            <img src={hack} alt="" />
           </div>
           <div className="cont">
             <img className="ymoi" src={Ymoi} alt="" style={{ height: "5rem", width: "5rem" }}
@@ -40,8 +43,7 @@ export default function Communitypartners() {
           <div className="cont">
             <img src={KubeDaily} alt="" />
           </div>
-         
-       
+
           <div className="cont">
             <img className="htl" src={Htl} alt="" />
           </div>
