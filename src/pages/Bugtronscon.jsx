@@ -34,8 +34,8 @@ const Bugtronscon = () => {
       </div>
       <ConBanner />
       <ConSchedule />
-      <Speakerscon />
       <Speakerspodcast />
+      <Speakerscon />
       <Footer />
     </div>
   );
