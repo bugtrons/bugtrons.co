@@ -16,8 +16,8 @@ const Bugtronscon = () => {
       </div>
       <div className="text-center con-head">
         <p>
-          BUGTRONS CON is a conference to let coders not stick towards the
-          contest, but also explore the career scope & know about best practices
+          BUGTRONS CON is a conference to let coders not only stick towards the
+          contest, but explore the career scope & know about best practices
           to take away from the community.
         </p>
         <p>

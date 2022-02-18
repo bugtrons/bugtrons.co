@@ -47,6 +47,11 @@ export default function Podcast() {
           <td>Saksham Choudhary</td>
           <td>25 Feburary, 7 PM</td>
         </tr>
+        <tr>
+          <td>Soft Skills 101</td>
+          <td>Aanchal Mishra</td>
+          <td>27 Feburary, 7 PM</td>
+        </tr>
       </tbody>
     </table>
   );
