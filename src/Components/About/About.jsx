@@ -22,9 +22,8 @@ export const About = () => {
           with the collaboration of two tremendous tech-lead communities:-
         </p>
         <p>
-          <span>DEVSTRONS'</span>: Student-run Open source/ project-based,
-          inclusive & diverse community intending to Learn, Code and Tron
-          (grow).
+          <span>DEVSTRONS'</span>: Student-run Open source, inclusive & diverse
+          community intending to Learn, Code and Tron (grow).
         </p>
         <p>
           <span>Learn With Community</span>: Let's Learn, grow and give back to

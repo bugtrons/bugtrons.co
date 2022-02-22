@@ -20,8 +20,8 @@ export const KnowAbout = () => {
         <LogoDescription
           heading="DEVSTRONS'"
           des="
-             Student-run Open source/ project-based, inclusive & diverse community intending to Learn, Code and Tron (grow)."
-          link="https://bugtrons.co/"
+             Student-run inclusive & diverse community intending towards Learn, Code and Open source 🚀."
+          link="https://apacdirectory.hackclub.com/club/devstrons"
         />
       </div>
       <div className="LWC">
@@ -29,7 +29,7 @@ export const KnowAbout = () => {
           heading="Learn With Community"
           des="
           A tech community, focusing on the best way to teach, learning together. Let's Learn, grow and give back to this Community."
-          link="https://bugtrons.co/"
+          link="https://learnwith.community/"
         />
         <img src={lwc} alt="Learn With community" />
       </div>

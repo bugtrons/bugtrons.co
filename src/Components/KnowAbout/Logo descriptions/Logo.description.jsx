@@ -9,9 +9,9 @@ export const LogoDescription = ({ heading, des, link }) => {
       <div className="Des">
         <p>{des}</p>
       </div>
-      <button>
+      <div className="ld-heading">
         <a href={link}>Know more</a>
-      </button>
+      </div>
     </div>
   );
 };

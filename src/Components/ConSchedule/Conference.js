@@ -68,8 +68,8 @@ export default function Conference() {
           <td>22 Feburary, 7 PM</td>
         </tr>
         <tr>
-          <td>Geometric Deep Learning and Graph Neural Networks</td>
-          <td>Rishit Dagli & Kartikey Rawat</td>
+          <td></td>
+          <td>Kartikey Rawat</td>
           <td>24 Feburary, 7 PM</td>
         </tr>
         <tr>

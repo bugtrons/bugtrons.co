@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../Team/card";
 import anisha from "./pic/anisha.jpg";
 import rishika from "./pic/rishika.jpg";
-import smile from "./pic/smile.jpg";
+import smile from "./pic/smile.png";
 import { Link } from "react-router-dom";
 
 import "./Speakers.scss";
