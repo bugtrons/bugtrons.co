@@ -63,7 +63,7 @@ export default function Schedule() {
                 </tr>
               </thead>
               <tbody>
-              <tr>
+                <tr>
                   <td>Interview Experience with MVP | Rishika Gupta</td>
                   <td> 7.00 PM </td>
                 </tr>
@@ -95,8 +95,8 @@ export default function Schedule() {
                   <td>Announcement of top 20 winners</td>
                   <td> 11.00 AM </td>
                 </tr>
-              <tr>
-                <td>Acing the JavaScript Interview | Smile Gupta</td>
+                <tr>
+                  <td>Acing the JavaScript Interview | Smile Gupta</td>
                   <td> 6.30 PM </td>
                 </tr>
                 <tr>
@@ -131,7 +131,7 @@ export default function Schedule() {
               <tbody>
                 <tr>
                   <td>Announcement of top 10 winners</td>
-                  <td> 11.00 AM  </td>
+                  <td> 11.00 AM </td>
                 </tr>
                 <tr>
                   <td>Resume/LinkedIn Review</td>
@@ -154,9 +154,32 @@ export default function Schedule() {
                 <tr>
                   <td>
                     Winners announcement and Closing ceremony, Closing notes by
-                    Prepinsta.
+                    Prepinsta
                   </td>
                   <td> Next Day </td>
+                </tr>
+              </tbody>
+            </table>
+          </Tab>
+          <Tab eventKey="Mar7" title="Mar 7">
+            <table class="table table-hover table-bordered text-center">
+              <thead>
+                <tr>
+                  <th scope="col" width="70%">
+                    Event
+                  </th>
+                  <th scope="col" width="30%">
+                    Time
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    Winners announcement and Closing ceremony, Closing notes by
+                    Prepinsta
+                  </td>
+                  <td> 8.00 PM </td>
                 </tr>
               </tbody>
             </table>
