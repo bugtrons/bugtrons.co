@@ -1,7 +1,9 @@
 import React from "react";
 import "./Team.scss";
 import Card from "./card";
-
+import judge1 from "./pics/judge1.jpg";
+import judge2 from "./pics/judge2.jpg";
+import judge3 from "./pics/judge3.jpg";
 function Team() {
   return (
     <div
@@ -101,6 +103,33 @@ function Team() {
           name="Anshumaan Kr. Prasad"
           img="https://avatars.githubusercontent.com/amino19"
           position="Organizer & Outreach"
+          github="https://github.com/amino19"
+          linkedin="https://www.linkedin.com/in/amino19"
+          gmail="mailto:anshumaankrprasad76@gmail.com"
+          twitter="https://twitter.com/aminostwt"
+        />
+        <Card
+          name="Judge1"
+          img={judge1}
+          position="Judge"
+          github="https://github.com/amino19"
+          linkedin="https://www.linkedin.com/in/amino19"
+          gmail="mailto:anshumaankrprasad76@gmail.com"
+          twitter="https://twitter.com/aminostwt"
+        />
+        <Card
+          name="Judge2"
+          img={judge2}
+          position="Judge"
+          github="https://github.com/amino19"
+          linkedin="https://www.linkedin.com/in/amino19"
+          gmail="mailto:anshumaankrprasad76@gmail.com"
+          twitter="https://twitter.com/aminostwt"
+        />
+        <Card
+          name="Judge3"
+          img={judge3}
+          position="Judge"
           github="https://github.com/amino19"
           linkedin="https://www.linkedin.com/in/amino19"
           gmail="mailto:anshumaankrprasad76@gmail.com"
