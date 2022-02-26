@@ -105,15 +105,6 @@ export default function Speakers() {
           twitter="https://twitter.com/praveenscience"
         />
         <Card
-          name="Kartikey Rawat"
-          img="https://github.com/carrycooldude.png"
-          position="GCE, Founder @ OpInCo Community"
-          github="https://github.com/carrycooldude"
-          linkedin="https://www.linkedin.com/in/kartikey-rawat-02822916a/"
-          gmail="mailto:rawatkari554@gmail.com"
-          twitter="https://twitter.com/carrycooldude"
-        />
-        <Card
           name="Faisal"
           img={faisal}
           position="Author @EducativeInc"
