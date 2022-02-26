@@ -10,6 +10,7 @@ import DC from "./communityIco/DC.png";
 import Cevoke from "./communityIco/Cevoke.png";
 import HTF from "./communityIco/HTF-White.png";
 import brocoders from "./communityIco/brocoders.png";
+import kiit from "./communityIco/msc-kiit.png";
 
 import "./Communitypartners.scss";
 export default function Communitypartners() {
@@ -57,6 +58,9 @@ export default function Communitypartners() {
               alt=""
               style={{ height: "5rem", width: "5rem" }}
             />
+          </div>
+          <div className="cont">
+            <img className="kiit" src={kiit} alt="" />
           </div>
           <div className="cont">
             <img className="Opinco" src={Opinco} alt="" />
