@@ -96,15 +96,6 @@ export default function Speakers() {
           twitter="https://twitter.com/bajpaiharsh244"
         />
         <Card
-          name="Praveen Kumar P"
-          img="https://i.imgur.com/wbUfjzdl.png"
-          position="Full Stack JavaScript Specialist"
-          github="https://github.com/praveenscience"
-          linkedin="https://www.linkedin.com/in/praveentech/"
-          gmail="mailto:praveenscience@gmail.com"
-          twitter="https://twitter.com/praveenscience"
-        />
-        <Card
           name="Faisal"
           img={faisal}
           position="Author @EducativeInc"

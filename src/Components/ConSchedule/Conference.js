@@ -58,19 +58,9 @@ export default function Conference() {
           <td>17 Feburary, 7 PM</td>
         </tr>
         <tr>
-          <td>Working in the UK</td>
-          <td>Praveen Kumar Purushothaman</td>
-          <td>19 Feburary, 7 PM</td>
-        </tr>
-        <tr>
           <td>'Building Extensions' for Microsoft Edge Add-ons</td>
           <td>Siv Souvam</td>
           <td>22 Feburary, 7 PM</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Kartikey Rawat</td>
-          <td>24 Feburary, 7 PM</td>
         </tr>
         <tr>
           <td>Entrepreneurship & Product 101</td>
