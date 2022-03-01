@@ -6,13 +6,26 @@ const data = [
     width: "100%",
     description: "Prepinsta Prime",
   },
-
+  {
+    src: "img/tee.png",
+    alt: "tee",
+    height: "",
+    width: "100%",
+    description: "Tee",
+  },
   {
     src: "img/stickers.png",
     alt: "stickers",
     height: "",
     width: "100%",
     description: "Stickers",
+  },
+  {
+    src: "img/replit.png",
+    alt: "Repl.it",
+    height: "",
+    width: "100%",
+    description: "Repl.it",
   },
 ];
 
