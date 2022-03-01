@@ -58,7 +58,7 @@ export default function Navlinks() {
       </li>
       <li>
         <a
-          href="https://prepinstaprime.typeform.com/bugtrons2022"
+          href="https://prepinstaprime.typeform.com/to/J0oDydaq"
           rel="noreferrer"
           target="_blank"
           className="nav-link scrollto"

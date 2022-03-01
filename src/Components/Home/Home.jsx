@@ -28,7 +28,7 @@ export default function Home() {
           <div className="camp">
             <div className="d-flex buttons">
               <a
-                href="https://prepinstaprime.typeform.com/bugtrons2022"
+                href="https://prepinstaprime.typeform.com/to/J0oDydaq"
                 rel="noopener noreferrer"
                 target="_blank"
               >
