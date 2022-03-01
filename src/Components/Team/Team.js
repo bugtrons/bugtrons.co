@@ -1,7 +1,10 @@
 import React from "react";
 import "./Team.scss";
+import JudgesCard from "./judgescard";
 import Card from "./card";
-
+import judge1 from "./pics/judge1.jpg";
+import judge2 from "./pics/judge2.jpg";
+import judge3 from "./pics/judge3.jpg";
 function Team() {
   return (
     <div
@@ -13,7 +16,37 @@ function Team() {
       data-aos-mirror="true"
       data-aos-easing="ease-in-out"
     >
-      <h1>Team</h1>
+      <h1 className="team-head">Judges</h1>
+      <div class="alig">
+        <JudgesCard
+          name="Karan Udaypuria"
+          img={judge3}
+          position="Building @ brocoders"
+          code="https://codeforces.com/profile/brocoders2021"
+          linkedin="https://www.linkedin.com/in/karan-udaypuria-479248195/"
+          gmail="mailto:brocoders2021@gmail.com"
+          twitter="https://twitter.com/udaypuria_karan"
+        />
+        <JudgesCard
+          name="Raj Singh"
+          img={judge1}
+          position="SDE Intern @ Amazon"
+          code="https://codeforces.com/profile/raj1307"
+          linkedin="https://www.linkedin.com/in/raj-singh-53b926169/"
+          gmail="mailto:rajsinghdro14@gmail.com"
+          twitter="https://www.linkedin.com/in/raj-singh-53b926169/"
+        />
+        <JudgesCard
+          name="Shuv Pranjal"
+          img={judge2}
+          position="Incoming SDE @ Microsoft"
+          code="https://leetcode.com/brocoders2021/"
+          linkedin="https://www.linkedin.com/in/shuv-pranjal-16a858200/"
+          gmail="mailto:brocoders2021@gmail.com"
+          twitter="https://twitter.com/PranjalShuv"
+        />
+      </div>
+      <h1 className="team-head">Team</h1>
       <div class="alig">
         <Card
           name="Ghulam Yazdani"
@@ -62,13 +95,13 @@ function Team() {
           gmail="mailto:akshatnema.school@gmail.com"
         />
         <Card
-          name="Abir Pal"
-          img="https://pbs.twimg.com/profile_images/1440399129448890381/MWeteGwW_400x400.jpg"
-          position="MVP & Speaker Support"
-          github="https://github.com/imabp/"
-          twitter="https://twitter.com/imabptweets/"
-          linkedin="https://www.linkedin.com/in/imabp/"
-          gmail="mailto:abir.pal899@gmail.com"
+          name="Joshith Reddy Gopidi"
+          img="https://pbs.twimg.com/profile_images/1470063414189776900/dA9kKfVD_400x400.jpg"
+          position="UI/UX Designer"
+          twitter="https://twitter.com/JoshithReddy_g"
+          github="https://github.com/JOS-RE"
+          linkedin="https://www.linkedin.com/in/joshith-reddy-gopidi/"
+          gmail="mailto:joshith.gopidi@gmail.com"
         />
         <Card
           name="Harsha Sumanchandra"
@@ -80,13 +113,13 @@ function Team() {
           gmail="mailto:harshamishra05@gmail.com"
         />
         <Card
-          name="Joshith Reddy Gopidi"
-          img="https://pbs.twimg.com/profile_images/1470063414189776900/dA9kKfVD_400x400.jpg"
-          position="UI/UX Designer"
-          twitter="https://twitter.com/JoshithReddy_g"
-          github="https://github.com/JOS-RE"
-          linkedin="https://www.linkedin.com/in/joshith-reddy-gopidi/"
-          gmail="mailto:joshith.gopidi@gmail.com"
+          name="Anshumaan Kr. Prasad"
+          img="https://avatars.githubusercontent.com/amino19"
+          position="Organizer & Outreach"
+          github="https://github.com/amino19"
+          linkedin="https://www.linkedin.com/in/amino19"
+          gmail="mailto:anshumaankrprasad76@gmail.com"
+          twitter="https://twitter.com/aminostwt"
         />
         <Card
           name="Payal Samal"
@@ -98,13 +131,13 @@ function Team() {
           twitter="https://twitter.com/payal_samal"
         />
         <Card
-          name="Anshumaan Kr. Prasad"
-          img="https://avatars.githubusercontent.com/amino19"
-          position="Organizer & Outreach"
-          github="https://github.com/amino19"
-          linkedin="https://www.linkedin.com/in/amino19"
-          gmail="mailto:anshumaankrprasad76@gmail.com"
-          twitter="https://twitter.com/aminostwt"
+          name="Abir Pal"
+          img="https://pbs.twimg.com/profile_images/1440399129448890381/MWeteGwW_400x400.jpg"
+          position="MVP & Speaker Support"
+          github="https://github.com/imabp/"
+          twitter="https://twitter.com/imabptweets/"
+          linkedin="https://www.linkedin.com/in/imabp/"
+          gmail="mailto:abir.pal899@gmail.com"
         />
       </div>
     </div>

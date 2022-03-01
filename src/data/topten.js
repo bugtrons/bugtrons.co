@@ -7,18 +7,11 @@ const data = [
     description: "Prepinsta Prime",
   },
   {
-    src: "img/amazon.png",
-    alt: "amazon",
+    src: "img/tee.png",
+    alt: "tee",
     height: "",
     width: "100%",
-    description: "Amazon Vouchers",
-  },
-  {
-    src: "img/mug.png",
-    alt: "mug",
-    height: "",
-    width: "100%",
-    description: "Mug",
+    description: "Tee",
   },
   {
     src: "img/stickers.png",
@@ -26,6 +19,13 @@ const data = [
     height: "",
     width: "100%",
     description: "Stickers",
+  },
+  {
+    src: "img/replit.png",
+    alt: "Repl.it",
+    height: "",
+    width: "100%",
+    description: "Repl.it",
   },
 ];
 

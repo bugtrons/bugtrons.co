@@ -13,13 +13,7 @@ const data = [
     width: "100%",
     description: "Tee",
   },
-  {
-    src: "img/mug.png",
-    alt: "mug",
-    height: "",
-    width: "100%",
-    description: "Mug",
-  },
+
   {
     src: "img/stickers.png",
     alt: "stickers",
@@ -28,11 +22,11 @@ const data = [
     description: "Stickers",
   },
   {
-    src: "img/amazon.png",
-    alt: "amazon",
+    src: "img/replit.png",
+    alt: "Repl.it",
     height: "",
     width: "100%",
-    description: "Amazon Vouchers",
+    description: "Repl.it",
   },
 ];
 
