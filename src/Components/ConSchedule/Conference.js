@@ -18,7 +18,7 @@ export default function Conference() {
       </thead>
       <tbody>
         <tr>
-          <td>Google Summer of Code with TensorFlow </td>
+          <td>Open Source and Opportunities | GSoC with TensorFlow</td>
           <td>Shivay Lamba</td>
           <td>2 Feburary, 4 PM</td>
         </tr>
@@ -38,44 +38,34 @@ export default function Conference() {
           <td>8 Feburary, 7 PM</td>
         </tr>
         <tr>
-          <td>Rust, WASM and Blockchain</td>
+          <td>Rust Kickstart - WASM and Blockchain</td>
           <td>Faisal Ahmed</td>
           <td>10 Feburary, 7 PM</td>
         </tr>
         <tr>
-          <td>Web3.0 with HackClub</td>
+          <td>Web 3.0 with HackClub</td>
           <td>Harsh Bajpai</td>
           <td>12 Feburary, 7 PM</td>
         </tr>
         <tr>
-          <td>Hackathon cultures among communities</td>
-          <td>HackSkill2</td>
-          <td>15 Feburary, 8 PM</td>
+          <td>Hackathon Ecosystem | Hack2Skill</td>
+          <td>Anuj Sharma</td>
+          <td>15 Feburary, 7 PM</td>
         </tr>
         <tr>
-          <td>Introduction to DevSecOps | K8s & Docker</td>
+          <td>Introduction to DevSecOps | K8s and Docker</td>
           <td>Sangam Biradar</td>
-          <td>17 Feburary, 8 PM</td>
+          <td>17 Feburary, 7 PM</td>
         </tr>
         <tr>
-          <td>Working in the UK</td>
-          <td>Praveen Kumar Purushothaman</td>
-          <td>19 Feburary, 7 PM</td>
-        </tr>
-        <tr>
-          <td>MS Edge Extensions</td>
+          <td>'Building Extensions' for Microsoft Edge Add-ons</td>
           <td>Siv Souvam</td>
           <td>22 Feburary, 7 PM</td>
         </tr>
         <tr>
-          <td>ML Algos + TF</td>
-          <td>Rishit Dagli + Kartikey Rawat</td>
-          <td>24 Feburary, 8 PM</td>
-        </tr>
-        <tr>
-          <td>Entrepreneurship & How to Ace in the community</td>
-          <td>Sawo Labs</td>
-          <td>26 Feburary, 8 PM</td>
+          <td>Entrepreneurship & Product 101</td>
+          <td>Kaushik Roy</td>
+          <td>26 Feburary, 7 PM</td>
         </tr>
       </tbody>
     </table>

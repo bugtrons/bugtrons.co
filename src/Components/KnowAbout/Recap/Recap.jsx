@@ -8,8 +8,8 @@ export const Recap = () => {
         <span>Glimpse of Past Season</span>
       </div>
       <div className="RecapData">
-        <div className="Reacp-heading">
-          <img src={Recapbug} alt="Bugtrons" />
+        <div className="Recap-heading">
+          <img src={Recapbug} alt="bugtrons" />
           <a href="https://github.com/bugtrons/bugtrons-1">Know more</a>
         </div>
         <div className="data">
@@ -21,12 +21,12 @@ export const Recap = () => {
           <div className="content">
             <p>
               The BUGTRONS was a student-run contest, also organized with the
-              collaboration of two tremendous tech-lead communities:-
+              collaboration of two tremendous tech-lead communities:
             </p>
             <h1>DEVSTRONS'</h1>
             <p>
-              Student-run Open source/ project-based, inclusive & diverse
-              community intending to Learn, Code and Tron (grow).
+              Student-run inclusive & diverse community intending to Learn, Code
+              and Open source 🚀.
             </p>
             <h1>THE ALGORITHMS</h1>
             <p>

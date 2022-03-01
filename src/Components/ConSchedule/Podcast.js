@@ -38,6 +38,11 @@ export default function Podcast() {
           <td>18 Feburary, 7 PM</td>
         </tr>
         <tr>
+          <td>Working in the UK</td>
+          <td>Praveen Kumar Purushothaman</td>
+          <td>19 Feburary, 7 PM</td>
+        </tr>
+        <tr>
           <td>Reality of AI & ML</td>
           <td>Rahul Gulia</td>
           <td>23 Feburary, 7 PM</td>
@@ -46,6 +51,11 @@ export default function Podcast() {
           <td>Explore the Cyber World</td>
           <td>Saksham Choudhary</td>
           <td>25 Feburary, 7 PM</td>
+        </tr>
+        <tr>
+          <td>Soft Skills 101</td>
+          <td>Aanchal Mishra</td>
+          <td>27 Feburary, 7 PM</td>
         </tr>
       </tbody>
     </table>

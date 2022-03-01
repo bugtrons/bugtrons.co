@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    .Reacp-heading {
+    .Recap-heading {
       padding: 4rem;
       img {
         // padding-left: 1rem;
@@ -97,7 +97,7 @@
     .RecapData {
       flex-direction: column;
       height: 60rem;
-      .Reacp-heading {
+      .Recap-heading {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -161,7 +161,7 @@
 //     }
 // }
 @media (max-width: 1024px) {
-  .Reacp {
+  .Recap {
     .RecapData {
       height: 70rem;
     }

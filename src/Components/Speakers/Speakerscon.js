@@ -96,33 +96,6 @@ export default function Speakers() {
           twitter="https://twitter.com/bajpaiharsh244"
         />
         <Card
-          name="Praveen Kumar P"
-          img="https://i.imgur.com/wbUfjzdl.png"
-          position="Full Stack JavaScript Specialist"
-          github="https://github.com/praveenscience"
-          linkedin="https://www.linkedin.com/in/praveentech/"
-          gmail="mailto:praveenscience@gmail.com"
-          twitter="https://twitter.com/praveenscience"
-        />
-        <Card
-          name="Kartikey Rawat"
-          img="https://github.com/carrycooldude.png"
-          position="GCE, Founder @ OpInCo Community"
-          github="https://github.com/carrycooldude"
-          linkedin="https://www.linkedin.com/in/kartikey-rawat-02822916a/"
-          gmail="mailto:rawatkari554@gmail.com"
-          twitter="https://twitter.com/carrycooldude"
-        />
-        <Card
-          name="Rishit Dagli"
-          img="https://github.com/rishit-dagli.png"
-          position="TEDx, 2xTED-Ed speaker, TensorFlow Mumbai"
-          github="https://github.com/rishit-dagli"
-          linkedin="https://www.linkedin.com/in/rishit-dagli-440113165/"
-          gmail="mailto:rishit.dagli@gmail.com"
-          twitter="https://twitter.com/rishit_dagli"
-        />
-        <Card
           name="Faisal"
           img={faisal}
           position="Author @EducativeInc"

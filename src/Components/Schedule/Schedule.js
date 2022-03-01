@@ -26,7 +26,7 @@ export default function Schedule() {
           id="uncontrolled-tab-example"
           className="mb-3 tabs"
         >
-          <Tab eventKey="Mar3" title="Mar 3" classname="mb-3 tab">
+          <Tab eventKey="Mar3" title="Mar 3">
             <table class="table table-hover table-bordered text-center">
               <thead>
                 <tr>
@@ -41,28 +41,16 @@ export default function Schedule() {
               <tbody>
                 <tr>
                   <td>Opening Ceremony</td>
-                  <td> -- </td>
-                </tr>
-                <tr>
-                  <td>Round 1 - DSA Competition</td>
-                  <td> -- </td>
-                </tr>
-                <tr>
-                  <td>Announcement of top 20 winners</td>
-                  <td> -- </td>
-                </tr>
-                <tr>
-                  <td>Session with Guest Speaker</td>
-                  <td> -- </td>
+                  <td> 6.00 PM </td>
                 </tr>
                 <tr>
                   <td>Fun event - (online browser game) on discord</td>
-                  <td> -- </td>
+                  <td> 9.00 PM </td>
                 </tr>
               </tbody>
             </table>
           </Tab>
-          <Tab eventKey="Mar4" title="Mar 4">
+          <Tab eventKey="Mar4" title="Mar 4" classname="mb-3 tab">
             <table class="table table-hover table-bordered text-center">
               <thead>
                 <tr>
@@ -76,22 +64,16 @@ export default function Schedule() {
               </thead>
               <tbody>
                 <tr>
-                  <td>Round 2 - Debugging Contest</td>
-                  <td> -- </td>
+                  <td>Interview Experience with MVP | Rishika Gupta</td>
+                  <td> 7.00 PM </td>
                 </tr>
                 <tr>
-                  <td>Announcement of top 10 winners</td>
-                  <td> -- </td>
+                  <td>Round 1 - DSA Competition</td>
+                  <td> 8.00 PM </td>
                 </tr>
                 <tr>
-                  <td>Session with Guest Speaker</td>
-                  <td> -- </td>
-                </tr>
-                <tr>
-                  <td>
-                    Interaction Session with Participants on discord (@bugtrons)
-                  </td>
-                  <td> -- </td>
+                  <td>Announcement of top 20 winners</td>
+                  <td> Next Day </td>
                 </tr>
               </tbody>
             </table>
@@ -110,25 +92,94 @@ export default function Schedule() {
               </thead>
               <tbody>
                 <tr>
-                  <td>Session with Guest Speaker</td>
-                  <td> -- </td>
+                  <td>Announcement of top 20 winners</td>
+                  <td> 11.00 AM </td>
                 </tr>
                 <tr>
-                  <td>Final Round - DSA Competition</td>
-                  <td> -- </td>
+                  <td>Acing the JavaScript Interview | Smile Gupta</td>
+                  <td> 6.30 PM </td>
+                </tr>
+                <tr>
+                  <td>Round 2 - Debugging Round</td>
+                  <td> 8.00 PM </td>
                 </tr>
                 <tr>
                   <td>
-                    Winners announcement and Closing ceremony, Closing notes by
-                    Prepinsta.
+                    Interaction Session with Participants on discord (@bugtrons)
                   </td>
-                  <td> -- </td>
+                  <td> 11.30 PM </td>
+                </tr>
+                <tr>
+                  <td>Announcement of top 10 winners</td>
+                  <td> Next day </td>
+                </tr>
+              </tbody>
+            </table>
+          </Tab>
+          <Tab eventKey="Mar6" title="Mar 6">
+            <table class="table table-hover table-bordered text-center">
+              <thead>
+                <tr>
+                  <th scope="col" width="70%">
+                    Event
+                  </th>
+                  <th scope="col" width="30%">
+                    Time
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Announcement of top 10 winners</td>
+                  <td> 11.00 AM </td>
+                </tr>
+                <tr>
+                  <td>Resume/LinkedIn Review</td>
+                  <td> 7.00 PM </td>
+                </tr>
+                <tr>
+                  <td>Final Round - DSA Competition</td>
+                  <td> 8.00 PM </td>
+                </tr>
+                <tr>
+                  <td>Resume/LinkedIn Review</td>
+                  <td> 10.00 PM </td>
                 </tr>
                 <tr>
                   <td>
                     Hangout Session with Participants on discord (@bugtrons)
                   </td>
-                  <td> -- </td>
+                  <td> 11.00 PM </td>
+                </tr>
+                <tr>
+                  <td>
+                    Winners announcement and Closing ceremony, Closing notes by
+                    Prepinsta
+                  </td>
+                  <td> Next Day </td>
+                </tr>
+              </tbody>
+            </table>
+          </Tab>
+          <Tab eventKey="Mar7" title="Mar 7">
+            <table class="table table-hover table-bordered text-center">
+              <thead>
+                <tr>
+                  <th scope="col" width="70%">
+                    Event
+                  </th>
+                  <th scope="col" width="30%">
+                    Time
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    Winners announcement and Closing ceremony, Closing notes by
+                    Prepinsta
+                  </td>
+                  <td> 8.00 PM </td>
                 </tr>
               </tbody>
             </table>

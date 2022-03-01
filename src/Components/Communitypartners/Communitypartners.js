@@ -1,6 +1,5 @@
 import React from "react";
 import TechPhantoms from "./communityIco/TechPhantoms.png";
-import Algorithms from "./communityIco/Algorithms.png";
 import KubeDaily from "./communityIco/KubeDaily.png";
 import Ymoi from "./communityIco/YMOI.png";
 import Htl from "./communityIco/HTL.png";
@@ -9,6 +8,9 @@ import Opinco from "./communityIco/Opinco.png";
 import Inaxia from "./communityIco/Inaxia.png";
 import DC from "./communityIco/DC.png";
 import Cevoke from "./communityIco/Cevoke.png";
+import HTF from "./communityIco/HTF-White.png";
+import brocoders from "./communityIco/brocoders.png";
+import kiit from "./communityIco/msc-kiit.png";
 
 import "./Communitypartners.scss";
 export default function Communitypartners() {
@@ -25,27 +27,40 @@ export default function Communitypartners() {
         <h1>Community Partners</h1>
         <div className="comp">
           <div className="cont">
-            <img src="https://raw.githubusercontent.com/hack-this-fall/Media-Kit/main/Logo/HTF-White.png" alt="" />
+            <img className="htf" src={HTF} alt="" />
           </div>
           <div className="cont">
-            <img src={TechPhantoms} alt="" />
+            <img className="htl" src={Htl} alt="" />
           </div>
           <div className="cont">
             <img src={hack} alt="" />
           </div>
           <div className="cont">
-            <img className="ymoi" src={Ymoi} alt="" style={{ height: "5rem", width: "5rem" }}
-            />   
+            <img src={TechPhantoms} alt="" />
           </div>
+
           <div className="cont">
-            <img className="algo" src={Algorithms} alt="" />
+            <img
+              src="https://cdn.discordapp.com/attachments/841413399094231090/889942361327685692/Imagen1.png"
+              alt=""
+            />
           </div>
           <div className="cont">
             <img src={KubeDaily} alt="" />
           </div>
-
           <div className="cont">
-            <img className="htl" src={Htl} alt="" />
+            <img className="brocoders" src={brocoders} alt="" />
+          </div>
+          <div className="cont">
+            <img
+              className="ymoi"
+              src={Ymoi}
+              alt=""
+              style={{ height: "5rem", width: "5rem" }}
+            />
+          </div>
+          <div className="cont">
+            <img className="kiit" src={kiit} alt="" />
           </div>
           <div className="cont">
             <img className="Opinco" src={Opinco} alt="" />

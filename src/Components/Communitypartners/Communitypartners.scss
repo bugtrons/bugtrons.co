@@ -32,11 +32,9 @@
       img {
         height: 5rem;
         width: 16rem;
+        object-fit: contain;
         border-radius: 5px;
-        .algo {
-          width: 8rem;
-          height: 5rem;
-        }
+
         .ymoi {
           background-size: cover;
           width: 10rem;
