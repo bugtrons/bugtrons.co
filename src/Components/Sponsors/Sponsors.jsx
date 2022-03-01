@@ -4,6 +4,7 @@ import { SponsorClass } from "./sponsorClass/sponsor.class";
 import { SponsorLogo } from "./sponsorLogo/sponsor.logo";
 import prepinsta from "./sponsorLogo/prepinsta.png";
 import github from "./sponsorLogo/GitHub_Logo.png";
+import replit from "./sponsorLogo/Replit.png";
 
 export const Sponsors = () => {
   return (
@@ -35,13 +36,16 @@ export const Sponsors = () => {
               </a>
             </div>
           </div>
+          <div className="Silver">
+            <SponsorClass sclass="Silver" />
+            <div className="Silver-logo">
+              <a href="https://replit.com/">
+                <SponsorLogo image={replit} height="80vh" />
+              </a>
+            </div>
+          </div>
         </div>
-        {/* <div className="Sliver">
-        <SponsorClass sclass="Sliver"/>
-        <div className="Silver-logo">
-          <SponsorLogo />
-        </div>
-      </div> */}
+
         {/* <div className="Bronze">
         <SponsorClass sclass="Bronze" />
         <div className="Bronze-logo">
