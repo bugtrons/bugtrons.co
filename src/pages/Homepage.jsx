@@ -13,6 +13,7 @@ import AboutUs from "../Components/AboutUs/AboutUs";
 import Communitypartners from "../Components/Communitypartners/Communitypartners";
 import Speakers from "../Components/Speakers/Speakers";
 // import Streamingpartner from "../Components/StreamingPartners/Streaming";
+import Rounds from "../Components/Rounds/Rounds";
 
 function Homepage() {
   return (
@@ -22,6 +23,7 @@ function Homepage() {
       <AboutUs />
       {/* <About /> */}
       <Schedule />
+      <Rounds />
       {/* <Tobeannounced /> */}
       <Speakers />
       <Sponsors />

@@ -149,9 +149,7 @@ export default function Schedule() {
                   <td> 10.30 PM </td>
                 </tr>
                 <tr>
-                  <td>
-                    Random Community Hangout (@bugtrons)
-                  </td>
+                  <td>Random Community Hangout (@bugtrons)</td>
                   <td> 11.30 PM </td>
                 </tr>
               </tbody>
