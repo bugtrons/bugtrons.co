@@ -1,5 +1,13 @@
 import React from "react";
-const judgescard = ({ img, name, position, code, twitter, gmail, linkedin }) => {
+const judgescard = ({
+  img,
+  name,
+  position,
+  code,
+  twitter,
+  gmail,
+  linkedin,
+}) => {
   return (
     <div className="member">
       <div className="bug-bord">

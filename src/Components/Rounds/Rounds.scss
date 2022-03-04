@@ -1,0 +1,55 @@
+.Rounds {
+  text-align: center;
+
+  .alig {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    .Round {
+      width: 20rem;
+      padding: 1.4rem;
+      cursor: pointer;
+      color: white;
+      background: linear-gradient(
+        131.57deg,
+        rgba(0, 180, 104, 0.8) 6.18%,
+        rgba(0, 255, 163, 0.528) 111.49%
+      );
+      box-shadow: 0px 4px 30px rgba(25, 223, 128, 0.27);
+      border-radius: 30px;
+      transition: all 0.5s ease;
+      h1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      span {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &:hover {
+        transform: translate3D(0, -1px, 0) scale(1.1);
+
+        transition: all 0.4s ease;
+      }
+    }
+  }
+  .Rounds-head {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #419873;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+  }
+}

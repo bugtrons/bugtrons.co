@@ -34,7 +34,9 @@ export default function Navlinks() {
         </Link>
       </li>
       <li>
-        <Link className="nav-link scrollto" to="/connect">Connect</Link>
+        <Link className="nav-link scrollto" to="/connect">
+          Connect
+        </Link>
       </li>
       <li>
         <a className="nav-link" href="/#schedule">
