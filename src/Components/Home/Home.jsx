@@ -42,11 +42,6 @@ export default function Home() {
                 <div className="btn">Join Discord</div>
               </a>
             </div>
-            <div className="camptext">
-              <a href="https://prepinstaprime.typeform.com/BugtronsCAP">
-                <p>Become a volunteer for our event</p>
-              </a>
-            </div>
           </div>
         </div>
         <div className="image">
