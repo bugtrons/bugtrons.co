@@ -8,18 +8,18 @@ export default function Rounds() {
         <div className="Round">
           <h1>Problem Solving</h1>
           <p>This round will be on Hackerank</p>
-          <span>More Details </span>
+          <a href="https://github.com/bugtrons/bugtrons-2/blob/main/instructions.md"><span>More Details </span></a>
         </div>
         <div className="Round">
           <h1>Debugging Round </h1>
           <p>This round will be on 
 Github and Replit</p>
-          <span>More Details </span>
+          <a href="https://github.com/bugtrons/bugtrons-2/blob/main/instructions.md"><span>More Details </span></a>
         </div>
         <div className="Round">
-          <h1>Final Round </h1>
-          <p>This round will be on Hackerank</p>
-          <span>More Details </span>
+          <h1>Competitive Programming Round </h1>
+          <p>This round will also be on  be on Hackerank</p>
+          <a href="https://github.com/bugtrons/bugtrons-2/blob/main/instructions.md"><span>More Details </span></a>
         </div>
       </div>
     </div>

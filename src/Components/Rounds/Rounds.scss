@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     gap: 2rem;
     .Round {
+      width: 20rem;
       padding: 1.4rem;
       cursor: pointer;
       color: white;
@@ -25,6 +26,10 @@
         font-style: normal;
         font-weight: bold;
         font-size: 2rem;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
       }
       span {
         &:hover {
