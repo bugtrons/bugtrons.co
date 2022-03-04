@@ -43,11 +43,11 @@ export default function Navlinks() {
           Schedule
         </a>
       </li>
-      {/* <li>
-        <a className="nav-link scrollto" href="/#leaderboard">
+      <li>
+        <a className="nav-link scrollto" href="/leaderboard">
           Leaderboard
         </a>
-      </li> */}
+      </li>
       <li>
         <Link className="nav-link scrollto" to="/swags">
           Swag
