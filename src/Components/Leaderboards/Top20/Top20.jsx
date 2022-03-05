@@ -7,14 +7,14 @@ export default function Top20() {
       <div className="Lead-card">
         <div className="high">
           <p>Rank</p>
-          <p>Name</p>
+          <p className="name">Name</p>
           <p>Score</p>
         </div>
         {Data.map((data) => {
           return (
             <div className="part">
               <p>{data.Rank}</p>
-              <p>{data.name}</p>
+              <p className="name">{data.name}</p>
               <p>{data.score}</p>
             </div>
           );
