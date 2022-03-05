@@ -10,9 +10,9 @@ export default function Top20() {
           <p className="name">Name</p>
           <p>Score</p>
         </div>
-        {Data.map((data) => {
+        {Data.map((data, index) => {
           return (
-            <div className="part">
+            <div className="part" key={index}>
               <p>{data.Rank}</p>
               <p className="name">{data.name}</p>
               <p>{data.score}</p>
