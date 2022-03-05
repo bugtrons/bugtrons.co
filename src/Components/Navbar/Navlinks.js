@@ -34,19 +34,14 @@ export default function Navlinks() {
         </Link>
       </li>
       <li>
-        <Link className="nav-link scrollto" to="/connect">
-          Connect
-        </Link>
-      </li>
-      <li>
         <a className="nav-link" href="/#schedule">
           Schedule
         </a>
       </li>
       <li>
-        <a className="nav-link scrollto" href="/leaderboard">
+        <Link className="nav-link scrollto" to="/leaderboard">
           Leaderboard
-        </a>
+        </Link>
       </li>
       <li>
         <Link className="nav-link scrollto" to="/swags">
