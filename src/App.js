@@ -5,7 +5,7 @@ import Homepage from "./pages/Homepage";
 import { KnowAboutUs } from "./pages/KnowAboutUs";
 import Team from "./pages/Team";
 import Swags from "./pages/Swags";
-// import Leaderboard from "./pages/Leaderboard";
+import Leaderboard from "./pages/Leaderboard";
 import Bugtronscon from "./pages/Bugtronscon";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path="swags" element={<Swags />} />
         <Route path="about" element={<KnowAboutUs />} />
         <Route path="connect" element={<Bugtronscon />} />
-        {/* <Route path="/leaderboard" element={<Leaderboard />} /> */}
+        <Route path="/leaderboard" element={<Leaderboard />} />
       </Routes>
     </div>
   );

@@ -1,0 +1,23 @@
+const Data = [
+  { Rank: 1, name: "Partha Sarathi Bhunia", score: "2100.00" },
+  { Rank: 2, name: "Tarun Singh", score: "2100.00" },
+  { Rank: 3, name: "Animesh Dubey ", score: "2100.00" },
+  { Rank: 4, name: "Rishabh Raizada", score: "2100.00" },
+  { Rank: 5, name: "Ash-KODES ", score: "2100.00" },
+  { Rank: 6, name: "Ishaan Gupta", score: "2100.00" },
+  { Rank: 7, name: "Mihirkumar Patel ", score: "1952.63" },
+  { Rank: 8, name: "Prakash A", score: "1900.00" },
+  { Rank: 9, name: "Ashish Pandagre", score: "1800.00" },
+  { Rank: 10, name: "Bharath Kumar kallepalli", score: "1661.33" },
+  { Rank: 11, name: "Varun Chawla", score: "1643.15" },
+  { Rank: 12, name: "Gowtham M	", score: "1600.00" },
+  { Rank: 13, name: "Priyanshi Soni", score: "1500.00" },
+  { Rank: 14, name: "Rohan Karan", score: "1427.89" },
+  { Rank: 15, name: "Shamitha Reddy Regenti", score: "1400.00" },
+  { Rank: 16, name: "Soham Chowdhury", score: "1180.00" },
+  { Rank: 17, name: "Ayush Kalia", score: "1020.00" },
+  { Rank: 18, name: "Jahnvi Kumari	", score: "957.89" },
+  { Rank: 19, name: "0xSH1V4M", score: "860.00" },
+  { Rank: 20, name: "Zohair Abbas", score: "710.00" },
+];
+export default Data;
