@@ -3,7 +3,7 @@ import Data from "./Data";
 export default function Top10() {
   return (
     <>
-      <div className="Top-head">Top 10 Hackers</div>
+      <div className="Top-head">Round 2 Qualifiers</div>
       <div className="Lead-card">
         <div className="row high">
           <p className="col-3">Rank</p>
