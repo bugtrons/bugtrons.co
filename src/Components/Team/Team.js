@@ -114,12 +114,12 @@ function Team() {
         />
         <Card
           name="Anshumaan Kr. Prasad"
-          img="https://avatars.githubusercontent.com/amino19"
+          img="https://avatars.githubusercontent.com/aminoxix"
           position="Organizer & Outreach"
-          github="https://github.com/amino19"
-          linkedin="https://www.linkedin.com/in/amino19"
+          github="https://github.com/aminoxix"
+          linkedin="https://www.linkedin.com/in/aminoxix"
           gmail="mailto:anshumaankrprasad76@gmail.com"
-          twitter="https://twitter.com/aminostwt"
+          twitter="https://twitter.com/aminoxix"
         />
         <Card
           name="Payal Samal"
