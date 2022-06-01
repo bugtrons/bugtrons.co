@@ -132,7 +132,7 @@ function Team() {
         />
         <Card
           name="Abir Pal"
-          img="https://pbs.twimg.com/profile_images/1440399129448890381/MWeteGwW_400x400.jpg"
+          img="https://avatars.githubusercontent.com/imabp"
           position="MVP & Speaker Support"
           github="https://github.com/imabp/"
           twitter="https://twitter.com/imabptweets/"
